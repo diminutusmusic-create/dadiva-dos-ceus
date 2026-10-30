@@ -9,7 +9,7 @@ Formato:
              "versos": [{"ref": "Salmo 23:1", "texto": "..."}]}],
  "fim": "Dádiva dos Céus"}
 """
-import json, math, os, subprocess, sys, random
+import json, math, os, subprocess, sys, random, glob
 import numpy as np, cv2, skia, soundfile as sf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from episodio import trilha, lp, SR, MODELOS
@@ -217,7 +217,12 @@ def gerar(caminho, ate=None):
         for it in b.get('itens') or [dict(v, tipo='verso') for v in b['versos']]:
             versos.append((bi, dict({'tipo': 'verso'}, **it)))
     print('tts', len(versos), flush=True)
-    _fal = falar([v['texto'] for _, v in versos if v['tipo'] != 'silencio'], voz, vel)
+    import hashlib, pickle
+    _tx = [v['texto'] for _, v in versos if v['tipo'] != 'silencio']
+    _ck = f"/tmp/tts_{hashlib.md5(json.dumps([_tx, voz, vel]).encode()).hexdigest()}.pkl"
+    if os.path.exists(_ck): _fal = pickle.load(open(_ck, 'rb'))
+    else: _fal = falar(_tx, voz, vel); pickle.dump(_fal, open(_ck, 'wb'))
+    _fal = list(_fal)
     audios = [np.zeros(int(v.get('dur', 60) * SR), np.float32) if v['tipo'] == 'silencio' else _fal.pop(0) for _, v in versos]
     INTRO = 7.0; t = INTRO; tl = []
     for (bi, v), a in zip(versos, audios):
@@ -249,14 +254,24 @@ def gerar(caminho, ate=None):
     fv, fr = fonte('Cormorant-Medium', 68), fonte('Cinzel', 30)
     ft, fsub, fm = fonte('Cinzel-Bold', 96), fonte('Cormorant-Medium', 54), fonte('Cinzel', 34)
     out = f'{RAIZ}/videos-longos/{slug}.mp4' if not ate else f'{RAIZ}/videos-longos/{slug}-preview.mp4'
-    ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{W}x{H}',
-                           '-r', str(FPS), '-i', '-', '-i', wav, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20',
-                           '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', out],
-                          stdin=subprocess.PIPE)
+    SEGD = f'/tmp/seg_{slug}'; os.makedirs(SEGD, exist_ok=True)
+    SEGF = 120 * FPS
+    def abre_seg(k):
+        return subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{W}x{H}',
+                                 '-r', str(FPS), '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20',
+                                 '-pix_fmt', 'yuv420p', f'{SEGD}/tmp_{k:03d}.mp4'], stdin=subprocess.PIPE)
+    ff = None; segk = -1
     blocos_t = sorted(inicio_bloco.items(), key=lambda x: x[1])
     XF = 3.0
     nfr = int(total * FPS)
     for fi in range(nfr):
+        k = fi // SEGF
+        if k != segk:
+            if ff: ff.stdin.close(); ff.wait(); os.replace(f'{SEGD}/tmp_{segk:03d}.mp4', f'{SEGD}/seg_{segk:03d}.mp4')
+            segk = k; ff = None
+            if not os.path.exists(f'{SEGD}/seg_{k:03d}.mp4'): ff = abre_seg(k)
+            else: print('pula segmento', k, flush=True)
+        if ff is None: continue
         tt = fi / FPS
         # bloco atual e anterior (crossfade antes do 1º verso do bloco)
         atual = 0
@@ -297,7 +312,12 @@ def gerar(caminho, ate=None):
                 centro(c, 'Bíblia Livre (BLIVRE), CC BY 4.0', H * .46 + 70, fm, (230, 205, 150), a * .8)
         ff.stdin.write(cv2.cvtColor(rgba, cv2.COLOR_RGBA2BGR).tobytes())
         if fi % (FPS * 10) == 0: print(f'{tt:.0f}/{total:.0f}s', flush=True)
-    ff.stdin.close(); ff.wait(); print('ok', out, f'{total:.1f}s')
+    if ff: ff.stdin.close(); ff.wait(); os.replace(f'{SEGD}/tmp_{segk:03d}.mp4', f'{SEGD}/seg_{segk:03d}.mp4')
+    segs = sorted(glob.glob(f'{SEGD}/seg_*.mp4'))
+    open(f'{SEGD}/lista.txt', 'w').write(''.join(f"file '{x}'\n" for x in segs))
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', f'{SEGD}/lista.txt', '-i', wav,
+                    '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', out], check=True)
+    print('ok', out, f'{total:.1f}s')
     return out
 
 if __name__ == '__main__':
