@@ -210,13 +210,19 @@ def gerar(caminho, ate=None):
     R = json.load(open(caminho)); slug = os.path.splitext(os.path.basename(caminho))[0]
     voz, vel = R.get('voz', 'pm_alex'), R.get('velocidade', .85)
     pv = R.get('pausa_verso', 2.4)
-    versos = [(bi, v) for bi, b in enumerate(R['blocos']) for v in b['versos']]
+    global FPS
+    FPS = R.get('fps', FPS)
+    versos = []
+    for bi, b in enumerate(R['blocos']):
+        for it in b.get('itens') or [dict(v, tipo='verso') for v in b['versos']]:
+            versos.append((bi, dict({'tipo': 'verso'}, **it)))
     print('tts', len(versos), flush=True)
-    audios = falar([v['texto'] for _, v in versos], voz, vel)
+    _fal = falar([v['texto'] for _, v in versos if v['tipo'] != 'silencio'], voz, vel)
+    audios = [np.zeros(int(v.get('dur', 60) * SR), np.float32) if v['tipo'] == 'silencio' else _fal.pop(0) for _, v in versos]
     INTRO = 7.0; t = INTRO; tl = []
     for (bi, v), a in zip(versos, audios):
-        d = len(a) / SR; tl.append((bi, v, t, t + d)); t += d + pv
-    FIM_T = t + 1.0; total = FIM_T + 8.0
+        d = len(a) / SR; tl.append((bi, v, t, t + d)); t += d + (0 if v['tipo'] == 'silencio' else v.get('pausa', pv))
+    FIM_T = t + R.get('cauda', 0) + 1.0; total = FIM_T + 8.0
     if ate: total = min(total, ate)
     # trocas de bloco
     inicio_bloco = {}
@@ -280,7 +286,11 @@ def gerar(caminho, ate=None):
                     centro(c, R['titulo'], H * .45, ft, (255, 244, 220), a)
                     centro(c, R.get('subtitulo', ''), H * .45 + 80, fsub, (240, 220, 175), a)
             for bi, v, a0, a1 in tl:
-                if a0 - 1 <= tt <= a1 + 2: desenha_verso(c, v, a0, a1, tt, fv, fr)
+                if v['tipo'] == 'verso':
+                    if a0 - 1 <= tt <= a1 + 2: desenha_verso(c, v, a0, a1, tt, fv, fr)
+                elif v.get('rotulo') and a0 - 1 <= tt <= a1 + 1.5:
+                    al = min(1, (tt - a0 + 1) / 1.5, (a1 + 1.5 - tt) / 1.5)
+                    centro(c, v['rotulo'], H * .90, fr, (230, 205, 150), al * .75)
             if tt > FIM_T:
                 a = min(1, (tt - FIM_T) / 1.5, (total - tt) / 1.5)
                 centro(c, R.get('fim', 'Dádiva dos Céus'), H * .46, ft, (255, 244, 220), a)

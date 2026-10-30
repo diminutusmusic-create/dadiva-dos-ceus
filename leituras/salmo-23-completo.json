@@ -1,0 +1,482 @@
+{
+ "titulo": "Salmo 23",
+ "subtitulo": "O Senhor é o meu pastor",
+ "voz": "pm_santa",
+ "velocidade": 1.0,
+ "pausa_verso": 2.4,
+ "ambiente": "riacho",
+ "fps": 24,
+ "cauda": 0,
+ "fim": "Dádiva dos Céus",
+ "blocos": [
+  {
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ],
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Seja bem-vindo. Este é um momento para descansar.",
+     "pausa": 1.6
+    },
+    {
+     "tipo": "fala",
+     "texto": "Deixe o dia ficar para trás. Solte os ombros, respire devagar… e deixe o ar sair sem pressa.",
+     "pausa": 1.6
+    },
+    {
+     "tipo": "fala",
+     "texto": "Hoje vamos ouvir um dos textos mais amados de toda a Bíblia: o Salmo vinte e três.",
+     "pausa": 1.6
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não é preciso fazer nada. Apenas ouça, e deixe que cada palavra encontre lugar no seu coração.",
+     "pausa": 12
+    }
+   ]
+  },
+  {
+   "cenario": "galileia_amanhecer",
+   "efeito": [
+    "poeira"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:1",
+     "texto": "O SENHOR é meu pastor, nada me faltará.",
+     "pausa": 2.4
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:2",
+     "texto": "Ele me faz deitar em pastos verdes, e me leva a águas quietas.",
+     "pausa": 2.4
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:3",
+     "texto": "Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome.",
+     "pausa": 2.4
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:4",
+     "texto": "Ainda que eu venha a andar pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me consolam.",
+     "pausa": 2.4
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:5",
+     "texto": "Tu preparas uma mesa diante de mim à vista de meus adversários; unges a minha cabeça com azeite, meu cálice transborda.",
+     "pausa": 2.4
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:6",
+     "texto": "Certamente o bem e a bondade me seguirão todos os dias de minha vida; e habitarei na casa do SENHOR por muitos e muitos dias.",
+     "pausa": 12
+    }
+   ]
+  },
+  {
+   "cenario": "pastos_amanhecer",
+   "efeito": [
+    "nevoa",
+    "poeira"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:1",
+     "texto": "O SENHOR é meu pastor, nada me faltará.",
+     "pausa": 3.0
+    },
+    {
+     "tipo": "fala",
+     "texto": "Davi conhecia bem a vida de um pastor. Sabia que as ovelhas não se preocupam com o pasto de amanhã, nem com o caminho de volta. Elas confiam em quem as conduz.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:1"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Quando dizemos \"o Senhor é meu pastor\", estamos dizendo: eu não estou sozinho. Existe alguém cuidando de mim.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:1"
+    },
+    {
+     "tipo": "fala",
+     "texto": "E \"nada me faltará\" não é a promessa de ter tudo o que queremos, mas a certeza de que não vai faltar o que realmente precisamos.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:1"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, entregue a Ele aquilo que está faltando. Ele conhece cada necessidade.",
+     "pausa": 12,
+     "rotulo": "Meditação · Salmo 23:1"
+    }
+   ]
+  },
+  {
+   "cenario": "aguas_quietas",
+   "efeito": [
+    "poeira"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:2",
+     "texto": "Ele me faz deitar em pastos verdes, e me leva a águas quietas.",
+     "pausa": 3.0
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare: é Ele quem faz a ovelha deitar. Às vezes nós mesmos não conseguimos parar. A mente continua correndo, mesmo quando o corpo está cansado.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:2"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas o Pastor sabe a hora do descanso. Ele conduz até a grama macia, até a água calma, onde é seguro beber.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:2"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Imagine agora esse lugar. O verde, o silêncio, a água correndo devagar.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:2"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Você também tem permissão para descansar.",
+     "pausa": 12,
+     "rotulo": "Meditação · Salmo 23:2"
+    }
+   ]
+  },
+  {
+   "cenario": "caminho_oliveiras",
+   "efeito": [
+    "poeira"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:3",
+     "texto": "Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome.",
+     "pausa": 3.0
+    },
+    {
+     "tipo": "fala",
+     "texto": "Restaurar é devolver aquilo que se perdeu. Força, alegria, esperança.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:3"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez você chegue a esta noite cansado por dentro. O Senhor não pede que você se conserte sozinho. É Ele quem restaura.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:3"
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Ele não apenas renova as forças: Ele mostra o caminho. Um passo de cada vez. Não por mérito nosso, mas por amor ao Seu nome.",
+     "pausa": 12,
+     "rotulo": "Meditação · Salmo 23:3"
+    }
+   ]
+  },
+  {
+   "cenario": "vale_sombra",
+   "efeito": [
+    "nevoa"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:4",
+     "texto": "Ainda que eu venha a andar pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me consolam.",
+     "pausa": 3.0
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmo não promete uma vida sem vales. Os vales existem. A sombra existe.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:4"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas veja a mudança: até aqui Davi falava \"Ele\". Agora, no lugar mais escuro, ele diz \"tu\". \"Tu estás comigo.\"",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:4"
+    },
+    {
+     "tipo": "fala",
+     "texto": "É no vale que a presença de Deus fica mais perto.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:4"
+    },
+    {
+     "tipo": "fala",
+     "texto": "A vara e o cajado eram as ferramentas do pastor: uma para proteger, outra para guiar. Se hoje você atravessa um vale, lembre-se: você não atravessa sozinho.",
+     "pausa": 12,
+     "rotulo": "Meditação · Salmo 23:4"
+    }
+   ]
+  },
+  {
+   "cenario": "lamparina_mesa",
+   "efeito": [
+    "poeira"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:5",
+     "texto": "Tu preparas uma mesa diante de mim à vista de meus adversários; unges a minha cabeça com azeite, meu cálice transborda.",
+     "pausa": 3.0
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora a imagem muda. O pastor se torna um anfitrião. Ele prepara uma mesa, com cuidado, mesmo quando há dificuldades ao redor.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:5"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ungir a cabeça com azeite era um gesto de honra e de carinho com o convidado.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:5"
+    },
+    {
+     "tipo": "fala",
+     "texto": "E o cálice não fica apenas cheio. Ele transborda.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:5"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antes de dormir, lembre-se de alguma bênção deste dia, por menor que seja. Ela também é parte desse cálice.",
+     "pausa": 12,
+     "rotulo": "Meditação · Salmo 23:5"
+    }
+   ]
+  },
+  {
+   "cenario": "cedros_montanha",
+   "efeito": [
+    "nevoa"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:6",
+     "texto": "Certamente o bem e a bondade me seguirão todos os dias de minha vida; e habitarei na casa do SENHOR por muitos e muitos dias.",
+     "pausa": 3.0
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmo termina com uma certeza. Não \"talvez\", mas \"certamente\".",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:6"
+    },
+    {
+     "tipo": "fala",
+     "texto": "O bem e a bondade não ficam esperando lá na frente. Eles seguem você, todos os dias, até nos dias difíceis.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:6"
+    },
+    {
+     "tipo": "fala",
+     "texto": "E o destino final é a casa do Senhor. Um lugar de pertencimento, de paz, para sempre.",
+     "pausa": 3.0,
+     "rotulo": "Meditação · Salmo 23:6"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Durma com essa certeza: você é cuidado.",
+     "pausa": 12,
+     "rotulo": "Meditação · Salmo 23:6"
+    }
+   ]
+  },
+  {
+   "cenario": "casa_noite",
+   "efeito": [
+    "estrelas"
+   ],
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Senhor, meu Pastor,",
+     "pausa": 1.2,
+     "rotulo": "Oração da noite"
+    },
+    {
+     "tipo": "fala",
+     "texto": "obrigado por mais este dia.",
+     "pausa": 1.2,
+     "rotulo": "Oração da noite"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Entrego em Tuas mãos tudo o que ficou por fazer, cada preocupação e cada pessoa que eu amo.",
+     "pausa": 1.2,
+     "rotulo": "Oração da noite"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Faz-me deitar em pastos verdes esta noite. Acalma a minha mente e restaura a minha alma.",
+     "pausa": 1.2,
+     "rotulo": "Oração da noite"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se houver algum vale diante de mim, que eu me lembre de que Tu estás comigo.",
+     "pausa": 1.2,
+     "rotulo": "Oração da noite"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Guarda o meu sono, e que amanhã eu acorde com a certeza de que a Tua bondade me acompanha.",
+     "pausa": 1.2,
+     "rotulo": "Oração da noite"
+    },
+    {
+     "tipo": "fala",
+     "texto": "Em nome de Jesus, amém.",
+     "pausa": 12,
+     "rotulo": "Oração da noite"
+    }
+   ]
+  },
+  {
+   "cenario": "trigo_chuva",
+   "efeito": [
+    "nevoa"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:1",
+     "texto": "O SENHOR é meu pastor, nada me faltará.",
+     "pausa": 15
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:2",
+     "texto": "Ele me faz deitar em pastos verdes, e me leva a águas quietas.",
+     "pausa": 15
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:3",
+     "texto": "Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome.",
+     "pausa": 15
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:4",
+     "texto": "Ainda que eu venha a andar pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me consolam.",
+     "pausa": 15
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:5",
+     "texto": "Tu preparas uma mesa diante de mim à vista de meus adversários; unges a minha cabeça com azeite, meu cálice transborda.",
+     "pausa": 15
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:6",
+     "texto": "Certamente o bem e a bondade me seguirão todos os dias de minha vida; e habitarei na casa do SENHOR por muitos e muitos dias.",
+     "pausa": 15
+    }
+   ]
+  },
+  {
+   "cenario": "deserto_estrelas",
+   "efeito": [
+    "estrelas"
+   ],
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:1",
+     "texto": "O SENHOR é meu pastor, nada me faltará.",
+     "pausa": 20
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:2",
+     "texto": "Ele me faz deitar em pastos verdes, e me leva a águas quietas.",
+     "pausa": 20
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:3",
+     "texto": "Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome.",
+     "pausa": 20
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:4",
+     "texto": "Ainda que eu venha a andar pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me consolam.",
+     "pausa": 20
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:5",
+     "texto": "Tu preparas uma mesa diante de mim à vista de meus adversários; unges a minha cabeça com azeite, meu cálice transborda.",
+     "pausa": 20
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 23:6",
+     "texto": "Certamente o bem e a bondade me seguirão todos os dias de minha vida; e habitarei na casa do SENHOR por muitos e muitos dias.",
+     "pausa": 20
+    }
+   ]
+  },
+  {
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ],
+   "itens": [
+    {
+     "tipo": "silencio",
+     "dur": 300
+    }
+   ]
+  },
+  {
+   "cenario": "casa_noite",
+   "efeito": [
+    "estrelas"
+   ],
+   "itens": [
+    {
+     "tipo": "silencio",
+     "dur": 300
+    }
+   ]
+  },
+  {
+   "cenario": "deserto_estrelas",
+   "efeito": [
+    "estrelas"
+   ],
+   "itens": [
+    {
+     "tipo": "silencio",
+     "dur": 300
+    }
+   ]
+  }
+ ]
+}
