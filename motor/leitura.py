@@ -148,15 +148,32 @@ def centro(c, txt, y, font, cor, a):
 
 # ------------------------------------------------------------ áudio
 def falar(textos, voz, vel):
+    """Voz em velocidade natural; a calma vem das pausas entre frases (aprovado: Alex natural)."""
+    import re
     from kokoro_onnx import Kokoro
     k = Kokoro(f'{MODELOS}/kokoro-v1.0.onnx', f'{MODELOS}/voices-v1.0.bin')
     out = []
     for tx in textos:
-        s, sr = k.create(tx.replace('SENHOR', 'Senhor'), voice=voz, speed=vel, lang='pt-br')
-        s = np.asarray(s, np.float32); nz = np.where(np.abs(s) > .01)[0]; s = s[max(0, nz[0] - 200):nz[-1] + 2500]
-        n = int(len(s) * SR / sr); s = np.interp(np.linspace(0, len(s) - 1, n), np.arange(len(s)), s).astype(np.float32)
-        out.append(s / (np.abs(s).max() + 1e-6) * .85)
+        partes = [p.strip() for p in re.split(r'(?<=[,;:.!?])\s+', tx.replace('SENHOR', 'Senhor')) if p.strip()]
+        seg = []
+        for p in partes:
+            s, sr = k.create(p, voice=voz, speed=vel, lang='pt-br')
+            s = np.asarray(s, np.float32); nz = np.where(np.abs(s) > .01)[0]; s = s[max(0, nz[0] - 200):nz[-1] + 2500]
+            n = int(len(s) * SR / sr); s = np.interp(np.linspace(0, len(s) - 1, n), np.arange(len(s)), s).astype(np.float32)
+            seg += [s, np.zeros(int(SR * (.9 if p[-1] in '.!?' else .45)), np.float32)]
+        s = np.concatenate(seg[:-1])
+        out.append(sala(s / (np.abs(s).max() + 1e-6) * .85))
     return out
+
+def sala(s):
+    """Calor + leve ambiente de sala (mesmo tratamento da amostra aprovada)."""
+    import tempfile
+    a, b = tempfile.mktemp(suffix='.wav'), tempfile.mktemp(suffix='.wav')
+    sf.write(a, s, SR)
+    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', a, '-af',
+                    'bass=g=2:f=150,aecho=0.8:0.6:45|90:0.10|0.06', b], check=True)
+    r, _ = sf.read(b, dtype='float32'); os.remove(a); os.remove(b)
+    return r / (np.abs(r).max() + 1e-6) * .85
 
 def ambiente(tipo, total):
     rng = np.random.default_rng(9); n = int(total * SR)
