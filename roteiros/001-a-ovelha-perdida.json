@@ -1,0 +1,75 @@
+{
+  "titulo": "A Ovelha Perdida | Jesus conta uma história",
+  "referencia": "Lucas 15",
+  "cenario": "galileia_200",
+  "trilha": "paz",
+  "voz_narrador": "pm_alex",
+  "personagens": {
+    "jesus": {
+      "arte": "jesus_101",
+      "voz": "pm_santa",
+      "velocidade": 0.88,
+      "x": 0.5,
+      "altura": 0.55,
+      "zoom": 1.25,
+      "cor": "#fff3c4"
+    }
+  },
+  "falas": [
+    {
+      "quem": "narrador",
+      "texto": "Um dia, muitos criticavam Jesus | por conversar com quem todos desprezavam. | Então ele contou uma história.",
+      "pausa": 0.6
+    },
+    {
+      "quem": "jesus",
+      "texto": "Imaginem um pastor que tem cem ovelhas. | Certa tarde, ao contar o rebanho, | ele percebe: | falta uma.",
+      "pausa": 0.6
+    },
+    {
+      "quem": "jesus",
+      "texto": "Ele não pensa duas vezes. | Deixa as noventa e nove em segurança | e sai pelas montanhas | procurando a que se perdeu.",
+      "pausa": 0.6
+    },
+    {
+      "quem": "narrador",
+      "texto": "Ele procura entre as pedras, | nos vales, | debaixo dos arbustos... | até que finalmente a encontra.",
+      "pausa": 0.6
+    },
+    {
+      "quem": "narrador",
+      "texto": "O sol já estava se pondo. | O caminho era difícil. | Mas o pastor não desistiu.",
+      "pausa": 0.6
+    },
+    {
+      "quem": "jesus",
+      "texto": "E quando a encontra, não briga com ela. | Coloca a ovelha nos ombros, cheio de alegria, | e chama os amigos para comemorar.",
+      "pausa": 0.6
+    },
+    {
+      "quem": "jesus",
+      "texto": "Alegrem-se comigo! | Encontrei a minha ovelha | que estava perdida!",
+      "pausa": 0.6
+    },
+    {
+      "quem": "jesus",
+      "texto": "Eu digo a vocês: | há mais alegria no céu | por uma pessoa que volta para Deus | do que por noventa e nove | que acham que não precisam voltar.",
+      "pausa": 0.6
+    },
+    {
+      "quem": "narrador",
+      "texto": "Se você se sente perdido hoje, lembre-se: | alguém está procurando por você. | Deus não desiste de ninguém. | Nem de você.",
+      "pausa": 0.6
+    }
+  ],
+  "descricao": "Jesus conta a parábola da ovelha perdida: um pastor deixa noventa e nove ovelhas para procurar a única que se perdeu. Uma história sobre o amor de Deus que nunca desiste de nós. 🐑✨\n\n📖 Lucas 15:1-7",
+  "hashtags": [
+    "#biblia",
+    "#jesus",
+    "#historiasbiblicas",
+    "#fe",
+    "#parabola",
+    "#deus",
+    "#evangelho"
+  ]
+}
