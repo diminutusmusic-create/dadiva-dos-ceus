@@ -25,4 +25,7 @@ for r in refs:
         torch.manual_seed(7)
         w = MODEL.generate(TXT, language_id='pt', audio_prompt_path=f'vozes/ref/{r}.wav', exaggeration=ex, cfg_weight=cfg, temperature=tp)
         sf.write(f'vozes/{r}_{nome}.wav', w.squeeze(0).cpu().numpy(), MODEL.sr); print('ok', r, nome, flush=True)
+torch.manual_seed(7)
+w = MODEL.generate(TXT, language_id='pt', exaggeration=.3, cfg_weight=.4, temperature=.7)
+sf.write('vozes/padrao_modelo_calma.wav', w.squeeze(0).cpu().numpy(), MODEL.sr)
 shutil.make_archive('vozes', 'zip', 'vozes'); print('PRONTO', len(glob.glob('vozes/*.wav')))
