@@ -1,0 +1,135 @@
+{
+  "titulo": "Jonas e o Grande Peixe 🐋 Fugir de Deus não dá certo",
+  "referencia": "Jonas 1 a 3",
+  "trilha": "tensao",
+  "elenco": {
+    "jonas": {
+      "arte": "jonas_100",
+      "voz": "pm_santa",
+      "velocidade": 0.95,
+      "cor": "#d9f2ff"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "vila_200",
+      "atores": [
+        {
+          "quem": "jonas",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Deus pediu a Jonas | que fosse à cidade de Nínive | levar uma mensagem."
+        },
+        {
+          "quem": "jonas",
+          "texto": "Nínive? | Aquele povo não merece! | Eu vou é fugir para bem longe."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Nínive era uma cidade grande e violenta, | inimiga do povo de Jonas."
+        }
+      ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "chuva",
+        "relampago",
+        "ondas"
+      ],
+      "objetos": [
+        {
+          "arte": "barco_100",
+          "x": 0.5,
+          "y": 0.78,
+          "altura": 0.3,
+          "anim": "balanca"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Jonas entrou num navio para o lado oposto. | Mas no meio do mar, | veio uma tempestade terrível."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Os marinheiros tiveram medo. | E Jonas confessou: | a culpa era dele. | Então o jogaram ao mar."
+        },
+        {
+          "quem": "jonas",
+          "texto": "A culpa é minha. | Joguem-me no mar, | e a tempestade vai parar."
+        }
+      ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "ondas",
+        "noite"
+      ],
+      "objetos": [
+        {
+          "arte": "peixe_100",
+          "x": 0.5,
+          "y": 0.82,
+          "altura": 0.3,
+          "anim": "nada"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Mas Deus não abandonou Jonas. | Mandou um grande peixe, | que o engoliu inteiro."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Três dias e três noites | dentro do peixe. | E ali, no escuro, | Jonas orou."
+        }
+      ]
+    },
+    {
+      "cenario": "nascer_sol_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "jonas",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "jonas",
+          "texto": "Senhor, me perdoa. | Eu vou onde o Senhor mandar."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Jonas aprendeu | que o amor de Deus é maior | do que as nossas mágoas."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O peixe o colocou em terra firme. | Jonas foi a Nínive, | e a cidade inteira se arrependeu. | Deus sempre dá uma segunda chance. | Inclusive para você."
+        }
+      ]
+    }
+  ],
+  "descricao": "Jonas tentou fugir de Deus, mas descobriu que não existe lugar longe demais para o amor do Senhor. 🐋\n\n📖 Jonas 1 a 3",
+  "hashtags": [
+    "#biblia",
+    "#jonas",
+    "#historiasbiblicas",
+    "#fe",
+    "#deus",
+    "#segundachance",
+    "#evangelho"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

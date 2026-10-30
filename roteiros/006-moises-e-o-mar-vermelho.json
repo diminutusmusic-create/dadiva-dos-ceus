@@ -1,0 +1,106 @@
+{
+  "titulo": "Moisés abre o Mar Vermelho 🌊 Quando não há saída",
+  "referencia": "Êxodo 14",
+  "trilha": "tensao",
+  "elenco": {
+    "moises": {
+      "arte": "moises_100",
+      "voz": "pm_santa",
+      "velocidade": 0.85,
+      "cor": "#ffe0d0"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "egito_200",
+      "atores": [
+        {
+          "quem": "moises",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Depois de séculos de escravidão no Egito, | o povo de Deus finalmente estava livre. | Moisés guiava o caminho."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Mas o faraó se arrependeu | e mandou seu exército atrás deles."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Eram milhares de famílias, | crianças, idosos, | rebanhos inteiros, | caminhando pelo deserto."
+        }
+      ]
+    },
+    {
+      "cenario": "estrada_deserto_200",
+      "atores": [
+        {
+          "quem": "moises",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Na frente, o mar. | Atrás, os carros de guerra. | O povo entrou em pânico."
+        },
+        {
+          "quem": "moises",
+          "texto": "Não tenham medo! | Fiquem firmes | e vejam o que o Senhor vai fazer hoje!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Alguns gritavam: | era melhor ter ficado no Egito! | Mas Moisés não recuou."
+        }
+      ]
+    },
+    {
+      "cenario": "mar_vermelho_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "moises",
+          "x": 0.5,
+          "altura": 0.44
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Moisés estendeu o cajado sobre o mar. | E Deus mandou um vento forte | a noite inteira."
+        },
+        {
+          "quem": "narrador",
+          "texto": "As águas se abriram, | formando duas paredes. | E o povo atravessou | em terra seca."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Quando o último passou, | as águas voltaram ao lugar. | O povo estava livre. | E cantou de alegria ao Senhor."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Quando parecer que não existe saída, | lembre-se: | Deus abre caminhos | onde não existe caminho."
+        }
+      ]
+    }
+  ],
+  "descricao": "Encurralados entre o mar e o exército do faraó, o povo viu Deus abrir um caminho no meio das águas. 🌊\n\n📖 Êxodo 14",
+  "hashtags": [
+    "#biblia",
+    "#moises",
+    "#marvermelho",
+    "#historiasbiblicas",
+    "#fe",
+    "#deus",
+    "#milagre"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

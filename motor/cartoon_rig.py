@@ -12,7 +12,10 @@ def cutout(path, thr=235, erode=1, buracos=None):
     im = np.array(Image.open(path).convert('RGB')).astype(int)
     mx, mn = im.max(2), im.min(2)
     neutro = (mx - mn) < 16
-    claro = neutro & (mn > 190)
+    claro = neutro & (mn > 238)
+    hh = im.shape[0]
+    sombra = neutro & (mn > 185); sombra[:int(hh * .86)] = False   # sombra cinza só perto dos pés
+    claro |= sombra
     lab, _ = ndimage.label(claro)
     border = set(np.unique(np.r_[lab[0], lab[-1], lab[:, 0], lab[:, -1]])) - {0}
     bg = np.isin(lab, list(border))
@@ -74,12 +77,12 @@ class Puppet:
     def _face(self, c, talk, blink):
         sp = self.spec
         if blink:
-            for ex, ey in sp['eyes']:
+            for ex, ey in sp.get('eyes', []):
                 rx, ry = sp['eye_r']
                 c.drawOval(skia.Rect(ex - rx, ey - ry, ex + rx, ey + ry), P(sp['skin']))
                 pth = skia.Path(); pth.moveTo(ex - rx * .9, ey + 2); pth.quadTo(ex, ey + ry * .55, ex + rx * .9, ey + 2)
                 c.drawPath(pth, S(sp['line'], 5))
-        if talk > .08:
+        if talk > .08 and sp.get('mouth'):
             mx, my = sp['mouth']; mw = sp['mouth_w']
             pw, ph = sp['mouth_patch']
             c.drawOval(skia.Rect(mx - pw, my - ph, mx + pw, my + ph), P(sp['beard']))
@@ -108,3 +111,11 @@ GOLIAS = dict(neck_y=232, neck_pivot=(337, 240), feather=12,
               mouth=(337, 205), mouth_w=30, mouth_patch=(22, 12),
               skin='#f8a171', beard='#27181a', line='#1a0e0c')
 RIGS.update({'davi_101': DAVI, 'golias_101': GOLIAS})
+
+import json as _json, os as _os
+_auto = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'rigs_auto.json')
+if _os.path.exists(_auto):
+    for _k, _v in _json.load(open(_auto)).items():
+        _v['eyes'] = [tuple(e) for e in _v['eyes']]; _v['neck_pivot'] = tuple(_v['neck_pivot'])
+        if _v.get('mouth'): _v['mouth'] = tuple(_v['mouth'])
+        RIGS.setdefault(_k, _v)

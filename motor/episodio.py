@@ -178,7 +178,7 @@ def desenhar_cena(c, cena, R, t, tl_cena, env_val, quem_fala, cam):
         if 'ondas' in ef: y += math.sin(t * 1.6 + x * .01) * 10
         falando = quem_fala == nome
         talk = env_val if falando else 0.0
-        if falando and not RIGS.get(el['arte']):  # sem boca configurada: pulinho ao falar
+        if falando and not (RIGS.get(el['arte']) or {}).get('mouth'):  # sem boca configurada: pulinho ao falar
             bob -= env_val * 10
         c.drawOval(skia.Rect(x - alt * .2, y - 24, x + alt * .2, y + 24), skia.Paint(AntiAlias=True,
                    Color=skia.Color(30, 40, 20, 60), MaskFilter=skia.MaskFilter.MakeBlur(skia.kNormal_BlurStyle, 14)))
@@ -201,6 +201,11 @@ def gerar(caminho, preview=False):
         for f in cn['falas']: falas.append(f); cena_de.append(i)
     clips = tts(falas, vozes)
 
+    # duração mínima (o TikTok só paga vídeos com mais de 1 minuto): alonga pausas e o cartão final
+    MIN = R.get('duracao_minima', 62.5)
+    est = .4 + sum(len(cl) / SR + f.get('pausa', .5) for f, cl in zip(falas, clips)) \
+        + sum(c.get('respiro', .5) for c in R['cenas'][1:]) + 2.6
+    falta = max(0.0, MIN - est); extra = min(.7, falta / max(1, len(falas))); falta -= extra * len(falas)
     t = .4; tl = []; inicio = {}; fim = {}
     for f, cl, ci in zip(falas, clips, cena_de):
         if ci not in inicio:
@@ -208,9 +213,9 @@ def gerar(caminho, preview=False):
             if ci > 0: t += R['cenas'][ci].get('respiro', .5)
         d = len(cl) / SR; cs = chunks(f['texto']); wts = [len(x) for x in cs]; tt = t; caps = []
         for x, w in zip(cs, wts): caps.append((tt, tt + d * w / sum(wts), x)); tt += d * w / sum(wts)
-        tl.append(dict(quem=f['quem'], start=t, end=t + d, caps=caps, cena=ci)); t += d + f.get('pausa', .5)
+        tl.append(dict(quem=f['quem'], start=t, end=t + d, caps=caps, cena=ci)); t += d + f.get('pausa', .5) + extra
         fim[ci] = t
-    CARD = 2.6; TOTAL = t + CARD
+    CARD = 2.6 + max(0.0, falta); TOTAL = t + CARD
     ncenas = len(R['cenas'])
     lim = [inicio[i] for i in range(ncenas)] + [TOTAL]
 

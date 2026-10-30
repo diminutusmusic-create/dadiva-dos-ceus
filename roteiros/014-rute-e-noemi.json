@@ -1,0 +1,102 @@
+{
+  "titulo": "Rute e Noemi 🌾 Para onde você for, eu irei",
+  "referencia": "Rute 1 a 4",
+  "trilha": "paz",
+  "elenco": {
+    "rute": {
+      "arte": "rute_101",
+      "voz": "pf_dora",
+      "velocidade": 0.95,
+      "cor": "#ffe0ea"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "estrada_deserto_200",
+      "atores": [
+        {
+          "quem": "rute",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Noemi perdeu o marido | e os dois filhos. | Sozinha, | decidiu voltar para a sua terra."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Ela pediu às noras que ficassem com suas famílias. | Mas uma delas, Rute, | se recusou."
+        },
+        {
+          "quem": "rute",
+          "texto": "Para onde você for, eu irei. | O seu povo será o meu povo, | e o seu Deus será o meu Deus."
+        }
+      ]
+    },
+    {
+      "cenario": "campo_trigo_200",
+      "atores": [
+        {
+          "quem": "rute",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Em Belém, | Rute trabalhava o dia inteiro nos campos, | recolhendo as espigas que sobravam, | para sustentar Noemi."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O dono do campo, Boaz, | percebeu a bondade dela | e mandou deixar mais trigo para trás."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Era um trabalho duro, | sob o sol quente. | Mas Rute não reclamava."
+        }
+      ]
+    },
+    {
+      "cenario": "campo_trigo_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "rute",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Boaz se casou com Rute. | E dessa família nasceu Obede, | avô do rei Davi."
+        },
+        {
+          "quem": "rute",
+          "texto": "Deus nunca nos abandonou."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Uma estrangeira, fiel e humilde, | entrou para a família de onde viria Jesus. | A lealdade nunca passa despercebida para Deus."
+        }
+      ]
+    }
+  ],
+  "descricao": "Rute poderia ter voltado para casa. Escolheu ficar ao lado de Noemi, e Deus escreveu uma história que chegou até Jesus. 🌾\n\n📖 Rute 1 a 4",
+  "hashtags": [
+    "#biblia",
+    "#rute",
+    "#noemi",
+    "#historiasbiblicas",
+    "#fe",
+    "#lealdade",
+    "#mulheresdabiblia"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

@@ -1,0 +1,163 @@
+{
+  "titulo": "Pedro Anda Sobre as Águas 🌊 Não tire os olhos de Jesus",
+  "referencia": "Mateus 14",
+  "trilha": "tensao",
+  "elenco": {
+    "jesus": {
+      "arte": "jesus_101",
+      "voz": "pm_santa",
+      "velocidade": 0.88,
+      "cor": "#fff3c4"
+    },
+    "pedro": {
+      "arte": "pedro_100",
+      "voz": "pm_alex",
+      "velocidade": 0.95,
+      "cor": "#dff5d8"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "ondas",
+        "noite"
+      ],
+      "objetos": [
+        {
+          "arte": "barco_100",
+          "x": 0.5,
+          "y": 0.8,
+          "altura": 0.3,
+          "anim": "balanca"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Era madrugada. | Os discípulos remavam contra o vento. | De repente, | viram alguém andando sobre o mar."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Pensaram que era um fantasma | e gritaram de medo."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Jesus tinha ficado sozinho no monte, | orando. | E o barco já estava longe da margem."
+        }
+      ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "ondas",
+        "luz",
+        "noite"
+      ],
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.5,
+          "chao": 0.8
+        }
+      ],
+      "falas": [
+        {
+          "quem": "jesus",
+          "texto": "Coragem! | Sou eu. | Não tenham medo."
+        }
+      ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "ondas",
+        "noite"
+      ],
+      "atores": [
+        {
+          "quem": "pedro",
+          "x": 0.32,
+          "altura": 0.42,
+          "olha": "direita",
+          "chao": 0.82
+        },
+        {
+          "quem": "jesus",
+          "x": 0.7,
+          "altura": 0.5,
+          "olha": "esquerda",
+          "chao": 0.8
+        }
+      ],
+      "falas": [
+        {
+          "quem": "pedro",
+          "texto": "Senhor, se és tu, | manda que eu vá até aí!"
+        },
+        {
+          "quem": "jesus",
+          "texto": "Venha!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Pedro saiu do barco | e andou sobre as águas. | Mas quando viu o vento forte, | teve medo. | E começou a afundar."
+        }
+      ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "ondas",
+        "chuva"
+      ],
+      "atores": [
+        {
+          "quem": "pedro",
+          "x": 0.32,
+          "altura": 0.38,
+          "olha": "direita",
+          "chao": 0.9
+        },
+        {
+          "quem": "jesus",
+          "x": 0.62,
+          "altura": 0.5,
+          "olha": "esquerda",
+          "chao": 0.8
+        }
+      ],
+      "falas": [
+        {
+          "quem": "pedro",
+          "texto": "Senhor, | me salva!"
+        },
+        {
+          "quem": "jesus",
+          "texto": "Homem de pouca fé, | por que você duvidou?"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Quando os dois subiram no barco, | o vento parou. | E os discípulos adoraram Jesus: | verdadeiramente, | tu és o Filho de Deus!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Jesus estendeu a mão | e o segurou. | Quando o medo gritar mais alto, | olhe para Jesus. | Ele nunca solta a sua mão."
+        }
+      ]
+    }
+  ],
+  "descricao": "Pedro andou sobre as águas enquanto olhava para Jesus. Quando olhou para o vento, afundou. Mas a mão de Jesus estava ali. 🌊\n\n📖 Mateus 14:22-33",
+  "hashtags": [
+    "#biblia",
+    "#jesus",
+    "#pedro",
+    "#milagre",
+    "#fe",
+    "#historiasbiblicas",
+    "#confianca"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

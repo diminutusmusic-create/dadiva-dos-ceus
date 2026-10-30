@@ -1,0 +1,139 @@
+{
+  "titulo": "O Filho Pródigo 🏠 O abraço que espera por você",
+  "referencia": "Lucas 15",
+  "trilha": "paz",
+  "elenco": {
+    "filho": {
+      "arte": "filho_prodigo_100",
+      "voz": "pm_santa",
+      "velocidade": 0.95,
+      "cor": "#d9f2ff"
+    },
+    "pai": {
+      "arte": "pai_101",
+      "voz": "pm_alex",
+      "velocidade": 0.85,
+      "cor": "#fff3c4"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "fazenda_200",
+      "atores": [
+        {
+          "quem": "pai",
+          "x": 0.35,
+          "altura": 0.5,
+          "olha": "direita"
+        },
+        {
+          "quem": "filho",
+          "x": 0.68,
+          "altura": 0.48,
+          "olha": "esquerda"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Jesus contou sobre um pai que tinha dois filhos."
+        },
+        {
+          "quem": "filho",
+          "texto": "Pai, | me dá agora a minha parte da herança. | Eu quero ir embora."
+        }
+      ]
+    },
+    {
+      "cenario": "vila_201",
+      "atores": [
+        {
+          "quem": "filho",
+          "x": 0.5,
+          "altura": 0.48
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "O filho foi para longe | e gastou tudo em festas. | Quando o dinheiro acabou, | veio a fome."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Ele foi cuidar de porcos. | E sentia vontade de comer | a comida dos animais."
+        },
+        {
+          "quem": "filho",
+          "texto": "O que eu fiz da minha vida? | Perdi tudo."
+        }
+      ]
+    },
+    {
+      "cenario": "estrada_deserto_200",
+      "atores": [
+        {
+          "quem": "filho",
+          "x": 0.5,
+          "altura": 0.48
+        }
+      ],
+      "falas": [
+        {
+          "quem": "filho",
+          "texto": "Na casa do meu pai, | até os empregados têm comida. | Vou voltar | e pedir perdão."
+        }
+      ]
+    },
+    {
+      "cenario": "fazenda_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "pai",
+          "x": 0.38,
+          "altura": 0.5,
+          "olha": "direita"
+        },
+        {
+          "quem": "filho",
+          "x": 0.66,
+          "altura": 0.48,
+          "olha": "esquerda",
+          "entra": "direita"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Ainda de longe, | o pai o viu. | E correu ao seu encontro."
+        },
+        {
+          "quem": "pai",
+          "texto": "Meu filho estava perdido | e foi encontrado! | Vamos fazer uma festa!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "O pai não deixou o filho terminar o pedido de perdão. | Mandou trazer a melhor roupa, | um anel | e sandálias."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Não importa o quão longe você foi. | Os braços do Pai | continuam abertos."
+        }
+      ]
+    }
+  ],
+  "descricao": "Ele gastou tudo, perdeu tudo e voltou sem nada. Mas o pai correu para abraçá-lo. A parábola do filho pródigo. 🏠\n\n📖 Lucas 15:11-32",
+  "hashtags": [
+    "#biblia",
+    "#jesus",
+    "#filhoprodigo",
+    "#parabola",
+    "#perdao",
+    "#historiasbiblicas",
+    "#fe"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

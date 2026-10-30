@@ -1,0 +1,102 @@
+{
+  "titulo": "José do Egito 🌈 Do poço ao palácio",
+  "referencia": "Gênesis 37 a 45",
+  "trilha": "tensao",
+  "elenco": {
+    "jose": {
+      "arte": "jose_egito_100",
+      "voz": "pm_santa",
+      "velocidade": 0.95,
+      "cor": "#ffe7c2"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "campo_trigo_200",
+      "atores": [
+        {
+          "quem": "jose",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "José era o filho preferido de Jacó. | Ganhou do pai uma túnica colorida | e tinha sonhos de que um dia | seus irmãos se curvariam diante dele."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Os irmãos ficaram com tanta inveja | que o jogaram num poço | e o venderam como escravo."
+        }
+      ]
+    },
+    {
+      "cenario": "egito_200",
+      "atores": [
+        {
+          "quem": "jose",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "No Egito, | José foi acusado injustamente | e preso. | Mas mesmo na prisão, | continuou fiel a Deus."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Até que o faraó teve sonhos | que ninguém entendia."
+        },
+        {
+          "quem": "jose",
+          "texto": "Não sou eu quem interpreta os sonhos. | É Deus quem dá a resposta."
+        }
+      ]
+    },
+    {
+      "cenario": "egito_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "jose",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "jose",
+          "texto": "Virão sete anos de fartura | e sete anos de fome. | Guarde comida agora!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "O faraó fez de José | o governador de todo o Egito. | Anos depois, | seus irmãos vieram pedir comida."
+        },
+        {
+          "quem": "jose",
+          "texto": "Vocês planejaram o mal contra mim. | Mas Deus transformou tudo em bem."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O poço não foi o fim da história de José. | E não será o fim da sua."
+        }
+      ]
+    }
+  ],
+  "descricao": "Traído pelos irmãos, vendido como escravo, preso injustamente. E mesmo assim, Deus levou José do poço ao palácio. 🌈\n\n📖 Gênesis 37 a 45",
+  "hashtags": [
+    "#biblia",
+    "#josedoegito",
+    "#historiasbiblicas",
+    "#fe",
+    "#deus",
+    "#perdao",
+    "#proposito"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

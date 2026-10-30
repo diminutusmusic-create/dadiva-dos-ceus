@@ -1,0 +1,454 @@
+{
+ "noe_100": {
+  "neck_y": 243,
+  "neck_pivot": [
+   344,
+   251
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    311,
+    174
+   ],
+   [
+    377,
+    174
+   ]
+  ],
+  "eye_r": [
+   13,
+   17
+  ],
+  "mouth": [
+   344,
+   210
+  ],
+  "mouth_w": 27,
+  "mouth_patch": [
+   26,
+   13
+  ],
+  "skin": "#feb789",
+  "beard": "#fefdff",
+  "line": "#3b1d10"
+ },
+ "moises_100": {
+  "neck_y": 244,
+  "neck_pivot": [
+   339,
+   252
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    307,
+    176
+   ],
+   [
+    372,
+    176
+   ]
+  ],
+  "eye_r": [
+   13,
+   15
+  ],
+  "mouth": [
+   339,
+   211
+  ],
+  "mouth_w": 27,
+  "mouth_patch": [
+   26,
+   13
+  ],
+  "skin": "#f9a77b",
+  "beard": "#522317",
+  "line": "#3b1d10"
+ },
+ "jonas_100": {
+  "neck_y": 286,
+  "neck_pivot": [
+   337,
+   294
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    291,
+    189
+   ],
+   [
+    384,
+    189
+   ]
+  ],
+  "eye_r": [
+   17,
+   18
+  ],
+  "mouth": [
+   337,
+   239
+  ],
+  "mouth_w": 38,
+  "mouth_patch": [
+   37,
+   18
+  ],
+  "skin": "#df9c77",
+  "beard": "#32130f",
+  "line": "#3b1d10"
+ },
+ "daniel_100": {
+  "neck_y": 272,
+  "neck_pivot": [
+   326,
+   280
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    283,
+    182
+   ],
+   [
+    369,
+    182
+   ]
+  ],
+  "eye_r": [
+   17,
+   20
+  ],
+  "mouth": [
+   326,
+   228
+  ],
+  "mouth_w": 36,
+  "mouth_patch": [
+   34,
+   17
+  ],
+  "skin": "#fbbb91",
+  "beard": "#fabb91",
+  "line": "#3b1d10"
+ },
+ "pedro_100": {
+  "neck_y": 274,
+  "neck_pivot": [
+   322,
+   282
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    278,
+    182
+   ],
+   [
+    366,
+    182
+   ]
+  ],
+  "eye_r": [
+   18,
+   19
+  ],
+  "mouth": [
+   322,
+   230
+  ],
+  "mouth_w": 36,
+  "mouth_patch": [
+   35,
+   17
+  ],
+  "skin": "#fec198",
+  "beard": "#929090",
+  "line": "#3b1d10"
+ },
+ "maria_100": {
+  "neck_y": 302,
+  "neck_pivot": [
+   325,
+   310
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    280,
+    207
+   ],
+   [
+    371,
+    207
+   ]
+  ],
+  "eye_r": [
+   17,
+   20
+  ],
+  "mouth": [
+   325,
+   256
+  ],
+  "mouth_w": 38,
+  "mouth_patch": [
+   36,
+   18
+  ],
+  "skin": "#fbc5a0",
+  "beard": "#fbc5a0",
+  "line": "#3b1d10"
+ },
+ "jose_carpinteiro_100": {
+  "neck_y": 215,
+  "neck_pivot": [
+   327,
+   223
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    288,
+    133
+   ],
+   [
+    366,
+    133
+   ]
+  ],
+  "eye_r": [
+   23,
+   15
+  ],
+  "mouth": [
+   327,
+   176
+  ],
+  "mouth_w": 32,
+  "mouth_patch": [
+   31,
+   15
+  ],
+  "skin": "#fdb98b",
+  "beard": "#efb485",
+  "line": "#3b1d10"
+ },
+ "jose_egito_100": {
+  "neck_y": 238,
+  "neck_pivot": [
+   325,
+   246
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    291,
+    166
+   ],
+   [
+    360,
+    166
+   ]
+  ],
+  "eye_r": [
+   15,
+   16
+  ],
+  "mouth": [
+   325,
+   203
+  ],
+  "mouth_w": 28,
+  "mouth_patch": [
+   27,
+   13
+  ],
+  "skin": "#fbb688",
+  "beard": "#fbb588",
+  "line": "#3b1d10"
+ },
+ "filho_prodigo_100": {
+  "neck_y": 287,
+  "neck_pivot": [
+   322,
+   295
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    276,
+    190
+   ],
+   [
+    368,
+    190
+   ]
+  ],
+  "eye_r": [
+   17,
+   20
+  ],
+  "mouth": [
+   322,
+   240
+  ],
+  "mouth_w": 38,
+  "mouth_patch": [
+   36,
+   18
+  ],
+  "skin": "#fbb589",
+  "beard": "#fcb68a",
+  "line": "#3b1d10"
+ },
+ "pai_101": {
+  "neck_y": 286,
+  "neck_pivot": [
+   309,
+   294
+  ],
+  "feather": 14,
+  "eyes": [],
+  "eye_r": [
+   17,
+   16
+  ],
+  "mouth": null,
+  "mouth_w": 32,
+  "mouth_patch": [
+   31,
+   15
+  ],
+  "skin": "#fdbc93",
+  "beard": "#fefffe",
+  "line": "#3b1d10"
+ },
+ "samaritano_100": {
+  "neck_y": 278,
+  "neck_pivot": [
+   323,
+   286
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    282,
+    190
+   ],
+   [
+    365,
+    190
+   ]
+  ],
+  "eye_r": [
+   18,
+   18
+  ],
+  "mouth": [
+   323,
+   235
+  ],
+  "mouth_w": 35,
+  "mouth_patch": [
+   33,
+   16
+  ],
+  "skin": "#fdb386",
+  "beard": "#350b0b",
+  "line": "#3b1d10"
+ },
+ "ferido_101": {
+  "neck_y": 505,
+  "neck_pivot": [
+   324,
+   513
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    250,
+    349
+   ],
+   [
+    399,
+    349
+   ]
+  ],
+  "eye_r": [
+   25,
+   26
+  ],
+  "mouth": [
+   324,
+   428
+  ],
+  "mouth_w": 62,
+  "mouth_patch": [
+   59,
+   29
+  ],
+  "skin": "#fccfb1",
+  "beard": "#fdd0b1",
+  "line": "#3b1d10"
+ },
+ "menino_paes_100": {
+  "neck_y": 367,
+  "neck_pivot": [
+   330,
+   375
+  ],
+  "feather": 14,
+  "eyes": [],
+  "eye_r": [
+   26,
+   16
+  ],
+  "mouth": null,
+  "mouth_w": 61,
+  "mouth_patch": [
+   58,
+   29
+  ],
+  "skin": "#fec79f",
+  "beard": "#fdc69e",
+  "line": "#3b1d10"
+ },
+ "rute_101": {
+  "neck_y": 301,
+  "neck_pivot": [
+   337,
+   309
+  ],
+  "feather": 14,
+  "eyes": [
+   [
+    298,
+    220
+   ],
+   [
+    376,
+    220
+   ]
+  ],
+  "eye_r": [
+   16,
+   17
+  ],
+  "mouth": [
+   337,
+   262
+  ],
+  "mouth_w": 32,
+  "mouth_patch": [
+   31,
+   15
+  ],
+  "skin": "#febf9a",
+  "beard": "#ffbf99",
+  "line": "#3b1d10"
+ }
+}

@@ -1,0 +1,137 @@
+{
+  "titulo": "Noé e a Arca 🌈 A promessa de Deus",
+  "referencia": "Gênesis 6 a 9",
+  "trilha": "tensao",
+  "elenco": {
+    "noe": {
+      "arte": "noe_100",
+      "voz": "pm_santa",
+      "velocidade": 0.85,
+      "cor": "#fff3c4"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "campo_trigo_200",
+      "atores": [
+        {
+          "quem": "noe",
+          "x": 0.5,
+          "altura": 0.5,
+          "entra": "esquerda"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Há muito tempo, | as pessoas tinham se esquecido de Deus. | Mas um homem continuava fiel: | Noé."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Deus disse a Noé para construir uma arca enorme, | porque um grande dilúvio viria."
+        },
+        {
+          "quem": "noe",
+          "texto": "Eu vou obedecer, Senhor. | Mesmo que todos riam de mim."
+        },
+        {
+          "quem": "narrador",
+          "texto": "As pessoas zombavam. | Construir um barco gigante, | longe do mar? | Mas Noé confiava em Deus."
+        }
+      ]
+    },
+    {
+      "cenario": "campo_trigo_200",
+      "objetos": [
+        {
+          "arte": "arca_100",
+          "x": 0.5,
+          "y": 0.78,
+          "altura": 0.32,
+          "anim": "flutua"
+        }
+      ],
+      "atores": [
+        {
+          "quem": "noe",
+          "x": 0.22,
+          "altura": 0.36
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Por anos, Noé trabalhou. | Madeira por madeira, | prego por prego. | E os animais vieram, | de dois em dois."
+        }
+      ]
+    },
+    {
+      "cenario": "diluvio_200",
+      "efeito": [
+        "chuva",
+        "relampago",
+        "ondas",
+        "noite"
+      ],
+      "objetos": [],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Então a chuva começou. | Quarenta dias e quarenta noites. | A água cobriu tudo. | Mas a arca flutuava em segurança."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Lá dentro, | Noé, sua família | e os animais esperavam. | Dia após dia, | ouvindo a chuva no telhado."
+        }
+      ]
+    },
+    {
+      "cenario": "arco_iris_200",
+      "efeito": [
+        "luz"
+      ],
+      "objetos": [
+        {
+          "arte": "pomba_100",
+          "x": 0.5,
+          "y": 0.35,
+          "altura": 0.12,
+          "anim": "voa"
+        }
+      ],
+      "atores": [
+        {
+          "quem": "noe",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Quando as águas baixaram, | uma pomba voltou com um ramo de oliveira."
+        },
+        {
+          "quem": "noe",
+          "texto": "Obrigado, Senhor, | por cuidar de nós!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "E Deus colocou um arco-íris no céu, | como sinal da sua promessa. | Quando vier a tempestade, | lembre-se: | Deus cumpre o que promete."
+        }
+      ]
+    }
+  ],
+  "descricao": "Noé obedeceu a Deus quando ninguém mais acreditava. Construiu a arca, salvou sua família e os animais, e viu o arco-íris da promessa. 🌈\n\n📖 Gênesis 6 a 9",
+  "hashtags": [
+    "#biblia",
+    "#noe",
+    "#arcadenoe",
+    "#historiasbiblicas",
+    "#fe",
+    "#deus",
+    "#arcoiris"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

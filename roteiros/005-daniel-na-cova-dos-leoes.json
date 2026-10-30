@@ -1,0 +1,117 @@
+{
+  "titulo": "Daniel na Cova dos Leões 🦁 A fé que fecha a boca dos leões",
+  "referencia": "Daniel 6",
+  "trilha": "tensao",
+  "elenco": {
+    "daniel": {
+      "arte": "daniel_100",
+      "voz": "pm_santa",
+      "velocidade": 0.92,
+      "cor": "#e8dcff"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "vila_201",
+      "atores": [
+        {
+          "quem": "daniel",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Daniel servia ao rei da Babilônia | e orava a Deus três vezes por dia."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Homens invejosos convenceram o rei | a fazer uma lei: | quem orasse a outro deus, | seria jogado aos leões."
+        },
+        {
+          "quem": "daniel",
+          "texto": "Eu não vou deixar de orar | ao meu Deus. | Nem por um dia."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Mesmo sabendo da lei, | Daniel abriu a janela do quarto, | ajoelhou-se | e orou como sempre fazia."
+        }
+      ]
+    },
+    {
+      "cenario": "cova_leoes_200",
+      "efeito": [
+        "noite"
+      ],
+      "atores": [
+        {
+          "quem": "daniel",
+          "x": 0.32,
+          "altura": 0.42,
+          "olha": "direita"
+        }
+      ],
+      "objetos": [],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Daniel foi preso | e jogado na cova dos leões. | A pedra fechou a entrada. | E a noite chegou."
+        },
+        {
+          "quem": "daniel",
+          "texto": "Senhor, | eu confio em ti."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O rei passou a noite sem dormir. | Ele gostava de Daniel, | mas não podia voltar atrás na própria lei."
+        }
+      ]
+    },
+    {
+      "cenario": "cova_leoes_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "daniel",
+          "x": 0.32,
+          "altura": 0.42,
+          "olha": "direita"
+        }
+      ],
+      "objetos": [],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "De manhã, | o rei correu até a cova."
+        },
+        {
+          "quem": "daniel",
+          "texto": "Meu Deus enviou o seu anjo | e fechou a boca dos leões!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Então o rei declarou | que todo o reino devia respeitar | o Deus de Daniel, | o Deus vivo."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Daniel não tinha nenhum arranhão. | Quem é fiel a Deus | nunca enfrenta a cova sozinho."
+        }
+      ]
+    }
+  ],
+  "descricao": "Daniel preferiu ser jogado aos leões a deixar de orar. E Deus fechou a boca das feras. 🦁\n\n📖 Daniel 6",
+  "hashtags": [
+    "#biblia",
+    "#daniel",
+    "#historiasbiblicas",
+    "#fe",
+    "#oracao",
+    "#deus",
+    "#leoes"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

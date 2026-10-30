@@ -1,0 +1,88 @@
+{
+  "titulo": "Venham a Mim 🙏 Jesus dá descanso ao cansado",
+  "referencia": "Mateus 11",
+  "trilha": "paz",
+  "elenco": {
+    "jesus": {
+      "arte": "jesus_101",
+      "voz": "pm_santa",
+      "velocidade": 0.88,
+      "cor": "#fff3c4"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "nascer_sol_200",
+      "efeito": [
+        "luz"
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Tem dias em que o peso parece grande demais. | O trabalho, as contas, | a saudade, | o cansaço que o sono não resolve."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Às vezes a gente sorri por fora | e está desmoronando por dentro. | E ninguém percebe."
+        }
+      ]
+    },
+    {
+      "cenario": "galileia_200",
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.55
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Foi para pessoas assim | que Jesus disse estas palavras:"
+        },
+        {
+          "quem": "jesus",
+          "texto": "Venham a mim, | todos vocês que estão cansados e sobrecarregados, | e eu darei descanso a vocês."
+        },
+        {
+          "quem": "jesus",
+          "texto": "Aprendam de mim, | porque sou manso e humilde de coração. | E vocês encontrarão descanso para a alma."
+        },
+        {
+          "quem": "jesus",
+          "texto": "O meu jugo é suave, | e o meu fardo é leve."
+        }
+      ]
+    },
+    {
+      "cenario": "ceu_estrelado_200",
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Jesus não prometeu uma vida sem peso. | Prometeu caminhar com você | e carregar o peso junto."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Ele não pede que você chegue forte. | Pede apenas que você venha."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Se hoje você está cansado, | entregue a ele. | Escreva amém | se você recebe esse descanso."
+        }
+      ]
+    }
+  ],
+  "descricao": "Para quem está cansado e sobrecarregado, Jesus deixou um convite: venham a mim. 🙏\n\n📖 Mateus 11:28-30",
+  "hashtags": [
+    "#biblia",
+    "#jesus",
+    "#descanso",
+    "#fe",
+    "#oracao",
+    "#deus",
+    "#versiculododia"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

@@ -1,0 +1,131 @@
+{
+  "titulo": "Zaqueu na Árvore 🌳 Jesus chamou pelo nome",
+  "referencia": "Lucas 19",
+  "trilha": "paz",
+  "elenco": {
+    "jesus": {
+      "arte": "jesus_101",
+      "voz": "pm_santa",
+      "velocidade": 0.88,
+      "cor": "#fff3c4"
+    },
+    "zaqueu": {
+      "arte": "zaqueu_101",
+      "voz": "pm_santa",
+      "velocidade": 1.0,
+      "cor": "#ffe7c2"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "jerico_200",
+      "atores": [
+        {
+          "quem": "zaqueu",
+          "x": 0.5,
+          "altura": 0.36
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Em Jericó vivia Zaqueu, | chefe dos cobradores de impostos. | Muito rico. | E odiado por todos."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Quando Jesus passou pela cidade, | Zaqueu quis vê-lo. | Mas ele era baixinho, | e a multidão não deixava."
+        },
+        {
+          "quem": "zaqueu",
+          "texto": "Já sei! | Vou subir naquela árvore!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Zaqueu cobrava mais do que devia | e ficava com a diferença. | Todos sabiam."
+        }
+      ]
+    },
+    {
+      "cenario": "jerico_200",
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.4,
+          "altura": 0.55,
+          "olha": "direita"
+        },
+        {
+          "quem": "zaqueu",
+          "x": 0.74,
+          "altura": 0.3,
+          "olha": "esquerda",
+          "chao": 0.62
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Jesus parou bem debaixo da árvore | e olhou para cima."
+        },
+        {
+          "quem": "jesus",
+          "texto": "Zaqueu, | desça depressa! | Hoje eu vou ficar na sua casa."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O povo murmurou: | ele vai à casa de um pecador?"
+        }
+      ]
+    },
+    {
+      "cenario": "vila_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.38,
+          "altura": 0.55,
+          "olha": "direita"
+        },
+        {
+          "quem": "zaqueu",
+          "x": 0.7,
+          "altura": 0.36,
+          "olha": "esquerda"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "zaqueu",
+          "texto": "Senhor, | vou dar metade dos meus bens aos pobres. | E se roubei alguém, | devolvo quatro vezes mais!"
+        },
+        {
+          "quem": "jesus",
+          "texto": "Hoje a salvação entrou nesta casa."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Ninguém tinha mudado Zaqueu com críticas. | Mas um encontro com Jesus | mudou tudo."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Jesus conhece o seu nome. | E não desiste de quem todos já desistiram."
+        }
+      ]
+    }
+  ],
+  "descricao": "Baixinho, rico e odiado por todos. Mas Jesus parou debaixo da árvore e chamou Zaqueu pelo nome. 🌳\n\n📖 Lucas 19:1-10",
+  "hashtags": [
+    "#biblia",
+    "#jesus",
+    "#zaqueu",
+    "#historiasbiblicas",
+    "#fe",
+    "#graca",
+    "#evangelho"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

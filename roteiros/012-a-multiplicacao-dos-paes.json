@@ -1,0 +1,130 @@
+{
+  "titulo": "A Multiplicação dos Pães 🍞 O pouco nas mãos de Jesus",
+  "referencia": "João 6",
+  "trilha": "paz",
+  "elenco": {
+    "jesus": {
+      "arte": "jesus_101",
+      "voz": "pm_santa",
+      "velocidade": 0.88,
+      "cor": "#fff3c4"
+    },
+    "menino": {
+      "arte": "menino_paes_100",
+      "voz": "pf_dora",
+      "velocidade": 1.05,
+      "cor": "#ffe7c2"
+    },
+    "pedro": {
+      "arte": "pedro_100",
+      "voz": "pm_alex",
+      "velocidade": 0.95,
+      "cor": "#dff5d8"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "colina_multidao_200",
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.38,
+          "altura": 0.55,
+          "olha": "direita"
+        },
+        {
+          "quem": "pedro",
+          "x": 0.72,
+          "altura": 0.5,
+          "olha": "esquerda"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Mais de cinco mil pessoas | seguiram Jesus até uma colina. | O dia acabava, | e todos estavam com fome."
+        },
+        {
+          "quem": "jesus",
+          "texto": "Onde vamos comprar pão | para toda essa gente?"
+        },
+        {
+          "quem": "pedro",
+          "texto": "Nem com o salário de oito meses | daria para todo mundo!"
+        }
+      ]
+    },
+    {
+      "cenario": "colina_multidao_200",
+      "atores": [
+        {
+          "quem": "menino",
+          "x": 0.5,
+          "altura": 0.4,
+          "entra": "direita"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Então apareceu um menino."
+        },
+        {
+          "quem": "menino",
+          "texto": "Eu tenho cinco pães | e dois peixinhos. | Pode ficar com eles!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Era quase nada. | Mas ele deu tudo o que tinha."
+        },
+        {
+          "quem": "pedro",
+          "texto": "Mas o que é isso | para tanta gente?"
+        }
+      ]
+    },
+    {
+      "cenario": "colina_multidao_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.55
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Jesus pegou os pães, | deu graças a Deus | e começou a repartir."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Todos comeram até ficar satisfeitos. | E ainda sobraram doze cestos cheios!"
+        },
+        {
+          "quem": "jesus",
+          "texto": "Não deixem nada se perder."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O que você tem pode parecer pouco. | Mas nas mãos de Jesus, | o pouco vira muito."
+        }
+      ]
+    }
+  ],
+  "descricao": "Cinco pães, dois peixes e um menino disposto a dividir. Nas mãos de Jesus, isso alimentou mais de cinco mil pessoas. 🍞🐟\n\n📖 João 6:1-14",
+  "hashtags": [
+    "#biblia",
+    "#jesus",
+    "#milagre",
+    "#paesepeixes",
+    "#fe",
+    "#historiasbiblicas",
+    "#generosidade"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

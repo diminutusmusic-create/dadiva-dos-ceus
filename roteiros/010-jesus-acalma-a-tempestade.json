@@ -1,0 +1,172 @@
+{
+  "titulo": "Jesus Acalma a Tempestade ⛈️ Por que vocês têm medo?",
+  "referencia": "Marcos 4",
+  "trilha": "tensao",
+  "elenco": {
+    "jesus": {
+      "arte": "jesus_101",
+      "voz": "pm_santa",
+      "velocidade": 0.88,
+      "cor": "#fff3c4"
+    },
+    "pedro": {
+      "arte": "pedro_100",
+      "voz": "pm_alex",
+      "velocidade": 0.95,
+      "cor": "#dff5d8"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "galileia_200",
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.55
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Depois de um longo dia ensinando a multidão, | Jesus disse aos discípulos:"
+        },
+        {
+          "quem": "jesus",
+          "texto": "Vamos atravessar para o outro lado do lago."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Os discípulos entraram no barco. | Vários deles eram pescadores experientes. | Conheciam aquele lago como ninguém."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Jesus estava tão cansado | que deitou na parte de trás do barco | e adormeceu."
+        }
+      ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "chuva",
+        "relampago",
+        "ondas"
+      ],
+      "objetos": [
+        {
+          "arte": "barco_100",
+          "x": 0.5,
+          "y": 0.8,
+          "altura": 0.3,
+          "anim": "balanca"
+        }
+      ],
+      "atores": [
+        {
+          "quem": "pedro",
+          "x": 0.5,
+          "altura": 0.4,
+          "chao": 0.66
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "No meio do caminho, | uma tempestade violenta. | As ondas invadiam o barco. | E Jesus? | Dormia."
+        },
+        {
+          "quem": "pedro",
+          "texto": "Mestre! | O senhor não se importa | que a gente morra?"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Até os pescadores mais experientes | estavam apavorados. | O barco começava a encher de água."
+        }
+      ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "chuva",
+        "ondas"
+      ],
+      "objetos": [
+        {
+          "arte": "barco_100",
+          "x": 0.5,
+          "y": 0.8,
+          "altura": 0.3,
+          "anim": "balanca"
+        }
+      ],
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.44,
+          "chao": 0.66
+        }
+      ],
+      "falas": [
+        {
+          "quem": "jesus",
+          "texto": "Silêncio! | Aquiete-se!"
+        }
+      ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "luz",
+        "noite"
+      ],
+      "objetos": [
+        {
+          "arte": "barco_100",
+          "x": 0.5,
+          "y": 0.8,
+          "altura": 0.3,
+          "anim": "flutua"
+        }
+      ],
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.44,
+          "chao": 0.66
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "O vento parou. | E houve grande calma."
+        },
+        {
+          "quem": "jesus",
+          "texto": "Por que vocês têm tanto medo? | Ainda não têm fé?"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Os discípulos se olharam, assustados: | quem é este, | que até o vento e o mar lhe obedecem?"
+        },
+        {
+          "quem": "narrador",
+          "texto": "A tempestade pode ser grande. | Mas quem está no seu barco | é maior."
+        }
+      ]
+    }
+  ],
+  "descricao": "Uma tempestade violenta no meio do lago. Os discípulos em pânico. E Jesus, com uma palavra, acalmou o vento e o mar. ⛈️\n\n📖 Marcos 4:35-41",
+  "hashtags": [
+    "#biblia",
+    "#jesus",
+    "#tempestade",
+    "#milagre",
+    "#fe",
+    "#historiasbiblicas",
+    "#medo"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}

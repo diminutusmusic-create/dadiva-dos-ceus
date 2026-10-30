@@ -1,0 +1,143 @@
+{
+  "titulo": "O Bom Samaritano ❤️ Quem é o meu próximo?",
+  "referencia": "Lucas 10",
+  "trilha": "paz",
+  "elenco": {
+    "jesus": {
+      "arte": "jesus_101",
+      "voz": "pm_santa",
+      "velocidade": 0.88,
+      "cor": "#fff3c4"
+    },
+    "samaritano": {
+      "arte": "samaritano_100",
+      "voz": "pm_alex",
+      "velocidade": 0.95,
+      "cor": "#dff5d8"
+    },
+    "ferido": {
+      "arte": "ferido_101",
+      "voz": "pm_santa",
+      "velocidade": 0.85,
+      "cor": "#ffffff"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "galileia_200",
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.55
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Um homem perguntou a Jesus: | quem é o meu próximo? | E Jesus contou uma história."
+        },
+        {
+          "quem": "jesus",
+          "texto": "Um homem descia de Jerusalém para Jericó | quando foi atacado por ladrões. | Levaram tudo | e o deixaram quase morto."
+        }
+      ]
+    },
+    {
+      "cenario": "estrada_deserto_200",
+      "atores": [
+        {
+          "quem": "ferido",
+          "x": 0.5,
+          "altura": 0.32
+        }
+      ],
+      "falas": [
+        {
+          "quem": "jesus",
+          "texto": "Passou um sacerdote. | Viu o homem | e desviou para o outro lado. | Depois passou um levita. | E fez a mesma coisa."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Os dois eram homens religiosos. | Conheciam as leis de Deus. | Mas não pararam para ajudar."
+        }
+      ]
+    },
+    {
+      "cenario": "estrada_deserto_200",
+      "atores": [
+        {
+          "quem": "ferido",
+          "x": 0.34,
+          "altura": 0.32
+        },
+        {
+          "quem": "samaritano",
+          "x": 0.7,
+          "altura": 0.5,
+          "olha": "esquerda",
+          "entra": "direita"
+        }
+      ],
+      "objetos": [
+        {
+          "arte": "burro_100",
+          "x": 0.86,
+          "y": 0.9,
+          "altura": 0.2,
+          "olha": "esquerda"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "jesus",
+          "texto": "Então passou um samaritano, | alguém que todos desprezavam. | Ele parou."
+        },
+        {
+          "quem": "samaritano",
+          "texto": "Calma, amigo. | Eu vou cuidar de você."
+        },
+        {
+          "quem": "jesus",
+          "texto": "Ele limpou as feridas, | colocou o homem no seu jumento | e pagou a hospedagem do próprio bolso."
+        }
+      ]
+    },
+    {
+      "cenario": "galileia_201",
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.55
+        }
+      ],
+      "falas": [
+        {
+          "quem": "jesus",
+          "texto": "Qual dos três foi o próximo daquele homem? | Vá, | e faça o mesmo."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Hoje, quem está caído | na sua estrada?"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Amar o próximo | não é escolher quem merece. | É parar quando todos passam."
+        }
+      ]
+    }
+  ],
+  "descricao": "Um sacerdote passou. Um levita passou. Só um samaritano parou. A parábola que mostra o que é amar o próximo. ❤️\n\n📖 Lucas 10:25-37",
+  "hashtags": [
+    "#biblia",
+    "#jesus",
+    "#bomsamaritano",
+    "#parabola",
+    "#amor",
+    "#historiasbiblicas",
+    "#fe"
+  ],
+  "voz_narrador": "pm_alex",
+  "velocidade_narrador": 0.9
+}
