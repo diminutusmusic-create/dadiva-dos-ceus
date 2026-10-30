@@ -1,0 +1,14 @@
+{
+ "titulo": "Salmo 23",
+ "subtitulo": "O Senhor é o meu pastor",
+ "voz": "pm_alex", "velocidade": 0.82, "pausa_verso": 2.6, "ambiente": "riacho",
+ "blocos": [
+  {"cenario": "pastos_amanhecer", "efeito": ["nevoa", "poeira"], "versos": [{"ref": "Salmo 23:1", "texto": "O SENHOR é meu pastor, nada me faltará."}]},
+  {"cenario": "aguas_quietas", "efeito": ["poeira"], "versos": [{"ref": "Salmo 23:2", "texto": "Ele me faz deitar em pastos verdes, e me leva a águas quietas."}]},
+  {"cenario": "caminho_oliveiras", "efeito": ["poeira"], "versos": [{"ref": "Salmo 23:3", "texto": "Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome."}]},
+  {"cenario": "vale_sombra", "efeito": ["nevoa"], "versos": [{"ref": "Salmo 23:4", "texto": "Ainda que eu venha a andar pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me consolam."}]},
+  {"cenario": "lamparina_mesa", "efeito": ["poeira"], "versos": [{"ref": "Salmo 23:5", "texto": "Tu preparas uma mesa diante de mim à vista de meus adversários; unges a minha cabeça com azeite, meu cálice transborda."}]},
+  {"cenario": "casa_noite", "efeito": ["estrelas"], "versos": [{"ref": "Salmo 23:6", "texto": "Certamente o bem e a bondade me seguirão todos os dias de minha vida; e habitarei na casa do SENHOR por muitos e muitos dias."}]}
+ ],
+ "fim": "Dádiva dos Céus"
+}
