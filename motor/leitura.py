@@ -179,9 +179,22 @@ def ambiente(tipo, total):
     rng = np.random.default_rng(9); n = int(total * SR)
     if tipo == 'chuva': return lp(rng.standard_normal(n), .3) * .045
     if tipo == 'riacho':
-        x = lp(rng.standard_normal(n), .5) - lp(rng.standard_normal(n), .05)
-        mod = .6 + .4 * np.sin(np.arange(n) / SR * 2 * np.pi * .13)
-        return x * mod * .03
+        # água corrente escura e suave: ruído filtrado só nos graves/médios + borbulhas senoidais esparsas
+        from scipy.signal import butter, sosfilt
+        sos = butter(4, [90, 700], btype='band', fs=SR, output='sos')
+        x = sosfilt(sos, rng.standard_normal(n))
+        x = x / (np.abs(x).max() + 1e-9)
+        t = np.arange(n) / SR
+        x *= .65 + .25 * np.sin(2 * np.pi * .07 * t) + .1 * np.sin(2 * np.pi * .23 * t + 1)
+        b = np.zeros(n)
+        for st in np.arange(0, total, .12):
+            if rng.random() < .35:
+                d = rng.uniform(.03, .08); m = int(d * SR); a = int((st + rng.random() * .1) * SR)
+                tt = np.arange(m) / SR; f0 = rng.uniform(350, 900)
+                ch = np.sin(2 * np.pi * (f0 * tt + 2500 * tt ** 2)) * np.sin(np.pi * tt / d) * rng.uniform(.2, .5)
+                b[a:a + m] += ch[:max(0, n - a)]
+        b = sosfilt(butter(2, 1800, fs=SR, output='sos'), b)
+        return x * .022 + b * .012
     if tipo == 'noite':
         x = np.zeros(n); t = np.arange(int(.05 * SR)) / SR
         for st in np.arange(0, total, .9):
