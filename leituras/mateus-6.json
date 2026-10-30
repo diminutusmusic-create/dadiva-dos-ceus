@@ -1,0 +1,985 @@
+{
+ "titulo": "Não andeis ansiosos",
+ "subtitulo": "Mateus 6 para dormir",
+ "voz": "pm_santa",
+ "velocidade": 1.0,
+ "pausa_verso": 2.4,
+ "ambiente": "riacho",
+ "fps": 24,
+ "cauda": 20,
+ "fim": "Dádiva dos Céus",
+ "blocos": [
+  {
+   "nome": "Abertura",
+   "cenario": "jardim_manha",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Abertura",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Seja bem-vindo. Que bom ter você aqui.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se a sua mente está acelerada esta noite, este momento é para você.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Vamos começar devagar. Ajeite o corpo. Solte o maxilar, os ombros, as mãos.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Respire fundo pelo nariz… segure um instante… e solte devagar pela boca. Mais uma vez. Inspire… e solte.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A ansiedade é uma das maiores companheiras da noite. É quando deitamos que os pensamentos começam a correr. As contas, o trabalho, a saúde, a família, o amanhã.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus conhecia esse sentimento. E no Sermão do Monte, Ele falou diretamente sobre ele, com palavras simples, olhando para os passarinhos e para as flores do campo.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Hoje vamos ouvir essas palavras de Mateus capítulo seis, e outras passagens da Bíblia que falam sobre entregar as preocupações a Deus.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Você não precisa resolver nada agora. Só ouvir. E deixar que cada palavra vá acalmando o coração.",
+     "rotulo": "Abertura",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura de Mateus 6",
+   "cenario": "passaros_campo",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Mateus 6",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:25",
+     "texto": "Por isso vos digo: não andeis ansiosos por vossa vida, sobre o que haveis de comer, ou que haveis de beber; nem por vosso corpo, sobre com que vos haveis de vestir. Não é a vida mais que o alimento, e o corpo mais que a roupa?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:26",
+     "texto": "Olhai para as aves do céu, que não semeiam, nem ceifam, nem ajuntam em celeiros; e contudo vosso Pai celestial as alimenta. Não sois vós muito mais importantes que elas?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:27",
+     "texto": "E qual de vós poderá, por sua ansiedade, acrescentar um côvado à sua estatura?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:28",
+     "texto": "E por que andais ansiosos pela roupa? Prestai atenção aos lírios do campo, como crescem; eles nem trabalham nem fiam.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:29",
+     "texto": "Mas eu vos digo que nem mesmo Salomão, em toda a sua glória, se vestiu como um deles.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:30",
+     "texto": "Se Deus veste desta maneira a erva do campo, que hoje existe, e amanhã é lançada no forno, não vestirá ele muito mais a vós, que tendes pouca fé?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:31",
+     "texto": "Não andeis, pois, ansiosos, dizendo: “Que comeremos?” Ou “Que beberemos?” Ou “Com que nos vestiremos?”",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:32",
+     "texto": "Porque os gentios buscam todas estas coisas, e vosso Pai celestial sabe que necessitais destas coisas, todas elas.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:33",
+     "texto": "Mas buscai primeiramente o Reino de Deus e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:34",
+     "texto": "Não andeis, pois, ansiosos pelo dia de amanhã, porque o amanhã cuidará de si mesmo. Basta a cada dia o seu mal.",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Não andeis ansiosos",
+   "cenario": "vale_nascer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Mateus 6:25",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:25",
+     "texto": "Por isso vos digo: não andeis ansiosos por vossa vida, sobre o que haveis de comer, ou que haveis de beber; nem por vosso corpo, sobre com que vos haveis de vestir. Não é a vida mais que o alimento, e o corpo mais que a roupa?",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus fala de coisas muito concretas: o que vamos comer, o que vamos beber, o que vamos vestir. As necessidades do dia a dia.",
+     "rotulo": "Meditação · Mateus 6:25",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele não está dizendo que essas coisas não importam. Está dizendo que a preocupação constante com elas não acrescenta nada.",
+     "rotulo": "Meditação · Mateus 6:25",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E faz uma pergunta: não é a vida mais do que o alimento, e o corpo mais do que a roupa?",
+     "rotulo": "Meditação · Mateus 6:25",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ou seja, se Deus deu a você a vida, que é o maior presente, será que Ele vai se esquecer das coisas menores?",
+     "rotulo": "Meditação · Mateus 6:25",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A ansiedade costuma fazer o contrário. Ela pega as coisas pequenas e faz com que pareçam maiores do que a própria vida.",
+     "rotulo": "Meditação · Mateus 6:25",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, Jesus convida você a colocar as coisas no tamanho certo de novo.",
+     "rotulo": "Meditação · Mateus 6:25",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Olhai as aves do céu",
+   "cenario": "passaros_campo",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 6:26-27",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:26",
+     "texto": "Olhai para as aves do céu, que não semeiam, nem ceifam, nem ajuntam em celeiros; e contudo vosso Pai celestial as alimenta. Não sois vós muito mais importantes que elas?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:27",
+     "texto": "E qual de vós poderá, por sua ansiedade, acrescentar um côvado à sua estatura?",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus aponta para cima. Olhem os passarinhos.",
+     "rotulo": "Meditação · Mateus 6:26-27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Eles não plantam, não colhem, não guardam em celeiros. E mesmo assim, todos os dias, encontram o que comer.",
+     "rotulo": "Meditação · Mateus 6:26-27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não é que os pássaros sejam preguiçosos. Eles trabalham, buscam, voam. Mas não carregam a angústia do amanhã.",
+     "rotulo": "Meditação · Mateus 6:26-27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Jesus pergunta: vocês não valem muito mais do que eles?",
+     "rotulo": "Meditação · Mateus 6:26-27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Depois vem uma pergunta quase bem-humorada: quem de vocês, preocupando-se, consegue acrescentar um centímetro à própria altura? Ou, em outra tradução, uma hora à própria vida?",
+     "rotulo": "Meditação · Mateus 6:26-27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A resposta é óbvia: ninguém. A preocupação não muda o futuro. Ela só rouba a paz do presente.",
+     "rotulo": "Meditação · Mateus 6:26-27",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os lírios do campo",
+   "cenario": "flores_campo",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 6:28-30",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:28",
+     "texto": "E por que andais ansiosos pela roupa? Prestai atenção aos lírios do campo, como crescem; eles nem trabalham nem fiam.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:29",
+     "texto": "Mas eu vos digo que nem mesmo Salomão, em toda a sua glória, se vestiu como um deles.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:30",
+     "texto": "Se Deus veste desta maneira a erva do campo, que hoje existe, e amanhã é lançada no forno, não vestirá ele muito mais a vós, que tendes pouca fé?",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora Jesus olha para baixo. Para as flores do campo.",
+     "rotulo": "Meditação · Mateus 6:28-30",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Elas não trabalham, não costuram roupa. E mesmo assim, nem o rei Salomão, com toda a sua riqueza, se vestiu com tanta beleza.",
+     "rotulo": "Meditação · Mateus 6:28-30",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus usa a palavra \"observai\". Prestai atenção. Parem um instante e reparem.",
+     "rotulo": "Meditação · Mateus 6:28-30",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez a ansiedade venha justamente da falta de pausa. Da pressa que não nos deixa reparar no cuidado de Deus que já está à nossa volta.",
+     "rotulo": "Meditação · Mateus 6:28-30",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se Deus veste assim uma flor que hoje está no campo e amanhã já secou, quanto mais Ele vai cuidar de você.",
+     "rotulo": "Meditação · Mateus 6:28-30",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus termina com uma expressão carinhosa: homens de pouca fé. Não é uma bronca. É como um pai que diz ao filho: você ainda não percebeu o quanto eu te amo?",
+     "rotulo": "Meditação · Mateus 6:28-30",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "O Pai sabe",
+   "cenario": "trigo_dourado",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 6:31-32",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:31",
+     "texto": "Não andeis, pois, ansiosos, dizendo: “Que comeremos?” Ou “Que beberemos?” Ou “Com que nos vestiremos?”",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:32",
+     "texto": "Porque os gentios buscam todas estas coisas, e vosso Pai celestial sabe que necessitais destas coisas, todas elas.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Que comeremos? Que beberemos? Com que nos vestiremos? Talvez você tenha as suas próprias versões dessas perguntas.",
+     "rotulo": "Meditação · Mateus 6:31-32",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Como vou pagar isso? Como vai ser o resultado daquele exame? O que vai acontecer com o meu filho? E se der errado?",
+     "rotulo": "Meditação · Mateus 6:31-32",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus responde com uma frase curta e poderosa: o vosso Pai celestial sabe que necessitais de todas estas coisas.",
+     "rotulo": "Meditação · Mateus 6:31-32",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele sabe. Antes de você pedir, antes de você explicar, Ele já sabe.",
+     "rotulo": "Meditação · Mateus 6:31-32",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A ansiedade nos faz sentir que precisamos lembrar Deus das nossas necessidades, como se Ele pudesse esquecer. Mas Ele não esquece.",
+     "rotulo": "Meditação · Mateus 6:31-32",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Buscai primeiro o Reino",
+   "cenario": "caminho_luz",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 6:33",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:33",
+     "texto": "Mas buscai primeiramente o Reino de Deus e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta é a chave de todo o texto.",
+     "rotulo": "Meditação · Mateus 6:33",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus não diz apenas \"não se preocupe\". Ele mostra para onde direcionar o coração: buscai primeiro o Reino de Deus.",
+     "rotulo": "Meditação · Mateus 6:33",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É uma questão de ordem. Quando Deus está em primeiro lugar, as outras coisas encontram o seu lugar.",
+     "rotulo": "Meditação · Mateus 6:33",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Buscar o Reino é confiar, orar, procurar fazer o que é certo, amar as pessoas, entregar o controle.",
+     "rotulo": "Meditação · Mateus 6:33",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E a promessa vem junto: todas estas coisas vos serão acrescentadas.",
+     "rotulo": "Meditação · Mateus 6:33",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não é uma fórmula para ficar rico. É a garantia de que quem busca a Deus não vai ser abandonado nas suas necessidades.",
+     "rotulo": "Meditação · Mateus 6:33",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Basta a cada dia o seu mal",
+   "cenario": "ceu_aurora",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Mateus 6:34",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:34",
+     "texto": "Não andeis, pois, ansiosos pelo dia de amanhã, porque o amanhã cuidará de si mesmo. Basta a cada dia o seu mal.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez este seja o versículo mais prático de todos para a hora de dormir.",
+     "rotulo": "Meditação · Mateus 6:34",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não andeis ansiosos pelo dia de amanhã. O amanhã cuidará de si mesmo.",
+     "rotulo": "Meditação · Mateus 6:34",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Hoje já passou. Já foi vivido. Amanhã ainda não chegou. E quando chegar, virá com a graça própria dele.",
+     "rotulo": "Meditação · Mateus 6:34",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Muitas vezes nós sofremos duas vezes: uma vez antecipando o problema, e outra vez quando ele chega. E às vezes o problema nem chega.",
+     "rotulo": "Meditação · Mateus 6:34",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus nos ensina a viver um dia de cada vez. Basta a cada dia o seu mal.",
+     "rotulo": "Meditação · Mateus 6:34",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, você pode dizer: o dia de hoje acabou. O de amanhã está nas mãos de Deus. Agora é hora de descansar.",
+     "rotulo": "Meditação · Mateus 6:34",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Por que a noite pesa",
+   "cenario": "oceano_noite",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Reflexão",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Você já reparou que as preocupações parecem maiores à noite?",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Durante o dia, estamos ocupados. Há tarefas, conversas, barulho. A mente tem com o que se distrair.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas quando deitamos e o silêncio chega, tudo aquilo que ficou guardado sobe à superfície. E o cansaço deixa tudo mais pesado.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Isso não significa que você tem pouca fé. Significa que você é humano.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O próprio Jesus, na noite antes da cruz, sentiu uma angústia tão grande que suou como gotas de sangue. E o que Ele fez? Orou. Falou com o Pai. Colocou diante dEle tudo o que sentia.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A Bíblia nunca pede que a gente finja que não sente medo. Ela nos ensina o que fazer com o medo: entregar.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Por isso a noite pode se tornar um lugar de encontro. Em vez de ficar sozinho com os pensamentos, você pode transformá-los em conversa com Deus.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Cada preocupação que aparecer pode virar uma frase de oração. Senhor, cuida disso. Senhor, eu não sei o que fazer com isso. Senhor, eu entrego isso a Ti.",
+     "rotulo": "Reflexão",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "A paz que excede o entendimento",
+   "cenario": "rio_salgueiro",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Filipenses 4",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O apóstolo Paulo escreveu sobre ansiedade de dentro de uma prisão. E mesmo assim, as palavras dele transbordam paz.",
+     "rotulo": "Filipenses 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Filipenses 4:6",
+     "texto": "Não estejais ansiosos por coisa alguma; mas em tudo, por meio de orações e súplicas com ações de gratidão, sejam os vossos pedidos conhecidos por Deus;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Filipenses 4:7",
+     "texto": "e a paz de Deus, que excede todo entendimento, guardará os vossos corações e as vossas mentes em Cristo Jesus.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Paulo não diz apenas \"não fique ansioso\". Ele mostra o que fazer: transformar a preocupação em oração.",
+     "rotulo": "Filipenses 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Em tudo. Não só nas coisas grandes. Em tudo, com orações, súplicas e gratidão, apresentem os seus pedidos a Deus.",
+     "rotulo": "Filipenses 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare que a gratidão entra no meio. Agradecer pelo que já recebemos acalma o coração enquanto esperamos pelo que ainda pedimos.",
+     "rotulo": "Filipenses 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E a promessa é que a paz de Deus, uma paz que nem dá para explicar, vai guardar o seu coração e a sua mente.",
+     "rotulo": "Filipenses 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Guardar é a palavra usada para um soldado vigiando uma cidade. A paz de Deus fica de guarda nos seus pensamentos.",
+     "rotulo": "Filipenses 4",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Lançando sobre Ele",
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "1 Pedro 5 · Salmo 55",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O apóstolo Pedro, que conhecia bem o medo e a fraqueza, escreveu assim:",
+     "rotulo": "1 Pedro 5 · Salmo 55",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "1 Pedro 5:7",
+     "texto": "lançando sobre ele toda a vossa ansiedade; porque ele tem cuidado de vós.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Lançar é um verbo forte. Não é colocar com cuidado e depois pegar de volta. É jogar para longe, como quem tira um peso das costas.",
+     "rotulo": "1 Pedro 5 · Salmo 55",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E o motivo é simples: porque Ele tem cuidado de vós.",
+     "rotulo": "1 Pedro 5 · Salmo 55",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O Salmo cinquenta e cinco diz a mesma coisa:",
+     "rotulo": "1 Pedro 5 · Salmo 55",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 55:22",
+     "texto": "Entrega tuas preocupações ao SENHOR, e ele te sustentará; ele não permitirá que o justo fique caído para sempre.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Entregue as suas preocupações ao Senhor. Ele vai sustentar você.",
+     "rotulo": "1 Pedro 5 · Salmo 55",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez você possa fazer isso agora, de um jeito bem concreto. Pense na preocupação que mais pesa esta noite. E em silêncio, diga: Senhor, eu lanço isso sobre Ti.",
+     "rotulo": "1 Pedro 5 · Salmo 55",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Paz perfeita",
+   "cenario": "juncos_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Isaías 26",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O profeta Isaías deixou uma promessa para os que confiam.",
+     "rotulo": "Isaías 26",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 26:3",
+     "texto": "Tu guardarás em completa paz aquele que tem firme entendimento, pois ele confia em ti.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 26:4",
+     "texto": "Confiai no SENHOR para sempre, pois no SENHOR DEUS está a rocha eterna.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Completa paz. Paz perfeita. Para quem mantém o pensamento firme em Deus.",
+     "rotulo": "Isaías 26",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A mente ansiosa vai de um lado para o outro. Pula de uma preocupação para outra. Isaías nos convida a firmar o pensamento em alguém que não muda.",
+     "rotulo": "Isaías 26",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Deus é chamado aqui de rocha eterna. Tudo pode balançar, mas a rocha continua firme.",
+     "rotulo": "Isaías 26",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Novas a cada manhã",
+   "cenario": "mar_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Lamentações 3",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "E para quem tem medo do dia de amanhã, há uma promessa escrita no meio de um livro cheio de tristeza.",
+     "rotulo": "Lamentações 3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Lamentações 3:22",
+     "texto": "É pelas bondades do SENHOR que não somos consumidos, porque suas misericórdias não têm fim.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Lamentações 3:23",
+     "texto": "Elas são novas a cada manhã; grande é a tua fidelidade.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "O profeta Jeremias escreveu isso depois de ver a cidade dele destruída. No meio das ruínas, ele lembrou de algo que não tinha sido destruído: a misericórdia de Deus.",
+     "rotulo": "Lamentações 3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ela se renova a cada manhã. Amanhã, quando você acordar, vai ter misericórdia nova esperando por você. Não a sobra de ontem. Uma porção nova.",
+     "rotulo": "Lamentações 3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Grande é a Tua fidelidade.",
+     "rotulo": "Lamentações 3",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Descansando o corpo",
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Descanso",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Antes de seguir, vamos dar um descanso também ao corpo. A ansiedade não fica só na mente. Ela se instala nos ombros, no peito, na respiração.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Comece pelos pés. Deixe que eles fiquem pesados, soltos.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora as pernas. Sinta o peso delas afundando no colchão.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Solte a barriga. Não precisa segurar nada.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Deixe o peito subir e descer devagar, no ritmo natural da respiração.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Solte os ombros. Deixe que eles caiam, longe das orelhas.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Relaxe os braços, as mãos, os dedos.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Solte o maxilar. Deixe a língua descansar.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Relaxe a testa e a região em volta dos olhos.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora todo o seu corpo está descansando. Seguro. Acolhido.",
+     "rotulo": "Descanso",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E enquanto o corpo descansa, deixe o coração descansar também em Deus.",
+     "rotulo": "Descanso",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Exercício de entrega",
+   "cenario": "janela_chuva",
+   "efeito": [],
+   "rotulo": "Entrega",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Antes da oração, vamos fazer um pequeno exercício.",
+     "rotulo": "Entrega",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Respire fundo e solte devagar.",
+     "rotulo": "Entrega",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pense na primeira preocupação que aparecer. Dê um nome a ela. E imagine que você a coloca nas mãos de Deus.",
+     "rotulo": "Entrega",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Respire de novo. Pense na segunda. Coloque também.",
+     "rotulo": "Entrega",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se vierem outras, faça o mesmo. Uma de cada vez. Sem pressa.",
+     "rotulo": "Entrega",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora pense em três coisas pelas quais você é grato hoje. A primeira… A segunda… A terceira.",
+     "rotulo": "Entrega",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare como a gratidão vai abrindo espaço no coração. É ali que a paz de Deus entra.",
+     "rotulo": "Entrega",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Oração da noite",
+   "cenario": "casa_luz",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Oração da noite",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Vamos orar.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pai, Tu sabes de tudo o que eu preciso, antes mesmo de eu pedir.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite eu lanço sobre Ti as minhas preocupações. As contas, o trabalho, a saúde, as pessoas que eu amo, o futuro que eu não consigo ver.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Eu reconheço que a ansiedade não acrescenta nada à minha vida. Por isso eu escolho confiar.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ensina-me a olhar para as aves e para as flores, e lembrar que Tu cuidas de mim.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ajuda-me a buscar primeiro o Teu Reino, e a viver um dia de cada vez.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Que a Tua paz, que excede todo entendimento, guarde o meu coração e a minha mente esta noite.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E que amanhã eu acorde com misericórdias novas, sabendo que grande é a Tua fidelidade.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Em nome de Jesus. Amém.",
+     "rotulo": "Oração da noite",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura final",
+   "cenario": "passaros_campo",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Leitura final",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Para terminar, vamos ouvir mais uma vez as palavras de Jesus, bem devagar.",
+     "rotulo": "Leitura final",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:26",
+     "texto": "Olhai para as aves do céu, que não semeiam, nem ceifam, nem ajuntam em celeiros; e contudo vosso Pai celestial as alimenta. Não sois vós muito mais importantes que elas?",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:28",
+     "texto": "E por que andais ansiosos pela roupa? Prestai atenção aos lírios do campo, como crescem; eles nem trabalham nem fiam.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:33",
+     "texto": "Mas buscai primeiramente o Reino de Deus e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 6:34",
+     "texto": "Não andeis, pois, ansiosos pelo dia de amanhã, porque o amanhã cuidará de si mesmo. Basta a cada dia o seu mal.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "E a promessa de Pedro, para você levar para o travesseiro:",
+     "rotulo": "Leitura final",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "1 Pedro 5:7",
+     "texto": "lançando sobre ele toda a vossa ansiedade; porque ele tem cuidado de vós.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Boa noite. O amanhã está nas mãos dEle. Agora, descanse.",
+     "rotulo": "Leitura final",
+     "pausa": 4.0
+    }
+   ]
+  }
+ ]
+}

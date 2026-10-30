@@ -1,0 +1,1001 @@
+{
+ "titulo": "João 14",
+ "subtitulo": "Não se perturbe o vosso coração",
+ "voz": "pm_santa",
+ "velocidade": 1.0,
+ "pausa_verso": 2.4,
+ "ambiente": "riacho",
+ "fps": 24,
+ "cauda": 20,
+ "fim": "Dádiva dos Céus",
+ "blocos": [
+  {
+   "nome": "Abertura",
+   "cenario": "casa_luz",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Abertura",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Seja bem-vindo. Que bom ter você aqui.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antes de começar, permita que o corpo descanse. Ajeite-se com calma. Solte os ombros. Respire fundo… e solte devagar.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mais uma vez. Inspire… e solte.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Hoje vamos ouvir palavras que Jesus disse numa noite muito especial. Foi a última noite com os seus discípulos antes da cruz.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Eles estavam reunidos numa sala no andar de cima de uma casa em Jerusalém. Tinham acabado de cear juntos. E Jesus começou a falar que iria partir.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Os discípulos ficaram assustados. Confusos. Tristes. Para onde Ele iria? O que seria deles sem Ele?",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E foi para esses corações perturbados que Jesus disse as palavras do capítulo catorze de João. Palavras de consolo, de promessa e de paz.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "São palavras perfeitas para uma noite como esta. Vamos ouvi-las com calma.",
+     "rotulo": "Abertura",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura de João 14",
+   "cenario": "janela_chuva",
+   "efeito": [],
+   "rotulo": "João 14",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:1",
+     "texto": "Não se perturbe vosso coração; credes em Deus, crede também em mim.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:2",
+     "texto": "Na casa de meu Pai há muitas moradas; senão, eu vos diria; vou para vos preparar lugar.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:3",
+     "texto": "E quando eu for, e vos preparar lugar, outra vez virei, e vos tomarei comigo, para que vós também estejais onde eu estiver.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:4",
+     "texto": "E já sabeis para onde vou, e sabeis o caminho.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:5",
+     "texto": "Disse-lhe Tomé: Senhor, não sabemos para onde vais; e como podemos saber o caminho?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:6",
+     "texto": "Jesus lhe disse: Eu sou o caminho, e a verdade, e a vida. Ninguém vem ao Pai, a não ser por mim.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:16",
+     "texto": "E eu rogarei ao Pai, e ele vos dará outro Consolador, para que fique sempre convosco;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:17",
+     "texto": "Ao Espírito de verdade, a quem o mundo não pode receber; porque não o vê, nem o conhece; mas vós o conheceis, porque habita convosco, e estará em vós.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:18",
+     "texto": "Não vos deixarei órfãos; eu virei a vós.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:27",
+     "texto": "A paz vos deixo, minha paz vos dou; vou dá-la a vós, não como o mundo a dá. Não se perturbe vosso coração, nem se atemorize.",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Aquela noite",
+   "cenario": "lamparina_pedra",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "O cenáculo",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Vale a pena imaginar aquela noite com mais detalhes.",
+     "rotulo": "O cenáculo",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Era a semana da Páscoa. Jerusalém estava cheia de peregrinos. Jesus e os doze se reuniram numa sala no andar de cima, iluminada por lamparinas de azeite.",
+     "rotulo": "O cenáculo",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pouco antes, Jesus tinha feito algo que deixou todos sem palavras. Ele tirou a capa, pegou uma bacia com água e uma toalha, e começou a lavar os pés dos discípulos. O trabalho do servo mais simples da casa.",
+     "rotulo": "O cenáculo",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pedro tentou impedir. Mas Jesus insistiu. Ele queria que eles entendessem que o amor verdadeiro se abaixa para servir.",
+     "rotulo": "O cenáculo",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Depois, durante a ceia, Jesus partiu o pão e serviu o vinho, dizendo que aquilo representava o Seu corpo e o Seu sangue, entregues por eles.",
+     "rotulo": "O cenáculo",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E então começou a falar de partida. Um deles ia traí-lo. Pedro ia negá-lo. E Ele ia para um lugar aonde eles ainda não podiam ir.",
+     "rotulo": "O cenáculo",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Imagine o silêncio naquela sala. O medo nos olhos dos discípulos. As perguntas que ninguém tinha coragem de fazer.",
+     "rotulo": "O cenáculo",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Foi nesse momento, sabendo tudo o que estava por vir nas próximas horas, que Jesus não pensou em si mesmo. Ele pensou no coração dos amigos. E disse: não se perturbe o vosso coração.",
+     "rotulo": "O cenáculo",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Não se perturbe o vosso coração",
+   "cenario": "rio_salgueiro",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · João 14:1",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:1",
+     "texto": "Não se perturbe vosso coração; credes em Deus, crede também em mim.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare que Jesus fala do coração. Não da cabeça, não dos problemas. Do coração.",
+     "rotulo": "Meditação · João 14:1",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele sabia que o coração dos discípulos estava agitado. E sabe que o seu também pode estar.",
+     "rotulo": "Meditação · João 14:1",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não se perturbe. A palavra traz a ideia de águas agitadas, mexidas. Jesus está dizendo: deixe as águas do seu coração se acalmarem.",
+     "rotulo": "Meditação · João 14:1",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Ele mostra como: credes em Deus, crede também em mim.",
+     "rotulo": "Meditação · João 14:1",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A paz não vem de tudo estar resolvido. Vem de confiar em quem tem o controle.",
+     "rotulo": "Meditação · João 14:1",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Os discípulos não sabiam o que ia acontecer nas próximas horas. Mas sabiam em quem podiam confiar.",
+     "rotulo": "Meditação · João 14:1",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Muitas moradas",
+   "cenario": "casa_luz",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Meditação · João 14:2-3",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:2",
+     "texto": "Na casa de meu Pai há muitas moradas; senão, eu vos diria; vou para vos preparar lugar.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:3",
+     "texto": "E quando eu for, e vos preparar lugar, outra vez virei, e vos tomarei comigo, para que vós também estejais onde eu estiver.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Na casa de meu Pai há muitas moradas.",
+     "rotulo": "Meditação · João 14:2-3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Naquela época, quando um jovem ficava noivo, ele voltava para a casa do pai e começava a construir um quarto para a futura família. Quando estivesse pronto, ele vinha buscar a noiva.",
+     "rotulo": "Meditação · João 14:2-3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus usa essa imagem. Eu vou preparar um lugar para vocês. E depois volto para buscá-los.",
+     "rotulo": "Meditação · João 14:2-3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Há lugar para você na casa do Pai. Um lugar preparado com cuidado, pensado especialmente para você.",
+     "rotulo": "Meditação · João 14:2-3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E repare na frase final: para que onde eu estiver, estejais vós também.",
+     "rotulo": "Meditação · João 14:2-3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O céu não é, antes de tudo, um lugar bonito. É estar com Ele. A promessa mais profunda é de companhia.",
+     "rotulo": "Meditação · João 14:2-3",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "O caminho",
+   "cenario": "caminho_luz",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · João 14:4-6",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:4",
+     "texto": "E já sabeis para onde vou, e sabeis o caminho.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:5",
+     "texto": "Disse-lhe Tomé: Senhor, não sabemos para onde vais; e como podemos saber o caminho?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:6",
+     "texto": "Jesus lhe disse: Eu sou o caminho, e a verdade, e a vida. Ninguém vem ao Pai, a não ser por mim.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Tomé, o discípulo sincero, fez a pergunta que todos estavam pensando: Senhor, nós não sabemos para onde vais. Como vamos saber o caminho?",
+     "rotulo": "Meditação · João 14:4-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É bom saber que podemos fazer perguntas a Jesus. Tomé não fingiu entender. Ele perguntou.",
+     "rotulo": "Meditação · João 14:4-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E a resposta de Jesus é uma das frases mais conhecidas da Bíblia: Eu sou o caminho, e a verdade, e a vida.",
+     "rotulo": "Meditação · João 14:4-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus não diz \"eu vou mostrar o caminho\". Ele diz \"eu sou o caminho\".",
+     "rotulo": "Meditação · João 14:4-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Quando não sabemos para onde ir, não precisamos de um mapa completo. Precisamos de alguém para seguir.",
+     "rotulo": "Meditação · João 14:4-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele é a verdade, quando tudo parece confuso. Ele é a vida, quando tudo parece morrer.",
+     "rotulo": "Meditação · João 14:4-6",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Quem me vê, vê o Pai",
+   "cenario": "luz_montanhas",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · João 14:8-9",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:8",
+     "texto": "Disse-lhe Filipe: Senhor, mostra-nos ao Pai, e basta-nos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:9",
+     "texto": "Jesus lhe disse: Tanto tempo há que estou convosco, e ainda não me tens conhecido, Filipe? Quem a mim tem visto, já tem visto ao Pai; e como dizes tu: Mostra-nos ao Pai?",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Filipe faz um pedido: Senhor, mostra-nos o Pai, e isso nos basta.",
+     "rotulo": "Meditação · João 14:8-9",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Jesus responde com carinho e uma pontinha de surpresa: Filipe, estou há tanto tempo com vocês, e você ainda não me conhece?",
+     "rotulo": "Meditação · João 14:8-9",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Quem me vê, vê o Pai.",
+     "rotulo": "Meditação · João 14:8-9",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se você quer saber como Deus é, olhe para Jesus. O jeito que Ele tocou os doentes. Como acolheu as crianças. Como perdoou. Como chorou com os amigos.",
+     "rotulo": "Meditação · João 14:8-9",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Deus não é distante nem frio. Ele se parece com Jesus.",
+     "rotulo": "Meditação · João 14:8-9",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Porque eu vivo",
+   "cenario": "mar_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · João 14:19-20",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:19",
+     "texto": "Ainda um pouco, e o mundo não me verá mais; mas vós me vereis; porque eu vivo, e vós vivereis.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:20",
+     "texto": "Naquele dia conhecereis que estou em meu Pai, e vós em mim, e eu em vós.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ainda um pouco, e o mundo não me verá mais. Jesus estava falando da cruz. Em poucas horas, Ele seria preso, julgado e crucificado.",
+     "rotulo": "Meditação · João 14:19-20",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas logo em seguida Ele diz: vós me vereis. Porque eu vivo, e vós vivereis.",
+     "rotulo": "Meditação · João 14:19-20",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus já estava falando da ressurreição. A morte não ia ter a última palavra. E a vida dEle seria a garantia da vida de todos que confiam nEle.",
+     "rotulo": "Meditação · João 14:19-20",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Porque eu vivo, vós vivereis. É uma frase para guardar nos dias de luto, de doença, de medo.",
+     "rotulo": "Meditação · João 14:19-20",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E depois: naquele dia conhecereis que eu estou em meu Pai, e vós em mim, e eu em vós.",
+     "rotulo": "Meditação · João 14:19-20",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Uma união tão próxima que Jesus usa a linguagem de estar um dentro do outro. Você não está apenas perto de Deus. Você está nEle. E Ele está em você.",
+     "rotulo": "Meditação · João 14:19-20",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Outro Consolador",
+   "cenario": "ceu_aurora",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · João 14:16-18",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:16",
+     "texto": "E eu rogarei ao Pai, e ele vos dará outro Consolador, para que fique sempre convosco;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:17",
+     "texto": "Ao Espírito de verdade, a quem o mundo não pode receber; porque não o vê, nem o conhece; mas vós o conheceis, porque habita convosco, e estará em vós.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:18",
+     "texto": "Não vos deixarei órfãos; eu virei a vós.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus ia partir, mas não ia deixar os discípulos sozinhos.",
+     "rotulo": "Meditação · João 14:16-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Eu rogarei ao Pai, e Ele vos dará outro Consolador. O Espírito Santo.",
+     "rotulo": "Meditação · João 14:16-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A palavra que traduzimos como Consolador significa alguém chamado para ficar ao lado. Um advogado, um ajudador, um amigo que não sai de perto.",
+     "rotulo": "Meditação · João 14:16-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Jesus diz: Ele habita convosco, e estará em vós.",
+     "rotulo": "Meditação · João 14:16-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E então uma das frases mais ternas de toda a Bíblia: não vos deixarei órfãos.",
+     "rotulo": "Meditação · João 14:16-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Um órfão é alguém que perdeu quem cuidava dele. Jesus garante: isso não vai acontecer com vocês. Vocês não vão ficar desamparados.",
+     "rotulo": "Meditação · João 14:16-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se você se sente sozinho esta noite, ouça essas palavras como se fossem ditas para você. Não te deixarei órfão. Eu venho até você.",
+     "rotulo": "Meditação · João 14:16-18",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Faremos morada",
+   "cenario": "jardim_manha",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · João 14:23",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:23",
+     "texto": "Respondeu Jesus, e disse-lhe: Se alguém me ama, guardará minha palavra, e meu Pai o amará, e viremos a ele, e faremos morada com ele.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antes Jesus falou de moradas no céu. Agora Ele fala de uma morada aqui, dentro de nós.",
+     "rotulo": "Meditação · João 14:23",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se alguém me ama, meu Pai o amará, e viremos a ele, e faremos morada com ele.",
+     "rotulo": "Meditação · João 14:23",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Deus não quer apenas que um dia você more com Ele. Ele quer morar com você agora.",
+     "rotulo": "Meditação · João 14:23",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "No seu dia comum. Na sua casa. No seu coração cansado.",
+     "rotulo": "Meditação · João 14:23",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "A minha paz vos dou",
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · João 14:27",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "João 14:27",
+     "texto": "A paz vos deixo, minha paz vos dou; vou dá-la a vós, não como o mundo a dá. Não se perturbe vosso coração, nem se atemorize.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus termina com um presente. A paz vos deixo, a minha paz vos dou.",
+     "rotulo": "Meditação · João 14:27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare: Ele não diz \"uma paz\". Ele diz \"a minha paz\". A mesma paz que Ele tinha enquanto caminhava para a cruz.",
+     "rotulo": "Meditação · João 14:27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Ele faz questão de diferenciar: não vos dou como o mundo dá.",
+     "rotulo": "Meditação · João 14:27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A paz do mundo depende das circunstâncias. Quando tudo vai bem, há paz. Quando algo dá errado, ela vai embora.",
+     "rotulo": "Meditação · João 14:27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A paz de Jesus é diferente. Ela continua mesmo quando as coisas não estão bem. É uma paz que fica de pé no meio da tempestade.",
+     "rotulo": "Meditação · João 14:27",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Ele repete o começo do capítulo: não se perturbe o vosso coração, nem se atemorize.",
+     "rotulo": "Meditação · João 14:27",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Para quem tem saudade",
+   "cenario": "oceano_noite",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Reflexão",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Muitas pessoas que ouvem estas palavras estão vivendo uma saudade.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Alguém que partiu. Um pai, uma mãe, um filho, um amigo, um amor. E a noite costuma ser o momento em que a falta aperta mais.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "As palavras de Jesus em João catorze são lidas em muitos velórios, e não é por acaso. Elas falam de uma casa com muitas moradas. De um lugar preparado. De um reencontro.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus não disse que a despedida não dói. Ele mesmo chorou diante do túmulo do amigo Lázaro, mesmo sabendo que iria ressuscitá-lo.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas Ele colocou a dor dentro de uma esperança maior. A morte não é o fim da história para quem está nas mãos dEle.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se você sente saudade de alguém esta noite, pode entregar essa saudade a Deus. Pode falar com Ele sobre essa pessoa. Pode chorar, se precisar.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E pode descansar na promessa: na casa do Pai há muitas moradas. E quem nos preparou o lugar, um dia vai nos buscar.",
+     "rotulo": "Reflexão",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Ficai quietos",
+   "cenario": "juncos_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Salmo 46",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O Salmo quarenta e seis é um bom companheiro para as palavras de Jesus.",
+     "rotulo": "Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:1",
+     "texto": "Deus é nosso refúgio e força; socorro oportuno nas angústias.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:2",
+     "texto": "Por isso não temeremos, ainda que a terra se mova, e ainda que as montanhas passem ao interior dos mares;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:3",
+     "texto": "Ainda que suas águas rujam e se perturbem, e as montanhas tremam por sua braveza. (Selá)",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:10",
+     "texto": "Ficai quietos, e sabei que eu sou Deus; eu serei exaltado entre as nações; serei exaltado sobre a terra.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:11",
+     "texto": "O SENHOR dos exércitos está conosco; o Deus de Jacó é nosso alto refúgio. (Selá)",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ainda que a terra trema. Ainda que as águas se agitem. Deus é o nosso refúgio.",
+     "rotulo": "Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E no meio de todo o barulho, Ele diz: ficai quietos, e sabei que eu sou Deus.",
+     "rotulo": "Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Às vezes a fé não é fazer mais. É parar. Aquietar o coração. Lembrar quem Ele é.",
+     "rotulo": "Salmo 46",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Chamado pelo nome",
+   "cenario": "rio_salgueiro",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Isaías 43",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Muito antes de Jesus, Deus já tinha falado ao seu povo com essa mesma ternura.",
+     "rotulo": "Isaías 43",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 43:1",
+     "texto": "Porém agora assim diz o SENHOR, o teu Criador, ó Jacó, e o teu Formador, ó Israel: Não temas, porque eu te resgatei; chamei a ti por teu nome; tu és meu.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 43:2",
+     "texto": "Quando passares pelas águas, estarei contigo; e ao passares pelos rios, eles não te submergirão; quando passares pelo fogo, não te queimarás, nem a chamas arderão em ti.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não temas. Eu te resgatei. Chamei-te pelo nome. Tu és meu.",
+     "rotulo": "Isaías 43",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antes de falar das águas e do fogo, Deus lembra a quem você pertence.",
+     "rotulo": "Isaías 43",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "As águas e o fogo podem vir. Mas não vão vencer você. Porque Ele vai atravessar junto.",
+     "rotulo": "Isaías 43",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Todos os dias",
+   "cenario": "trigo_dourado",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Mateus 28",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "E as últimas palavras de Jesus no evangelho de Mateus confirmam tudo o que Ele prometeu naquela noite.",
+     "rotulo": "Mateus 28",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 28:20",
+     "texto": "ensinando-lhes a guardar todas as coisas que eu vos tenho mandado. E eis que eu estou convosco todos os dias, até o fim dos tempos. Amém.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Todos os dias. Não só nos dias de culto. Não só nos dias bons. Todos os dias.",
+     "rotulo": "Mateus 28",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Hoje, amanhã, e em cada dia que ainda vai chegar, Ele está com você.",
+     "rotulo": "Mateus 28",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Gratidão e entrega",
+   "cenario": "lamparina_pedra",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Gratidão",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Antes da oração, vamos fazer uma pausa.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pense no que tem perturbado o seu coração. Dê um nome a isso, em silêncio.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora imagine Jesus olhando para você com carinho e dizendo: não se perturbe o teu coração.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Respire fundo. E entregue.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora agradeça. Pela presença dEle hoje. Pelas pessoas que cuidaram de você. Pela casa onde você vai dormir.",
+     "rotulo": "Gratidão",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Oração da noite",
+   "cenario": "casa_noite",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Oração da noite",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Vamos orar.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Senhor Jesus, obrigado pelas palavras que disseste naquela noite, e que hoje chegam até mim.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O meu coração às vezes fica perturbado. Hoje eu Te entrego tudo o que me tira a paz.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Obrigado porque Tu és o caminho, a verdade e a vida. Quando eu não souber para onde ir, eu quero seguir a Ti.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Obrigado porque preparaste um lugar para mim na casa do Pai.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Obrigado porque não me deixaste órfão. Que o Teu Espírito Consolador esteja comigo esta noite.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Dá-me a Tua paz. Não a paz do mundo, mas a Tua.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Abençoa as pessoas que eu amo, e guarda a nossa casa.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Que eu durma tranquilo, sabendo que Tu estás comigo todos os dias.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Em Teu nome, amém.",
+     "rotulo": "Oração da noite",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura final",
+   "cenario": "casa_luz",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Leitura final",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Para terminar, ouça mais uma vez as palavras de Jesus, bem devagar.",
+     "rotulo": "Leitura final",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:1",
+     "texto": "Não se perturbe vosso coração; credes em Deus, crede também em mim.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:2",
+     "texto": "Na casa de meu Pai há muitas moradas; senão, eu vos diria; vou para vos preparar lugar.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:3",
+     "texto": "E quando eu for, e vos preparar lugar, outra vez virei, e vos tomarei comigo, para que vós também estejais onde eu estiver.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:18",
+     "texto": "Não vos deixarei órfãos; eu virei a vós.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "João 14:27",
+     "texto": "A paz vos deixo, minha paz vos dou; vou dá-la a vós, não como o mundo a dá. Não se perturbe vosso coração, nem se atemorize.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Boa noite. Que a paz de Jesus guarde o seu coração.",
+     "rotulo": "Leitura final",
+     "pausa": 4.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1017 @@
+{
+ "titulo": "Salmo 139",
+ "subtitulo": "Senhor, Tu me conheces",
+ "voz": "pm_santa",
+ "velocidade": 1.0,
+ "pausa_verso": 2.4,
+ "ambiente": "riacho",
+ "fps": 24,
+ "cauda": 20,
+ "fim": "Dádiva dos Céus",
+ "blocos": [
+  {
+   "nome": "Abertura",
+   "cenario": "vale_nascer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Abertura",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Seja bem-vindo. Que bom ter você aqui.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antes de começarmos, permita-se descansar. Ajeite o corpo, solte os ombros, deixe as mãos repousarem.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Respire fundo… e solte devagar. Mais uma vez. Inspire… e solte.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Hoje vamos ouvir um dos salmos mais pessoais de toda a Bíblia: o Salmo cento e trinta e nove.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É um salmo sobre ser conhecido. Não conhecido pela aparência, nem pelo que os outros pensam de nós. Conhecido por inteiro. Por dentro e por fora.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Muita gente passa a vida com medo de ser conhecida de verdade. Com medo de que, se alguém visse tudo, deixaria de amar.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O Salmo cento e trinta e nove diz o contrário. Existe alguém que vê tudo, que sabe tudo, e que continua perto. Que continua segurando a nossa mão.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Vamos ouvir o salmo e depois caminhar por ele com calma, versículo por versículo.",
+     "rotulo": "Abertura",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura do Salmo 139",
+   "cenario": "mar_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Salmo 139",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:1",
+     "texto": "SENHOR, tu me examinas e me conheces.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:2",
+     "texto": "Tu sabes o meu sentar e o meu caminhar; de longe entendes meus pensamentos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:3",
+     "texto": "Tu cercas o meu andar e meu deitar; conheces desde antes os meus caminhos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:4",
+     "texto": "Mesmo não havendo ainda palavra alguma em minha língua, eis, SENHOR, que já sabes tudo.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:5",
+     "texto": "Tu me envolves por detrás e pela frente, e pões tua mão sobre mim.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:6",
+     "texto": "Teu conhecimento é maravilhoso demais para mim, tão alto que não posso alcançá-lo.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:7",
+     "texto": "Para onde eu escaparia de teu Espírito? E para onde fugiria de tua presença?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:8",
+     "texto": "Se eu subisse até os céus, lá tu estás; se eu fizer meu leito no Xeol, eis que tu também ali estás.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:9",
+     "texto": "Se eu tomasse as asas do amanhecer, e morasse nas extremidades do mar,",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:10",
+     "texto": "Até ali tua mão me guiaria, e tua mão direita me seguraria.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:11",
+     "texto": "Se eu dissesse: Certamente as trevas me encobrirão; e a luz ao redor de mim será como a noite.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:12",
+     "texto": "Porém nem mesmo as trevas me esconderão de ti; ao invés disso, pois a noite é tão clara quanto o dia, e aos teus olhos as trevas são como a luz.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:13",
+     "texto": "Porque tu és dono do meu ser, e me cobriste no ventre da minha mãe.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:14",
+     "texto": "Eu te louvarei porque de um jeito assombroso e maravilhoso eu fui feito; maravilhosas são tuas obras; e minha alma sabe muito bem.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:15",
+     "texto": "Meus ossos não estavam escondidos de ti quando eu fui feito em oculto, e formado como tramas de tecido nas profundezas da terra.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:16",
+     "texto": "Teus olhos viram meu corpo ainda sem forma, e tudo estava escrito em teu livro; até os dias estavam determinados quando nenhum deles ainda havia.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:17",
+     "texto": "Como são preciosos para mim os teus pensamentos, Deus! Como é grande a quantidade deles!",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:18",
+     "texto": "Se eu os contasse, seriam muito mais numerosos que a areia; quando acordo, ainda estou contigo.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:23",
+     "texto": "Examina-me, Deus, e conhece meu coração; prova-me, e conhece meus pensamentos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:24",
+     "texto": "E vê se em mim há algum mau caminho; e guia-me pelo caminho eterno.",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Tu me examinas e me conheces",
+   "cenario": "floresta_raios",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Salmo 139:1-4",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:1",
+     "texto": "SENHOR, tu me examinas e me conheces.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:2",
+     "texto": "Tu sabes o meu sentar e o meu caminhar; de longe entendes meus pensamentos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:3",
+     "texto": "Tu cercas o meu andar e meu deitar; conheces desde antes os meus caminhos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:4",
+     "texto": "Mesmo não havendo ainda palavra alguma em minha língua, eis, SENHOR, que já sabes tudo.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmo começa com uma afirmação simples e profunda: Senhor, Tu me examinas e me conheces.",
+     "rotulo": "Meditação · Salmo 139:1-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Davi não diz apenas que Deus sabe coisas sobre ele. Diz que Deus o conhece. É uma palavra de intimidade.",
+     "rotulo": "Meditação · Salmo 139:1-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Tu sabes quando me sento e quando me levanto. Os momentos mais comuns do dia, os mais rotineiros, não passam despercebidos.",
+     "rotulo": "Meditação · Salmo 139:1-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "De longe entendes os meus pensamentos. Antes mesmo de a palavra chegar à boca, Ele já sabe.",
+     "rotulo": "Meditação · Salmo 139:1-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Isso pode assustar no começo. Ninguém gosta de pensar que os seus pensamentos estão expostos.",
+     "rotulo": "Meditação · Salmo 139:1-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas repare no tom do salmo. Não é um tom de ameaça. É um tom de admiração. Davi não se sente vigiado. Ele se sente acompanhado.",
+     "rotulo": "Meditação · Salmo 139:1-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Tu cercas o meu andar e o meu deitar. Até o momento de deitar, este momento agora, está cercado pelo cuidado de Deus.",
+     "rotulo": "Meditação · Salmo 139:1-4",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "A mão sobre mim",
+   "cenario": "jardim_manha",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Salmo 139:5-6",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:5",
+     "texto": "Tu me envolves por detrás e pela frente, e pões tua mão sobre mim.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:6",
+     "texto": "Teu conhecimento é maravilhoso demais para mim, tão alto que não posso alcançá-lo.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Tu me envolves por detrás e pela frente. É a imagem de um abraço completo. Não há lado desprotegido.",
+     "rotulo": "Meditação · Salmo 139:5-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E pões a Tua mão sobre mim. Pense no gesto de um pai que coloca a mão no ombro do filho. Ou de uma mãe que coloca a mão na testa da criança para ver se está com febre.",
+     "rotulo": "Meditação · Salmo 139:5-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É um gesto de cuidado, de presença, de proteção.",
+     "rotulo": "Meditação · Salmo 139:5-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Davi diz: esse conhecimento é maravilhoso demais para mim. Tão alto que não consigo alcançar.",
+     "rotulo": "Meditação · Salmo 139:5-6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Às vezes não entendemos como Deus pode se importar com detalhes tão pequenos das nossas vidas. Não precisamos entender. Podemos simplesmente receber.",
+     "rotulo": "Meditação · Salmo 139:5-6",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Para onde eu iria",
+   "cenario": "monte_nuvens",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Salmo 139:7-10",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:7",
+     "texto": "Para onde eu escaparia de teu Espírito? E para onde fugiria de tua presença?",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:8",
+     "texto": "Se eu subisse até os céus, lá tu estás; se eu fizer meu leito no Xeol, eis que tu também ali estás.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:9",
+     "texto": "Se eu tomasse as asas do amanhecer, e morasse nas extremidades do mar,",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:10",
+     "texto": "Até ali tua mão me guiaria, e tua mão direita me seguraria.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Davi faz uma pergunta e já sabe a resposta: para onde eu fugiria da Tua presença?",
+     "rotulo": "Meditação · Salmo 139:7-10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E começa a imaginar os lugares mais distantes possíveis. O mais alto dos céus. O mais fundo da sepultura. As asas do amanhecer, lá onde o sol nasce no oriente. O fim do mar, no ocidente.",
+     "rotulo": "Meditação · Salmo 139:7-10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Em todos esses lugares, a resposta é a mesma: Tu estás lá.",
+     "rotulo": "Meditação · Salmo 139:7-10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez você já tenha se sentido longe de Deus. Talvez tenha tentado fugir, ou simplesmente se afastado sem perceber.",
+     "rotulo": "Meditação · Salmo 139:7-10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmo diz que não existe distância grande o bastante. Até ali a Tua mão me guiaria, e a Tua mão direita me seguraria.",
+     "rotulo": "Meditação · Salmo 139:7-10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não somos nós que seguramos Deus. É Ele que segura a gente. Mesmo quando a nossa mão escorrega.",
+     "rotulo": "Meditação · Salmo 139:7-10",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "A noite é clara como o dia",
+   "cenario": "oceano_noite",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Meditação · Salmo 139:11-12",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:11",
+     "texto": "Se eu dissesse: Certamente as trevas me encobrirão; e a luz ao redor de mim será como a noite.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:12",
+     "texto": "Porém nem mesmo as trevas me esconderão de ti; ao invés disso, pois a noite é tão clara quanto o dia, e aos teus olhos as trevas são como a luz.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Este é um versículo para ser lido à noite.",
+     "rotulo": "Meditação · Salmo 139:11-12",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Davi pensa: talvez as trevas me escondam. Talvez na escuridão eu fique fora do alcance.",
+     "rotulo": "Meditação · Salmo 139:11-12",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E a resposta vem: nem as trevas são escuras para Ti. A noite é tão clara quanto o dia.",
+     "rotulo": "Meditação · Salmo 139:11-12",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Há escuridões que não têm a ver com a falta de luz. A escuridão da tristeza, da dúvida, da depressão, do luto. Momentos em que parece que ninguém nos vê.",
+     "rotulo": "Meditação · Salmo 139:11-12",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas para Deus, essas noites não escondem nada. Ele enxerga você perfeitamente, mesmo quando você não consegue enxergar nada.",
+     "rotulo": "Meditação · Salmo 139:11-12",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, quando apagar a luz, lembre-se: para Ele, este quarto está claro como o dia. Você não está sozinho no escuro.",
+     "rotulo": "Meditação · Salmo 139:11-12",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Feito de modo maravilhoso",
+   "cenario": "flores_campo",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Salmo 139:13-16",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:13",
+     "texto": "Porque tu és dono do meu ser, e me cobriste no ventre da minha mãe.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:14",
+     "texto": "Eu te louvarei porque de um jeito assombroso e maravilhoso eu fui feito; maravilhosas são tuas obras; e minha alma sabe muito bem.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:15",
+     "texto": "Meus ossos não estavam escondidos de ti quando eu fui feito em oculto, e formado como tramas de tecido nas profundezas da terra.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:16",
+     "texto": "Teus olhos viram meu corpo ainda sem forma, e tudo estava escrito em teu livro; até os dias estavam determinados quando nenhum deles ainda havia.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora o salmo volta ao começo da vida. Tu me formaste no ventre da minha mãe.",
+     "rotulo": "Meditação · Salmo 139:13-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antes que alguém soubesse o seu nome, antes do primeiro choro, Deus já estava trabalhando em você. Com cuidado, como quem tece um tecido fio por fio.",
+     "rotulo": "Meditação · Salmo 139:13-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Eu Te louvarei, porque de modo assombroso e maravilhoso fui feito.",
+     "rotulo": "Meditação · Salmo 139:13-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Quantas vezes nós olhamos para nós mesmos com críticas. O corpo que não é como gostaríamos, a personalidade que achamos difícil, os defeitos que não conseguimos mudar.",
+     "rotulo": "Meditação · Salmo 139:13-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmo nos convida a olhar de outro jeito: você é obra das mãos de Deus. Ele não comete erros de fabricação.",
+     "rotulo": "Meditação · Salmo 139:13-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E ainda mais: todos os seus dias estavam escritos no livro dEle antes de qualquer um deles acontecer. A sua história não está solta. Ela está nas mãos de quem a escreveu.",
+     "rotulo": "Meditação · Salmo 139:13-16",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Pensamentos preciosos",
+   "cenario": "ceu_aurora",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Salmo 139:17-18",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:17",
+     "texto": "Como são preciosos para mim os teus pensamentos, Deus! Como é grande a quantidade deles!",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:18",
+     "texto": "Se eu os contasse, seriam muito mais numerosos que a areia; quando acordo, ainda estou contigo.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Davi termina essa parte com uma imagem linda. Os pensamentos de Deus são mais numerosos que a areia.",
+     "rotulo": "Meditação · Salmo 139:17-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Imagine uma praia inteira. Cada grão de areia é um pensamento de Deus. E Davi diz: esses pensamentos são preciosos para mim.",
+     "rotulo": "Meditação · Salmo 139:17-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E então uma frase perfeita para quem vai dormir: quando acordo, ainda estou contigo.",
+     "rotulo": "Meditação · Salmo 139:17-18",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Você vai fechar os olhos. A noite vai passar. E quando abrir os olhos amanhã, Ele ainda vai estar lá. Não saiu do seu lado enquanto você dormia.",
+     "rotulo": "Meditação · Salmo 139:17-18",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Conhecidos antes de nascer",
+   "cenario": "caminho_luz",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Jeremias 1 · Efésios 2",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Outras passagens da Bíblia confirmam o que o Salmo cento e trinta e nove diz. Deus conhece cada pessoa desde antes do começo.",
+     "rotulo": "Jeremias 1 · Efésios 2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ao profeta Jeremias, Deus disse:",
+     "rotulo": "Jeremias 1 · Efésios 2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Jeremias 1:5",
+     "texto": "Antes que te formasse no ventre eu te conheci, e antes que saísses do útero eu te santifiquei, te dei por profeta às nações.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "E o apóstolo Paulo escreveu:",
+     "rotulo": "Jeremias 1 · Efésios 2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Efésios 2:10",
+     "texto": "Pois nós fomos feitos por ele, criados em Cristo Jesus para as boas obras, que Deus preparou para que nelas andássemos.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Você não é um acaso. Você foi pensado, conhecido e preparado. E há um caminho de boas obras que Deus já deixou pronto para você andar.",
+     "rotulo": "Jeremias 1 · Efésios 2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mesmo quando a vida parece sem sentido, existe um propósito guardado. Às vezes ele se revela devagar, um dia de cada vez.",
+     "rotulo": "Jeremias 1 · Efésios 2",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Escrito nas palmas das mãos",
+   "cenario": "rio_salgueiro",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Isaías 49",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O profeta Isaías trouxe uma das declarações mais tocantes do amor de Deus.",
+     "rotulo": "Isaías 49",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 49:15",
+     "texto": "Pode, por acaso, uma mulher se esquecer do filho que ainda amamenta, de modo que não se compadeça do filho de seu próprio ventre? Ainda que elas se esquecessem, contudo, eu não me esquecerei de ti.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 49:16",
+     "texto": "Eis que eu te tenho escrito nas minhas palmas de ambas as mãos; teus muros estão continuamente perante mim.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Uma mãe esquecer o filho que amamenta parece impossível. E Deus diz: mesmo que isso acontecesse, eu não me esqueceria de você.",
+     "rotulo": "Isaías 49",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E depois: eu te tenho escrito nas palmas das minhas mãos.",
+     "rotulo": "Isaías 49",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Quando queremos não esquecer algo, às vezes escrevemos na mão. Deus usa essa imagem: o seu nome está gravado nas mãos dEle.",
+     "rotulo": "Isaías 49",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E quando pensamos nas mãos de Jesus, marcadas pelos pregos, essa promessa ganha um sentido ainda mais profundo. Ele carrega você nas mãos para sempre.",
+     "rotulo": "Isaías 49",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Até os cabelos estão contados",
+   "cenario": "trigo_dourado",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Mateus 10",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Jesus falou desse mesmo cuidado com palavras bem simples.",
+     "rotulo": "Mateus 10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 10:29",
+     "texto": "Não se vendem dois pardais por uma pequena moeda? Mas nem um deles cairá em terra contra a vontade de vosso Pai.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 10:30",
+     "texto": "E até os cabelos de vossas cabeças estão todos contados.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 10:31",
+     "texto": "Assim, não tenhais medo; mais valeis vós que muitos pardais.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se Deus conhece até o número de fios de cabelo da sua cabeça, não existe preocupação pequena demais para levar a Ele.",
+     "rotulo": "Mateus 10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não precisa ser uma oração bonita. Não precisa ser um problema enorme. Ele se importa com os detalhes.",
+     "rotulo": "Mateus 10",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Examina-me",
+   "cenario": "lamparina_pedra",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Salmo 139:23-24",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O salmo termina com uma oração corajosa.",
+     "rotulo": "Meditação · Salmo 139:23-24",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:23",
+     "texto": "Examina-me, Deus, e conhece meu coração; prova-me, e conhece meus pensamentos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:24",
+     "texto": "E vê se em mim há algum mau caminho; e guia-me pelo caminho eterno.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Depois de perceber que Deus já conhece tudo, Davi faz um pedido: examina-me. Conhece o meu coração. Prova os meus pensamentos.",
+     "rotulo": "Meditação · Salmo 139:23-24",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É como abrir as portas da casa e dizer: pode entrar em todos os cômodos. Inclusive naqueles que eu tenho vergonha de mostrar.",
+     "rotulo": "Meditação · Salmo 139:23-24",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E vê se há em mim algum mau caminho. Davi sabe que não é perfeito. Mas ele confia que Deus vai tratar o que encontrar com cuidado.",
+     "rotulo": "Meditação · Salmo 139:23-24",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E por fim: guia-me pelo caminho eterno.",
+     "rotulo": "Meditação · Salmo 139:23-24",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É uma oração que podemos fazer todas as noites. Senhor, olha para dentro de mim. Cura o que precisa ser curado. E me leva pelo caminho certo.",
+     "rotulo": "Meditação · Salmo 139:23-24",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Conhecido e amado",
+   "cenario": "juncos_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Reflexão",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Existe uma diferença grande entre ser conhecido e ser amado. E a maioria de nós tem medo de ter uma coisa sem a outra.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ser amado sem ser conhecido é frágil. A gente fica com medo de que, se a pessoa descobrir quem realmente somos, o amor acabe.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ser conhecido sem ser amado é assustador. É como ser exposto sem ninguém para cobrir.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O que o Salmo cento e trinta e nove mostra é que, com Deus, as duas coisas andam juntas. Ele conhece tudo. E ama completamente.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele conhece os seus erros e não desiste de você. Conhece os seus medos e não ri deles. Conhece as suas feridas e sabe exatamente onde tocar para curar.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Você não precisa conquistar esse amor. Não precisa provar nada. Ele já viu o pior e o melhor de você, e escolheu ficar.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez seja por isso que esse salmo traz tanta paz. Porque tira de nós o peso de fingir. Diante de Deus, podemos simplesmente ser quem somos.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, descanse nisso. Você é totalmente conhecido. E totalmente amado.",
+     "rotulo": "Reflexão",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Gratidão e entrega",
+   "cenario": "janela_chuva",
+   "efeito": [],
+   "rotulo": "Gratidão",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Antes da oração, vamos fazer uma pausa.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pense em como você se sente esta noite. Cansado, preocupado, em paz, triste. Não precisa esconder nada. Ele já sabe.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora agradeça por uma coisa do dia de hoje. Por menor que seja.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E agradeça também por ser conhecido. Por não precisar fingir diante de Deus.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se houver algo pesando, entregue. Ele conhece o peso melhor do que ninguém.",
+     "rotulo": "Gratidão",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Oração da noite",
+   "cenario": "casa_luz",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Oração da noite",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Vamos orar.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Senhor, Tu me examinas e me conheces. Sabes quando me sento e quando me levanto.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Obrigado porque não preciso esconder nada de Ti. Tu me conheces por inteiro, e mesmo assim me amas.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Obrigado porque me formaste de modo maravilhoso. Ajuda-me a olhar para mim mesmo com os Teus olhos.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se em algum momento eu me senti longe, obrigado porque a Tua mão continuou me segurando.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite eu entrego o meu coração. Examina-me, e cura o que precisa ser curado.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Cuida das pessoas que eu amo. Tu conheces cada uma delas melhor do que eu.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Que eu durma em paz, e que amanhã, quando eu acordar, ainda esteja contigo.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Em nome de Jesus. Amém.",
+     "rotulo": "Oração da noite",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura final",
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Leitura final",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Para terminar, ouça mais uma vez algumas palavras do salmo, bem devagar.",
+     "rotulo": "Leitura final",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:1",
+     "texto": "SENHOR, tu me examinas e me conheces.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:2",
+     "texto": "Tu sabes o meu sentar e o meu caminhar; de longe entendes meus pensamentos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:3",
+     "texto": "Tu cercas o meu andar e meu deitar; conheces desde antes os meus caminhos.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:9",
+     "texto": "Se eu tomasse as asas do amanhecer, e morasse nas extremidades do mar,",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:10",
+     "texto": "Até ali tua mão me guiaria, e tua mão direita me seguraria.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:11",
+     "texto": "Se eu dissesse: Certamente as trevas me encobrirão; e a luz ao redor de mim será como a noite.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:12",
+     "texto": "Porém nem mesmo as trevas me esconderão de ti; ao invés disso, pois a noite é tão clara quanto o dia, e aos teus olhos as trevas são como a luz.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:17",
+     "texto": "Como são preciosos para mim os teus pensamentos, Deus! Como é grande a quantidade deles!",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 139:18",
+     "texto": "Se eu os contasse, seriam muito mais numerosos que a areia; quando acordo, ainda estou contigo.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Boa noite. Quando você acordar, Ele ainda estará com você.",
+     "rotulo": "Leitura final",
+     "pausa": 4.0
+    }
+   ]
+  }
+ ]
+}

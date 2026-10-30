@@ -1,0 +1,1021 @@
+{
+ "titulo": "Salmo 91",
+ "subtitulo": "Debaixo das Suas asas",
+ "voz": "pm_santa",
+ "velocidade": 1.0,
+ "pausa_verso": 2.4,
+ "ambiente": "riacho",
+ "fps": 24,
+ "cauda": 20,
+ "fim": "Dádiva dos Céus",
+ "blocos": [
+  {
+   "nome": "Abertura",
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Abertura",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Seja bem-vindo. Que bom ter você aqui, no fim de mais um dia.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antes de qualquer coisa, permita-se parar. Ajeite o corpo, solte os ombros, descanse as mãos.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Respire fundo… e deixe o ar sair devagar. Mais uma vez. Inspire… e solte.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Hoje vamos ouvir um salmo que acompanha o povo de Deus há milhares de anos nas horas de medo e de incerteza: o Salmo noventa e um.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Muitas famílias têm esse salmo aberto em casa. Muitos soldados o levaram no bolso. Muitas mães o repetiram ao lado da cama de um filho doente.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É um salmo sobre proteção. Sobre um lugar seguro onde podemos nos esconder quando o mundo lá fora parece grande demais.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Vamos ler o salmo inteiro primeiro. Depois, vamos voltar a cada parte com calma, e ouvir também outras promessas das Escrituras sobre o cuidado de Deus.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Você não precisa fazer nada. Apenas ouça. E se o sono chegar, receba-o em paz.",
+     "rotulo": "Abertura",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura do Salmo 91",
+   "cenario": "rocha_fortaleza",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Salmo 91",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:1",
+     "texto": "Aquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:2",
+     "texto": "Direi ao SENHOR: Tu és meu refúgio e minha fortaleza; Deus meu, em quem confio.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:3",
+     "texto": "Porque ele te livrará do laço do caçador e da peste maligna.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:4",
+     "texto": "Com suas penas ele te cobrirá, e debaixo de suas asas estarás protegido; a verdade dele é escudo grande e protetor.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:5",
+     "texto": "Não terás medo do terror da noite, nem da flecha que voa de dia;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:6",
+     "texto": "Nem da peste que anda às escuras, nem da mortandade que assola ao meio-dia.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:7",
+     "texto": "Cairão mil ao teu lado, e dez mil à tua direita, mas a ti nada alcançará.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:8",
+     "texto": "Somente verás com teus olhos, e observarás o pagamento dos perversos;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:9",
+     "texto": "Porque tu fizeste como morada ao SENHOR: o meu refúgio, o Altíssimo.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:10",
+     "texto": "Mal nenhum te sucederá, nem praga alguma chegará à tua tenda;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:11",
+     "texto": "Porque ele ordenou aos anjos quanto a ti, para que guardem todos os teus caminhos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:12",
+     "texto": "Pelas mãos te levarão, para que não tropeces teu pé em alguma pedra.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:13",
+     "texto": "Tu pisarás sobre o leão e a cobra; passarás esmagando ao filho do leão e à serpente.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:14",
+     "texto": "Por ele ter me amado tanto, eu também o livrarei; em alto retiro eu o porei, porque ele conhece o meu nome.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:15",
+     "texto": "Ele me chamará, e eu o responderei; estarei com ele na angústia; dela eu o livrarei, e o honrarei.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:16",
+     "texto": "Eu o satisfarei com uma longa vida, e lhe mostrarei a minha salvação.",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "O esconderijo do Altíssimo",
+   "cenario": "tenda_estrelas",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Meditação · Salmo 91:1-2",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:1",
+     "texto": "Aquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:2",
+     "texto": "Direi ao SENHOR: Tu és meu refúgio e minha fortaleza; Deus meu, em quem confio.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmo começa com um endereço. Aquele que mora no esconderijo do Altíssimo.",
+     "rotulo": "Meditação · Salmo 91:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare na palavra \"mora\". Não é quem visita de vez em quando. Não é quem corre para lá só na hora do desespero. É quem faz daquele lugar a sua casa.",
+     "rotulo": "Meditação · Salmo 91:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E que casa é essa? O esconderijo do Altíssimo. A sombra do Todo-Poderoso.",
+     "rotulo": "Meditação · Salmo 91:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "No deserto de Israel, sombra era questão de vida. O sol do meio-dia podia ser cruel. Encontrar a sombra de uma rocha grande era encontrar descanso, alívio, sobrevivência.",
+     "rotulo": "Meditação · Salmo 91:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmista diz: a minha sombra é o próprio Deus. Eu vivo debaixo dEle.",
+     "rotulo": "Meditação · Salmo 91:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E então vem uma decisão pessoal: \"Direi ao Senhor: Tu és meu refúgio e minha fortaleza.\"",
+     "rotulo": "Meditação · Salmo 91:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É interessante que a fé aqui começa com uma frase falada. Uma confissão. É como se o salmista dissesse: eu não vou apenas pensar nisso, eu vou dizer em voz alta.",
+     "rotulo": "Meditação · Salmo 91:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez você possa fazer o mesmo agora, mesmo em silêncio, no coração: Senhor, Tu és o meu refúgio. Tu és a minha fortaleza. Em Ti eu confio.",
+     "rotulo": "Meditação · Salmo 91:1-2",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Debaixo das Suas asas",
+   "cenario": "asas_aguia",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Salmo 91:3-4",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:3",
+     "texto": "Porque ele te livrará do laço do caçador e da peste maligna.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:4",
+     "texto": "Com suas penas ele te cobrirá, e debaixo de suas asas estarás protegido; a verdade dele é escudo grande e protetor.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Que imagem delicada no meio de um salmo tão forte. Com Suas penas Ele te cobrirá, e debaixo de Suas asas estarás protegido.",
+     "rotulo": "Meditação · Salmo 91:3-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É a imagem de uma ave cuidando dos filhotes. Quando vem a tempestade, ou quando um predador se aproxima, a mãe abre as asas e recolhe os pequenos para baixo dela.",
+     "rotulo": "Meditação · Salmo 91:3-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Os filhotes não lutam contra a tempestade. Eles não precisam ser fortes. Eles só precisam estar debaixo das asas.",
+     "rotulo": "Meditação · Salmo 91:3-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus usou essa mesma imagem quando olhou para Jerusalém e disse que queria reunir os seus filhos como a galinha reúne os pintinhos debaixo das asas.",
+     "rotulo": "Meditação · Salmo 91:3-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O laço do caçador é a armadilha escondida, aquilo que a gente não vê chegando. A peste é o mal que se espalha sem pedir licença.",
+     "rotulo": "Meditação · Salmo 91:3-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Nós não controlamos nada disso. Mas podemos escolher onde ficar: debaixo das asas.",
+     "rotulo": "Meditação · Salmo 91:3-4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E a verdade dEle, diz o salmo, é escudo grande e protetor. Não é um escudo pequeno, que cobre só uma parte. É grande. Cobre tudo.",
+     "rotulo": "Meditação · Salmo 91:3-4",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "O terror da noite",
+   "cenario": "tenda_estrelas",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Meditação · Salmo 91:5-8",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:5",
+     "texto": "Não terás medo do terror da noite, nem da flecha que voa de dia;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:6",
+     "texto": "Nem da peste que anda às escuras, nem da mortandade que assola ao meio-dia.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:7",
+     "texto": "Cairão mil ao teu lado, e dez mil à tua direita, mas a ti nada alcançará.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:8",
+     "texto": "Somente verás com teus olhos, e observarás o pagamento dos perversos;",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Este é um versículo perfeito para a hora de dormir. Não terás medo do terror da noite.",
+     "rotulo": "Meditação · Salmo 91:5-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A noite tem seus próprios medos. Os barulhos da casa parecem maiores. Os pensamentos ficam mais pesados. Aquilo que de dia parecia pequeno, à noite cresce.",
+     "rotulo": "Meditação · Salmo 91:5-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmo não diz que a noite não vai ter escuridão. Ele diz que você não precisa ter medo dela.",
+     "rotulo": "Meditação · Salmo 91:5-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E repare como ele passa por todas as horas do dia: o terror da noite, a flecha que voa de dia, a peste que anda às escuras, a mortandade ao meio-dia. Manhã, tarde e noite. Não existe hora em que você esteja fora do alcance desse cuidado.",
+     "rotulo": "Meditação · Salmo 91:5-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mil cairão ao teu lado, e dez mil à tua direita. É uma linguagem de batalha. Ao redor pode haver muita confusão, muita queda, muita notícia ruim.",
+     "rotulo": "Meditação · Salmo 91:5-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas há um ponto firme no meio disso tudo: a ti nada alcançará.",
+     "rotulo": "Meditação · Salmo 91:5-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Isso não é uma promessa de que nunca vamos sofrer. É a certeza de que nada pode nos arrancar das mãos de Deus. O que é essencial em nós está guardado.",
+     "rotulo": "Meditação · Salmo 91:5-8",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os anjos que guardam os caminhos",
+   "cenario": "monte_nuvens",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Salmo 91:9-13",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:9",
+     "texto": "Porque tu fizeste como morada ao SENHOR: o meu refúgio, o Altíssimo.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:10",
+     "texto": "Mal nenhum te sucederá, nem praga alguma chegará à tua tenda;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:11",
+     "texto": "Porque ele ordenou aos anjos quanto a ti, para que guardem todos os teus caminhos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:12",
+     "texto": "Pelas mãos te levarão, para que não tropeces teu pé em alguma pedra.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:13",
+     "texto": "Tu pisarás sobre o leão e a cobra; passarás esmagando ao filho do leão e à serpente.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mais uma vez o salmo volta ao tema da morada. Porque tu fizeste do Senhor a tua casa.",
+     "rotulo": "Meditação · Salmo 91:9-13",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E então vem uma das promessas mais bonitas da Bíblia: Ele ordenou aos anjos quanto a ti, para que guardem todos os teus caminhos.",
+     "rotulo": "Meditação · Salmo 91:9-13",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Imagine isso. O Deus do universo dá uma ordem a respeito de você. Você é assunto no céu.",
+     "rotulo": "Meditação · Salmo 91:9-13",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pelas mãos te levarão, para que não tropeces teu pé em alguma pedra. É um cuidado de detalhe. Não só nos grandes perigos, mas também nas pequenas pedras do caminho.",
+     "rotulo": "Meditação · Salmo 91:9-13",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Quantas vezes você foi guardado sem nem perceber? Um atraso que evitou um acidente. Uma palavra certa na hora certa. Uma porta que se fechou para proteger você.",
+     "rotulo": "Meditação · Salmo 91:9-13",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O leão e a serpente, no versículo treze, representam os perigos mais temidos daquela época. A força bruta e o perigo escondido. O salmo diz que, com Deus, até isso fica debaixo dos seus pés.",
+     "rotulo": "Meditação · Salmo 91:9-13",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Deus responde",
+   "cenario": "rocha_fortaleza",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Salmo 91:14-16",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:14",
+     "texto": "Por ele ter me amado tanto, eu também o livrarei; em alto retiro eu o porei, porque ele conhece o meu nome.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:15",
+     "texto": "Ele me chamará, e eu o responderei; estarei com ele na angústia; dela eu o livrarei, e o honrarei.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:16",
+     "texto": "Eu o satisfarei com uma longa vida, e lhe mostrarei a minha salvação.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora acontece algo especial. Até aqui, quem falava era o salmista. Nos últimos versículos, quem fala é o próprio Deus.",
+     "rotulo": "Meditação · Salmo 91:14-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Ele diz: por ele ter me amado tanto, eu também o livrarei.",
+     "rotulo": "Meditação · Salmo 91:14-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O salmo inteiro descreve a proteção de Deus. Mas no final descobrimos o motivo de tudo: é uma relação de amor. Não é um amuleto, não é uma fórmula mágica. É um relacionamento.",
+     "rotulo": "Meditação · Salmo 91:14-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele conhece o meu nome. Ele me chamará, e eu o responderei.",
+     "rotulo": "Meditação · Salmo 91:14-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare nesta frase: estarei com ele na angústia. Deus não promete que a angústia nunca vai chegar. Ele promete estar dentro dela, junto com você.",
+     "rotulo": "Meditação · Salmo 91:14-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E depois: dela eu o livrarei, e o honrarei.",
+     "rotulo": "Meditação · Salmo 91:14-16",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se hoje você está passando por um tempo difícil, ouça essa voz: eu estou com você nisso. Você não vai atravessar sozinho.",
+     "rotulo": "Meditação · Salmo 91:14-16",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Uma torre forte",
+   "cenario": "jerusalem_entardecer",
+   "efeito": [],
+   "rotulo": "Provérbios 18 · Isaías 41",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "A Bíblia está cheia de promessas que ecoam o Salmo noventa e um. Vamos ouvir algumas delas.",
+     "rotulo": "Provérbios 18 · Isaías 41",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Provérbios 18:10",
+     "texto": "O nome do SENHOR é uma torre forte; o justo correrá até ele, e ficará seguro.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antigamente, quando um inimigo se aproximava de uma cidade, as pessoas corriam para a torre. As paredes eram grossas, a porta era forte, e lá dentro estavam seguras.",
+     "rotulo": "Provérbios 18 · Isaías 41",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O nome do Senhor é essa torre. Basta correr até Ele.",
+     "rotulo": "Provérbios 18 · Isaías 41",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 41:10",
+     "texto": "Não temas, porque eu estou contigo; não te assombres, porque eu sou teu Deus. Eu te fortaleço, te ajudo, e te sustento com a minha mão direita de justiça.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não temas, porque eu estou contigo. Deus não começa dizendo \"não vai acontecer nada\". Ele começa dizendo \"eu estou contigo\".",
+     "rotulo": "Provérbios 18 · Isaías 41",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E depois vem uma sequência de três verbos que valem a pena guardar: eu te fortaleço, eu te ajudo, eu te sustento.",
+     "rotulo": "Provérbios 18 · Isaías 41",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Quando a sua força acabar, Ele fortalece. Quando você não souber o que fazer, Ele ajuda. Quando você sentir que vai cair, Ele sustenta com a mão direita.",
+     "rotulo": "Provérbios 18 · Isaías 41",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os pardais e os cabelos",
+   "cenario": "flores_campo",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Mateus 10",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Jesus também falou do cuidado de Deus de um jeito muito simples, olhando para os passarinhos.",
+     "rotulo": "Mateus 10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 10:29",
+     "texto": "Não se vendem dois pardais por uma pequena moeda? Mas nem um deles cairá em terra contra a vontade de vosso Pai.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 10:30",
+     "texto": "E até os cabelos de vossas cabeças estão todos contados.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 10:31",
+     "texto": "Assim, não tenhais medo; mais valeis vós que muitos pardais.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Naquela época, um pardal era uma das coisas mais baratas do mercado. Dois por uma moedinha.",
+     "rotulo": "Mateus 10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E mesmo assim, Jesus diz, nenhum deles cai sem que o Pai saiba.",
+     "rotulo": "Mateus 10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E então Ele vai mais longe: até os cabelos da sua cabeça estão contados.",
+     "rotulo": "Mateus 10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ninguém conta os próprios cabelos. Nem a mãe mais cuidadosa faz isso. Mas Deus conhece você nesse nível de detalhe.",
+     "rotulo": "Mateus 10",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Por isso, diz Jesus, não tenham medo. Você vale mais do que muitos pardais.",
+     "rotulo": "Mateus 10",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Quando passares pelas águas",
+   "cenario": "juncos_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Isaías 43 · Salmo 46",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O profeta Isaías recebeu uma promessa que parece ter sido escrita para as noites difíceis.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 43:1",
+     "texto": "Porém agora assim diz o SENHOR, o teu Criador, ó Jacó, e o teu Formador, ó Israel: Não temas, porque eu te resgatei; chamei a ti por teu nome; tu és meu.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 43:2",
+     "texto": "Quando passares pelas águas, estarei contigo; e ao passares pelos rios, eles não te submergirão; quando passares pelo fogo, não te queimarás, nem a chamas arderão em ti.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Antes de falar das águas e do fogo, Deus diz três coisas: eu te resgatei, chamei você pelo nome, você é meu.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Só depois Ele fala das dificuldades. E repare: Ele não diz \"se\" você passar pelas águas. Ele diz \"quando\". As águas fazem parte da caminhada.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas a promessa é clara: os rios não vão te afogar. O fogo não vai te consumir. Porque Ele vai junto.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O Salmo quarenta e seis completa esse pensamento.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:1",
+     "texto": "Deus é nosso refúgio e força; socorro oportuno nas angústias.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:2",
+     "texto": "Por isso não temeremos, ainda que a terra se mova, e ainda que as montanhas passem ao interior dos mares;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:3",
+     "texto": "Ainda que suas águas rujam e se perturbem, e as montanhas tremam por sua braveza. (Selá)",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 46:10",
+     "texto": "Ficai quietos, e sabei que eu sou Deus; eu serei exaltado entre as nações; serei exaltado sobre a terra.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ainda que a terra se mova. Ainda que as montanhas caiam no mar. Ainda que tudo pareça sair do lugar.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E no meio desse barulho todo, Deus diz uma frase curta: ficai quietos, e sabei que eu sou Deus.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Às vezes a melhor coisa que podemos fazer é parar de lutar por dentro. Ficar quieto. Lembrar quem está no controle.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, você pode fazer exatamente isso. Ficar quieto. E saber que Ele é Deus.",
+     "rotulo": "Isaías 43 · Salmo 46",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Nada pode nos separar",
+   "cenario": "ceu_aurora",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Romanos 8",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O apóstolo Paulo escreveu uma das passagens mais fortes de toda a Bíblia sobre a segurança de quem está nas mãos de Deus.",
+     "rotulo": "Romanos 8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Romanos 8:35",
+     "texto": "Quem nos separará do amor de Cristo? A aflição, a angústia, a perseguição, a fome, a nudez, o perigo, ou a espada?",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Romanos 8:37",
+     "texto": "Mas em todas estas coisas somos mais que vencedores, por meio daquele que nos amou.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Romanos 8:38",
+     "texto": "Pois tenho certeza que nem a morte, nem a vida, nem anjos, nem principados, nem poderes, nem o presente, nem o futuro,",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Romanos 8:39",
+     "texto": "nem altura, nem profundeza, nem qualquer outra criatura poderá nos separar do amor de Deus, que está em Cristo Jesus, nosso Senhor.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Paulo faz uma lista de tudo aquilo que poderia nos separar de Deus. Aflição, angústia, perigo. Morte e vida. Passado, presente e futuro. Altura e profundidade.",
+     "rotulo": "Romanos 8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E a resposta é: nada. Nenhuma dessas coisas.",
+     "rotulo": "Romanos 8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Não é porque nós somos fortes o bastante para segurar Deus. É porque Ele segura a gente. O amor dEle é a corda que não arrebenta.",
+     "rotulo": "Romanos 8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, durma com essa certeza: não existe lugar, nem situação, nem sentimento que esteja fora do alcance desse amor.",
+     "rotulo": "Romanos 8",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Gratidão e entrega",
+   "cenario": "lamparina_pedra",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Gratidão",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Antes da oração, vamos fazer um pequeno exercício de entrega.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pense em uma coisa que preocupa você hoje. Pode ser algo grande ou pequeno. Uma conta, uma conversa, uma notícia, uma pessoa.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora imagine que você coloca isso debaixo das asas de Deus. Você não precisa resolver agora. Só precisa entregar.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pense também em alguém que você ama. Imagine essa pessoa coberta pela mesma proteção. Debaixo das mesmas asas.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E agora agradeça. Por ter chegado até aqui. Pelo teto sobre a sua cabeça. Pelo ar que você respira. Por ter sido guardado hoje, mesmo nas coisas que você não percebeu.",
+     "rotulo": "Gratidão",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Oração da noite",
+   "cenario": "casa_noite",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Oração da noite",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Vamos orar.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Senhor, Altíssimo, Todo-Poderoso, eu quero morar no Teu esconderijo.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Tu és o meu refúgio e a minha fortaleza. Em Ti eu confio.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite eu entrego a Ti os meus medos. O medo do que pode acontecer, o medo do que eu não controlo, o medo que aparece quando apago a luz.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Cobre-me com as Tuas penas. Guarda-me debaixo das Tuas asas.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Guarda também a minha casa e as pessoas que eu amo. Que nenhum mal chegue à nossa tenda.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se houver angústia, que eu me lembre de que Tu estás comigo dentro dela.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ordena aos Teus anjos que guardem os meus caminhos, hoje e amanhã.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Dá-me um sono tranquilo, e que eu acorde amanhã com o coração em paz.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Em nome de Jesus. Amém.",
+     "rotulo": "Oração da noite",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura final",
+   "cenario": "oceano_noite",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Leitura final",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Para terminar, vamos ouvir mais uma vez as palavras do salmo, bem devagar.",
+     "rotulo": "Leitura final",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:1",
+     "texto": "Aquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:2",
+     "texto": "Direi ao SENHOR: Tu és meu refúgio e minha fortaleza; Deus meu, em quem confio.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:4",
+     "texto": "Com suas penas ele te cobrirá, e debaixo de suas asas estarás protegido; a verdade dele é escudo grande e protetor.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:5",
+     "texto": "Não terás medo do terror da noite, nem da flecha que voa de dia;",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:9",
+     "texto": "Porque tu fizeste como morada ao SENHOR: o meu refúgio, o Altíssimo.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:10",
+     "texto": "Mal nenhum te sucederá, nem praga alguma chegará à tua tenda;",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:11",
+     "texto": "Porque ele ordenou aos anjos quanto a ti, para que guardem todos os teus caminhos.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:14",
+     "texto": "Por ele ter me amado tanto, eu também o livrarei; em alto retiro eu o porei, porque ele conhece o meu nome.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:15",
+     "texto": "Ele me chamará, e eu o responderei; estarei com ele na angústia; dela eu o livrarei, e o honrarei.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 91:16",
+     "texto": "Eu o satisfarei com uma longa vida, e lhe mostrarei a minha salvação.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "E agora, uma palavra do Salmo quatro, para você levar para o travesseiro:",
+     "rotulo": "Leitura final",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 4:8",
+     "texto": "Eu deitarei, e dormirei em paz; porque só tu, SENHOR, me fazes descansar seguro.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Boa noite. Durma em paz. Você está debaixo das asas do Altíssimo.",
+     "rotulo": "Leitura final",
+     "pausa": 4.0
+    }
+   ]
+  }
+ ]
+}

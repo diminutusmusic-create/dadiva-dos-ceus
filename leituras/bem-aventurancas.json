@@ -1,0 +1,1045 @@
+{
+ "titulo": "Bem-aventuranças",
+ "subtitulo": "O Sermão do Monte",
+ "voz": "pm_santa",
+ "velocidade": 1.0,
+ "pausa_verso": 2.4,
+ "ambiente": "riacho",
+ "fps": 24,
+ "cauda": 20,
+ "fim": "Dádiva dos Céus",
+ "blocos": [
+  {
+   "nome": "Abertura",
+   "cenario": "monte_galileia",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Abertura",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Seja bem-vindo. Que bom que você está aqui.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Este é um tempo para desacelerar. Deixe o dia ficar para trás. Ajeite o corpo, solte os ombros, respire devagar.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Inspire… e solte. Mais uma vez. Inspire… e solte.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Hoje vamos subir, em pensamento, uma colina às margens do mar da Galileia. Foi ali que Jesus se sentou e começou o ensino mais famoso de toda a história: o Sermão do Monte.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E as primeiras palavras desse sermão foram as Bem-aventuranças. Oito frases curtas que viraram o mundo de cabeça para baixo.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Porque Jesus não chamou de felizes os ricos, os fortes, os famosos. Ele chamou de felizes os humildes, os que choram, os mansos, os que têm fome de justiça.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se você chegou a esta noite cansado, triste ou se sentindo pequeno, estas palavras foram ditas pensando em você.",
+     "rotulo": "Abertura",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Vamos ouvir o texto inteiro primeiro, e depois caminhar por cada bem-aventurança com calma.",
+     "rotulo": "Abertura",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura de Mateus 5",
+   "cenario": "monte_galileia",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Mateus 5",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:1",
+     "texto": "E quando Jesus viu as multidões, subiu a um monte; e sentando-se, achegaram-se a ele os seus discípulos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:2",
+     "texto": "Então ele abriu sua boca e lhes ensinou, dizendo:",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:3",
+     "texto": "Benditos são os humildes de espírito, porque deles é o Reino dos céus.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:4",
+     "texto": "Benditos são os que choram, porque eles serão consolados.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:5",
+     "texto": "Benditos são os mansos, porque eles herdarão a terra.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:6",
+     "texto": "Benditos são os que têm fome e sede de justiça, porque eles serão saciados.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:7",
+     "texto": "Benditos são os misericordiosos, porque eles alcançarão misericórdia.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:8",
+     "texto": "Benditos são os limpos de coração, porque eles verão a Deus.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:9",
+     "texto": "Benditos são os pacíficos, porque eles serão chamados filhos de Deus.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:10",
+     "texto": "Benditos são os que sofrem perseguição por causa da justiça, porque deles é o Reino dos céus.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:11",
+     "texto": "Benditos sois vós, quando vos insultarem, perseguirem, e mentirem, falando contra vós todo mal por minha causa.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:12",
+     "texto": "Jubilai e alegrai-vos, porque grande é vossa recompensa nos céus; pois assim perseguiram aos profetas que foram antes de vós.",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Jesus subiu ao monte",
+   "cenario": "juncos_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Mateus 5:1-2",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:1",
+     "texto": "E quando Jesus viu as multidões, subiu a um monte; e sentando-se, achegaram-se a ele os seus discípulos.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:2",
+     "texto": "Então ele abriu sua boca e lhes ensinou, dizendo:",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare na cena. Uma multidão se aproxima de Jesus. Gente cansada, doente, pobre, gente que tinha ouvido falar dEle e queria ver com os próprios olhos.",
+     "rotulo": "Meditação · Mateus 5:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Jesus sobe o monte e se senta. Naquela época, os mestres ensinavam sentados. Era sinal de que algo importante ia ser dito.",
+     "rotulo": "Meditação · Mateus 5:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele abre a boca e começa a ensinar. Não com regras. Não com ameaças. Mas com bênçãos.",
+     "rotulo": "Meditação · Mateus 5:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A palavra \"bendito\", ou \"bem-aventurado\", carrega a ideia de alguém profundamente feliz, favorecido, abençoado por Deus.",
+     "rotulo": "Meditação · Mateus 5:1-2",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E o mais surpreendente é para quem Jesus diz isso.",
+     "rotulo": "Meditação · Mateus 5:1-2",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Quem estava ouvindo",
+   "cenario": "vale_nascer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "O Sermão do Monte",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Vale a pena imaginar quem estava sentado naquela colina.",
+     "rotulo": "O Sermão do Monte",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Havia pescadores com as mãos calejadas, mulheres que tinham caminhado horas carregando os filhos, doentes que esperavam por um milagre, trabalhadores que viviam com pouco.",
+     "rotulo": "O Sermão do Monte",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Muitos ali eram considerados pequenos demais para serem notados pelos líderes religiosos. Gente simples, cansada, que muitas vezes ouvia que Deus estava longe dela.",
+     "rotulo": "O Sermão do Monte",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E é para essas pessoas que Jesus olha e diz: benditos. Felizes. Abençoados.",
+     "rotulo": "O Sermão do Monte",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Imagine o que significou para elas ouvir isso. Uma mãe que tinha perdido um filho ouvindo \"felizes os que choram, porque serão consolados\". Um homem humilhado ouvindo \"felizes os mansos, porque herdarão a terra\".",
+     "rotulo": "O Sermão do Monte",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "As Bem-aventuranças não são uma lista de exigências para ganhar o amor de Deus. São uma declaração de que o amor de Deus já alcançou quem o mundo costuma esquecer.",
+     "rotulo": "O Sermão do Monte",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E se você se sente assim esta noite, esquecido ou pequeno, estas palavras são para você também.",
+     "rotulo": "O Sermão do Monte",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os humildes de espírito",
+   "cenario": "flores_campo",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 5:3",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:3",
+     "texto": "Benditos são os humildes de espírito, porque deles é o Reino dos céus.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Humildes de espírito são aqueles que sabem que precisam de Deus. Que não fingem ter tudo resolvido.",
+     "rotulo": "Meditação · Mateus 5:3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É a pessoa que olha para dentro e diz: eu não consigo sozinha.",
+     "rotulo": "Meditação · Mateus 5:3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O mundo costuma valorizar quem parece autossuficiente. Mas Jesus diz que o Reino dos céus pertence justamente a quem reconhece a própria necessidade.",
+     "rotulo": "Meditação · Mateus 5:3",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se esta noite você se sente vazio, sem respostas, sem forças, você está mais perto do Reino do que imagina. A porta se abre para quem sabe que precisa entrar.",
+     "rotulo": "Meditação · Mateus 5:3",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os que choram",
+   "cenario": "rio_salgueiro",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Mateus 5:4",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:4",
+     "texto": "Benditos são os que choram, porque eles serão consolados.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Que frase estranha à primeira vista. Felizes os que choram.",
+     "rotulo": "Meditação · Mateus 5:4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus não está dizendo que a tristeza é boa. Ele está dizendo que quem chora não está esquecido. Existe uma promessa guardada para essa pessoa: ela será consolada.",
+     "rotulo": "Meditação · Mateus 5:4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez você esteja chorando alguém que partiu. Ou um sonho que não se realizou. Ou uma fase difícil que parece não acabar.",
+     "rotulo": "Meditação · Mateus 5:4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Deus não pede que você esconda as lágrimas. Ele promete enxugá-las.",
+     "rotulo": "Meditação · Mateus 5:4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O Salmo trinta e quatro diz assim:",
+     "rotulo": "Meditação · Mateus 5:4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Salmo 34:18",
+     "texto": "O SENHOR está perto daqueles que estão com o coração partido, e salva os aflitos de espírito.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Perto. Não distante, não indiferente. Deus está perto de quem está com o coração partido.",
+     "rotulo": "Meditação · Mateus 5:4",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os mansos",
+   "cenario": "oliveiras_pombas",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 5:5",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:5",
+     "texto": "Benditos são os mansos, porque eles herdarão a terra.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mansidão não é fraqueza. É força sob controle.",
+     "rotulo": "Meditação · Mateus 5:5",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É a pessoa que poderia responder com raiva, mas escolhe a paz. Que não precisa vencer toda discussão. Que confia que Deus vai fazer justiça no tempo certo.",
+     "rotulo": "Meditação · Mateus 5:5",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus mesmo disse que era manso e humilde de coração. E Ele convida você a aprender com Ele.",
+     "rotulo": "Meditação · Mateus 5:5",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 11:28",
+     "texto": "Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 11:29",
+     "texto": "Tomai sobre vós o meu jugo e aprendei de mim, porque sou manso e humilde de coração; e encontrareis descanso para as vossas almas.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 11:30",
+     "texto": "Pois o meu jugo é suave, e minha carga é leve.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Que convite bonito para a hora de dormir. Vinde a mim, todos os cansados. Eu vos farei descansar.",
+     "rotulo": "Meditação · Mateus 5:5",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O jugo era a peça de madeira que unia dois bois para puxar o arado juntos. Jesus diz: carregue comigo. O meu jugo é suave. Eu puxo junto com você.",
+     "rotulo": "Meditação · Mateus 5:5",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Fome e sede de justiça",
+   "cenario": "trigo_dourado",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 5:6",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:6",
+     "texto": "Benditos são os que têm fome e sede de justiça, porque eles serão saciados.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Fome e sede são as necessidades mais básicas do corpo. Ninguém precisa ser convencido a ter fome.",
+     "rotulo": "Meditação · Mateus 5:6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus usa essa imagem para falar de um desejo profundo: o desejo de que as coisas sejam como deveriam ser. Que haja verdade, que haja retidão, que o mal não tenha a última palavra.",
+     "rotulo": "Meditação · Mateus 5:6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez você esteja cansado de ver injustiça. No mundo, no trabalho, até dentro da própria família.",
+     "rotulo": "Meditação · Mateus 5:6",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "A promessa de Jesus é que essa fome não vai ficar sem resposta. Vocês serão saciados.",
+     "rotulo": "Meditação · Mateus 5:6",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os misericordiosos e os limpos de coração",
+   "cenario": "jardim_manha",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 5:7-8",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:7",
+     "texto": "Benditos são os misericordiosos, porque eles alcançarão misericórdia.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:8",
+     "texto": "Benditos são os limpos de coração, porque eles verão a Deus.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Misericórdia é olhar para o outro com o mesmo cuidado com que gostaríamos de ser olhados.",
+     "rotulo": "Meditação · Mateus 5:7-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "É perdoar quando seria fácil guardar mágoa. É ajudar quando ninguém está vendo.",
+     "rotulo": "Meditação · Mateus 5:7-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Jesus diz que quem planta misericórdia, colhe misericórdia.",
+     "rotulo": "Meditação · Mateus 5:7-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Depois vêm os limpos de coração. Pessoas sem segundas intenções, sem máscaras. Um coração inteiro, não dividido.",
+     "rotulo": "Meditação · Mateus 5:7-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E a promessa para elas é a mais bonita de todas: verão a Deus.",
+     "rotulo": "Meditação · Mateus 5:7-8",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, se houver alguma mágoa guardada, talvez seja um bom momento para entregá-la. Não por quem feriu você, mas pela paz do seu próprio coração.",
+     "rotulo": "Meditação · Mateus 5:7-8",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os pacíficos",
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Meditação · Mateus 5:9",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:9",
+     "texto": "Benditos são os pacíficos, porque eles serão chamados filhos de Deus.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare que Jesus não diz \"felizes os que amam a paz\". Ele diz \"felizes os pacíficos\", ou seja, os que fazem a paz. Os que constroem pontes.",
+     "rotulo": "Meditação · Mateus 5:9",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Num mundo cheio de brigas, de lados, de discussões, quem planta paz se parece com o próprio Deus.",
+     "rotulo": "Meditação · Mateus 5:9",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Por isso eles serão chamados filhos de Deus. Têm o jeito do Pai.",
+     "rotulo": "Meditação · Mateus 5:9",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Talvez exista uma relação na sua vida que precisa de uma palavra de paz. Não precisa resolver tudo hoje. Mas pode pedir a Deus coragem para dar o primeiro passo.",
+     "rotulo": "Meditação · Mateus 5:9",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Os perseguidos",
+   "cenario": "rochas_alto",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Meditação · Mateus 5:10-12",
+   "itens": [
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:10",
+     "texto": "Benditos são os que sofrem perseguição por causa da justiça, porque deles é o Reino dos céus.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:11",
+     "texto": "Benditos sois vós, quando vos insultarem, perseguirem, e mentirem, falando contra vós todo mal por minha causa.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:12",
+     "texto": "Jubilai e alegrai-vos, porque grande é vossa recompensa nos céus; pois assim perseguiram aos profetas que foram antes de vós.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "As últimas bem-aventuranças falam de quem sofre por fazer o certo.",
+     "rotulo": "Meditação · Mateus 5:10-12",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Jesus foi honesto com os seus discípulos. Seguir o caminho dEle nem sempre ia ser fácil. Haveria críticas, injustiças, gente falando mal.",
+     "rotulo": "Meditação · Mateus 5:10-12",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Mas Ele termina com uma palavra surpreendente: alegrai-vos. Grande é a vossa recompensa nos céus.",
+     "rotulo": "Meditação · Mateus 5:10-12",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Nada do que você faz por amor a Deus se perde. Nenhuma renúncia, nenhuma lágrima, nenhuma escolha difícil. Tudo é visto. Tudo é guardado.",
+     "rotulo": "Meditação · Mateus 5:10-12",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "O consolo prometido",
+   "cenario": "ceu_aurora",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Isaías 61",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "As Bem-aventuranças ecoam uma profecia antiga de Isaías, que o próprio Jesus leu na sinagoga de Nazaré no começo do seu ministério.",
+     "rotulo": "Isaías 61",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 61:1",
+     "texto": "O Espírito do Senhor DEUS está sobre mim; pois o SENHOR me ungiu, para dar boas novas aos mansos; ele me enviou para sarar aos feridos de coração, para anunciar liberdade aos cativos, e libertação aos prisioneiros.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 61:2",
+     "texto": "Para anunciar o ano do favor do SENHOR, e o dia da vingança de nosso Deus; para consolar todos os tristes.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Isaías 61:3",
+     "texto": "Para ordenar aos tristes de Sião, que lhes seja dado ornamento no lugar de cinza, óleo de alegria no lugar de tristeza, vestes de louvor no lugar de espírito angustiado; para que sejam chamados de carvalhos da justiça, plantação do SENHOR; para que ele seja glorificado.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Repare nas trocas que Deus promete fazer. Ornamento no lugar de cinza. Óleo de alegria no lugar de tristeza. Vestes de louvor no lugar de espírito angustiado.",
+     "rotulo": "Isaías 61",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Deus não apenas tira a dor. Ele coloca algo bonito no lugar.",
+     "rotulo": "Isaías 61",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E no final, diz que os tristes serão chamados carvalhos de justiça. Árvores fortes, de raízes profundas, plantadas pelo próprio Senhor.",
+     "rotulo": "Isaías 61",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Quem hoje se sente frágil pode, nas mãos de Deus, se tornar firme como um carvalho.",
+     "rotulo": "Isaías 61",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Renovados a cada dia",
+   "cenario": "floresta_raios",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "2 Coríntios 4",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "O apóstolo Paulo viveu muitas das Bem-aventuranças na própria pele. Foi perseguido, preso, passou fome e frio. E mesmo assim escreveu estas palavras:",
+     "rotulo": "2 Coríntios 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "2 Coríntios 4:16",
+     "texto": "Por isso não desfalecemos; mas ainda que nosso ser exterior se destrua, todavia o interior se renova a cada dia.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "2 Coríntios 4:17",
+     "texto": "Porque nossa leve e momentânea aflição nos produz um peso eterno de excelentíssima glória.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "2 Coríntios 4:18",
+     "texto": "Por isso nós não prestamos atenção para as coisas visíveis, mas sim para as invisíveis; porque as coisas visíveis são temporárias, mas as invisíveis são eternas.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ainda que o nosso ser exterior se desgaste, o interior se renova a cada dia.",
+     "rotulo": "2 Coríntios 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "O corpo cansa. A idade chega. As forças diminuem. Mas há algo dentro de nós que Deus continua renovando, dia após dia.",
+     "rotulo": "2 Coríntios 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Paulo chama as dificuldades de leves e momentâneas. Não porque fossem pequenas, mas porque ele as comparava com a eternidade que estava por vir.",
+     "rotulo": "2 Coríntios 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E ele dá um conselho: não olhe só para as coisas que se veem. Elas são passageiras. Olhe também para as que não se veem, porque essas são eternas.",
+     "rotulo": "2 Coríntios 4",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Esta noite, enquanto o corpo descansa, Deus continua trabalhando por dentro. Renovando, curando, preparando você para amanhã.",
+     "rotulo": "2 Coríntios 4",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Todas as coisas novas",
+   "cenario": "mar_amanhecer",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Apocalipse 21",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "E o fim da história é ainda mais bonito. No último livro da Bíblia, João vê um novo céu e uma nova terra.",
+     "rotulo": "Apocalipse 21",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Apocalipse 21:3",
+     "texto": "E eu ouvi uma grande voz do céu, dizendo: “Eis que o tabernáculo de Deus está com os seres humanos; e com eles habitará, e eles serão seu povo, e o próprio Deus estará com eles, e será seu Deus.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Apocalipse 21:4",
+     "texto": "E Deus limpará toda lágrima dos olhos deles; e não haverá mais morte, nem pranto, nem clamor, nem mais haverá dor; porque as primeiras coisas já passaram.”",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Apocalipse 21:5",
+     "texto": "E o que estava sentado sobre o trono disse: “Eis que eu faço novas todas as coisas.” E ele me disse: “Escreve, porque estas palavras são verdadeiras e fiéis.”",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Todas as promessas das Bem-aventuranças encontram aqui o seu cumprimento final.",
+     "rotulo": "Apocalipse 21",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Os que choram serão consolados, porque Deus mesmo enxugará toda lágrima.",
+     "rotulo": "Apocalipse 21",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Os que têm fome de justiça serão saciados, porque não haverá mais dor nem clamor.",
+     "rotulo": "Apocalipse 21",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Os limpos de coração verão a Deus, porque Ele vai morar com o seu povo.",
+     "rotulo": "Apocalipse 21",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Eis que eu faço novas todas as coisas. Essa é a última palavra. Não a dor, não a perda, não a injustiça. A última palavra é dEle.",
+     "rotulo": "Apocalipse 21",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "O retrato de Jesus",
+   "cenario": "caminho_luz",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Reflexão",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Existe uma forma bonita de ler as Bem-aventuranças: como um retrato do próprio Jesus.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele foi humilde de espírito. Sendo Filho de Deus, nasceu numa manjedoura e viveu como um trabalhador simples.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele chorou. Chorou diante do túmulo do amigo Lázaro e chorou olhando para Jerusalém.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele foi manso. Não revidou quando foi insultado, e lavou os pés dos próprios discípulos.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele teve fome e sede de justiça, e se colocou ao lado de quem era deixado de fora.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele foi misericordioso com a mulher que todos queriam condenar, com o cobrador de impostos, com o ladrão na cruz.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele teve um coração limpo, sem duplicidade, sem engano.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ele fez a paz entre Deus e nós, pagando o preço com a própria vida.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E Ele foi perseguido por causa da justiça, até o fim.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Por isso as Bem-aventuranças não são um peso. Quando olhamos para elas, não vemos uma lista de exigências impossíveis. Vemos o rosto de alguém que caminhou esse caminho antes de nós, e que agora caminha ao nosso lado.",
+     "rotulo": "Reflexão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Seguir as Bem-aventuranças é, no fundo, ficar parecido com Ele. Um passo de cada vez. E Ele tem paciência com cada passo.",
+     "rotulo": "Reflexão",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Gratidão e entrega",
+   "cenario": "lamparina_pedra",
+   "efeito": [
+    "poeira"
+   ],
+   "rotulo": "Gratidão",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Antes da oração, vamos parar por um instante.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Pense em qual dessas bem-aventuranças mais tocou você esta noite. Talvez a dos que choram. Talvez a dos mansos. Talvez a dos que têm fome de justiça.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Guarde essa frase no coração, como quem guarda um presente.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Agora pense em algo bom do dia de hoje e agradeça. Uma pessoa, uma conversa, um momento de paz.",
+     "rotulo": "Gratidão",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "E se houver algo pesado, entregue também. Jesus disse: vinde a mim, todos os cansados.",
+     "rotulo": "Gratidão",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Oração da noite",
+   "cenario": "casa_luz",
+   "efeito": [
+    "estrelas"
+   ],
+   "rotulo": "Oração da noite",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Vamos orar.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Senhor Jesus, obrigado pelas Tuas palavras de vida.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Eu reconheço que preciso de Ti. Sou humilde de espírito, e venho como estou.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Se há lágrimas no meu coração, consola-me. Se há cansaço, faz-me descansar.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Ensina-me a ser manso, a ter fome do que é certo, a ser misericordioso, a ter um coração limpo e a fazer a paz.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Abençoa as pessoas que eu amo. E também aquelas com quem eu tenho dificuldade. Que a Tua paz alcance a todos.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Obrigado porque um dia Tu vais fazer novas todas as coisas, e enxugar toda lágrima.",
+     "rotulo": "Oração da noite",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "fala",
+     "texto": "Guarda o meu sono esta noite. Em Teu nome, amém.",
+     "rotulo": "Oração da noite",
+     "pausa": 4.0
+    }
+   ]
+  },
+  {
+   "nome": "Leitura final",
+   "cenario": "monte_galileia",
+   "efeito": [
+    "nevoa"
+   ],
+   "rotulo": "Leitura final",
+   "itens": [
+    {
+     "tipo": "fala",
+     "texto": "Para terminar, vamos ouvir mais uma vez as Bem-aventuranças, bem devagar.",
+     "rotulo": "Leitura final",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:3",
+     "texto": "Benditos são os humildes de espírito, porque deles é o Reino dos céus.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:4",
+     "texto": "Benditos são os que choram, porque eles serão consolados.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:5",
+     "texto": "Benditos são os mansos, porque eles herdarão a terra.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:6",
+     "texto": "Benditos são os que têm fome e sede de justiça, porque eles serão saciados.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:7",
+     "texto": "Benditos são os misericordiosos, porque eles alcançarão misericórdia.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:8",
+     "texto": "Benditos são os limpos de coração, porque eles verão a Deus.",
+     "pausa": 2.6
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 5:9",
+     "texto": "Benditos são os pacíficos, porque eles serão chamados filhos de Deus.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "E o convite de Jesus para quem vai dormir agora:",
+     "rotulo": "Leitura final",
+     "pausa": 1.3
+    },
+    {
+     "tipo": "verso",
+     "ref": "Mateus 11:28",
+     "texto": "Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar.",
+     "pausa": 3.2
+    },
+    {
+     "tipo": "fala",
+     "texto": "Boa noite. Descanse em paz. Você é amado.",
+     "rotulo": "Leitura final",
+     "pausa": 4.0
+    }
+   ]
+  }
+ ]
+}
