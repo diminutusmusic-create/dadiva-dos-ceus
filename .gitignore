@@ -2,3 +2,4 @@ modelos/
 *-preview.mp4
 __pycache__/
 videos-longos/*-completo.mp4
+videos-longos/*.mp4
