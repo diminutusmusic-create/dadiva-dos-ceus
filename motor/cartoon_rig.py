@@ -6,16 +6,29 @@ import skia
 from PIL import Image, ImageFilter
 from scipy import ndimage
 
-def cutout(path, thr=235, erode=1):
-    """remove o fundo branco ligado às bordas -> RGBA"""
-    im = np.array(Image.open(path).convert('RGB'))
-    white = im.min(2) > thr
-    lab, _ = ndimage.label(white)
+def cutout(path, thr=235, erode=1, buracos=None):
+    """remove o fundo branco: tudo que é claro e sem cor ligado às bordas (inclui sombras cinza no chão)
+    e bolsões fechados de branco puro (ex.: vão entre a lança e o corpo)"""
+    im = np.array(Image.open(path).convert('RGB')).astype(int)
+    mx, mn = im.max(2), im.min(2)
+    neutro = (mx - mn) < 16
+    claro = neutro & (mn > 190)
+    lab, _ = ndimage.label(claro)
     border = set(np.unique(np.r_[lab[0], lab[-1], lab[:, 0], lab[:, -1]])) - {0}
-    fg = ~np.isin(lab, list(border))
+    bg = np.isin(lab, list(border))
+    if buracos is None: buracos = any(k in path for k in BURACOS)
+    puro = (mn > 249) & neutro
+    lab2, n2 = ndimage.label(puro) if buracos else (None, 0)
+    if n2:
+        tam = ndimage.sum(np.ones_like(lab2), lab2, index=np.arange(1, n2 + 1))
+        for i, sz in enumerate(tam, 1):
+            if sz > 150: bg |= lab2 == i
+    fg = ~bg
     if erode: fg = ndimage.binary_erosion(fg, iterations=erode)
     a = Image.fromarray((fg * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(0.9))
-    return np.dstack([im, np.array(a)])
+    return np.dstack([im.astype(np.uint8), np.array(a)])
+
+BURACOS = {'golias_101'}  # artes com vãos de fundo fechados (ex.: entre a lança e o corpo)
 
 def to_skia(rgba):
     return skia.Image.fromarray(np.ascontiguousarray(rgba), colorType=skia.kRGBA_8888_ColorType)
@@ -85,3 +98,13 @@ JESUS = dict(neck_y=338, neck_pivot=(330, 345), feather=16,
              skin='#febf94', beard='#80411e', line='#531d0b')
 
 RIGS = {'jesus_101': JESUS}
+
+DAVI = dict(neck_y=338, neck_pivot=(347, 345), feather=14,
+            eyes=[(295, 248), (395, 248)], eye_r=(15, 17),
+            mouth=(347, 301), mouth_w=34, mouth_patch=(28, 12),
+            skin='#fdb788', beard='#fdb788', line='#4a2412')
+GOLIAS = dict(neck_y=232, neck_pivot=(337, 240), feather=12,
+              eyes=[(321, 171), (352, 171)], eye_r=(9, 9),
+              mouth=(337, 205), mouth_w=30, mouth_patch=(22, 12),
+              skin='#f8a171', beard='#27181a', line='#1a0e0c')
+RIGS.update({'davi_101': DAVI, 'golias_101': GOLIAS})

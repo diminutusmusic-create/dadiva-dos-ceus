@@ -1,0 +1,141 @@
+{
+  "titulo": "Davi e Golias ⚔️ O menino que venceu o gigante",
+  "referencia": "1 Samuel 17",
+  "trilha": "tensao",
+  "voz_narrador": "pm_alex",
+  "elenco": {
+    "davi": {
+      "arte": "davi_101",
+      "voz": "pm_santa",
+      "velocidade": 1.0,
+      "cor": "#d9f2ff"
+    },
+    "golias": {
+      "arte": "golias_101",
+      "voz": "pm_alex",
+      "velocidade": 0.82,
+      "cor": "#ffd0c0"
+    }
+  },
+  "cenas": [
+    {
+      "cenario": "vale_200",
+      "atores": [
+        {
+          "quem": "golias",
+          "x": 0.5,
+          "altura": 0.62,
+          "zoom": 1.22
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "No vale de Elá, | dois exércitos se encaravam. | E todos os dias, | um gigante saía para desafiar Israel."
+        },
+        {
+          "quem": "golias",
+          "texto": "Mandem um homem para lutar comigo! | Se ele vencer, | seremos seus servos!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Seu nome era Golias. | Quase três metros de altura. | E ninguém teve coragem de enfrentá-lo."
+        }
+      ]
+    },
+    {
+      "cenario": "vila_200",
+      "atores": [
+        {
+          "quem": "davi",
+          "x": 0.5,
+          "altura": 0.48,
+          "entra": "esquerda",
+          "zoom": 1.25
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Até que chegou Davi, | um jovem pastor, | levando comida para os irmãos."
+        },
+        {
+          "quem": "davi",
+          "texto": "Quem é esse gigante | para desafiar os exércitos do Deus vivo? | Eu vou lutar com ele!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "O rei ofereceu sua armadura, | mas Davi recusou. | Levou só uma funda | e cinco pedras lisas do riacho."
+        }
+      ]
+    },
+    {
+      "cenario": "vale_201",
+      "atores": [
+        {
+          "quem": "davi",
+          "x": 0.3,
+          "altura": 0.4,
+          "olha": "direita",
+          "zoom": 1.15
+        },
+        {
+          "quem": "golias",
+          "x": 0.72,
+          "altura": 0.62,
+          "olha": "esquerda",
+          "zoom": 1.15
+        }
+      ],
+      "falas": [
+        {
+          "quem": "golias",
+          "texto": "Um menino? | Você vem contra mim com pedras? | Eu vou acabar com você!"
+        },
+        {
+          "quem": "davi",
+          "texto": "Você vem com espada e lança. | Mas eu venho em nome do Senhor!"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Davi pegou uma pedra, | girou a funda... | e o gigante caiu."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O exército inteiro gritou de alegria. | O menino pastor tinha vencido o gigante."
+        }
+      ]
+    },
+    {
+      "cenario": "galileia_201",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "davi",
+          "x": 0.5,
+          "altura": 0.48,
+          "zoom": 1.2
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Nem todo gigante cai pela força. | Alguns caem pela fé de quem não fugiu. | Qual gigante você vai enfrentar hoje?"
+        }
+      ]
+    }
+  ],
+  "descricao": "Um jovem pastor, uma funda e cinco pedras contra um gigante de quase três metros. A história de Davi e Golias mostra que a fé vence o medo. ⚔️✨\n\n📖 1 Samuel 17",
+  "hashtags": [
+    "#biblia",
+    "#davi",
+    "#golias",
+    "#historiasbiblicas",
+    "#fe",
+    "#deus",
+    "#coragem"
+  ],
+  "velocidade_narrador": 0.9
+}
