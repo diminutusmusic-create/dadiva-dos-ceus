@@ -66,6 +66,10 @@
         {
           "quem": "jesus",
           "texto": "Coragem! | Sou eu. | Não tenham medo."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Era madrugada. | Os discípulos remavam havia horas | contra um vento forte. | Estavam cansados, | molhados | e longe da margem. | Foi aí que viram alguém | caminhando sobre as águas."
         }
       ]
     },
@@ -146,6 +150,46 @@
           "texto": "Jesus estendeu a mão | e o segurou. | Quando o medo gritar mais alto, | olhe para Jesus. | Ele nunca solta a sua mão."
         }
       ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "pedro",
+          "x": 0.32,
+          "altura": 0.38,
+          "olha": "direita",
+          "chao": 0.9
+        },
+        {
+          "quem": "jesus",
+          "x": 0.62,
+          "altura": 0.5,
+          "olha": "esquerda",
+          "chao": 0.8
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Pedro foi o único | que saiu do barco. | Os outros ficaram olhando. | Ele afundou, | é verdade. | Mas também foi o único | que andou sobre as águas."
+        },
+        {
+          "quem": "narrador",
+          "texto": "E quando ele gritou, | Jesus não demorou. | Estendeu a mão na mesma hora. | Não deixou Pedro afundar | por ter tido medo."
+        },
+        {
+          "quem": "narrador",
+          "texto": "A fé não é nunca sentir medo. | É saber para onde olhar | quando o medo chega."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Ore comigo: | Senhor, | eu quero sair do barco. | Quando o vento me assustar, | segura a minha mão. | Que os meus olhos fiquem em ti. | Amém."
+        }
+      ]
     }
   ],
   "descricao": "Pedro andou sobre as águas enquanto olhava para Jesus. Quando olhou para o vento, afundou. Mas a mão de Jesus estava ali. 🌊\n\n📖 Mateus 14:22-33",
@@ -159,5 +203,8 @@
     "#confianca"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true,
+  "estendido_c": true
 }

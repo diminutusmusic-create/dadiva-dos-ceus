@@ -81,6 +81,10 @@
         {
           "quem": "narrador",
           "texto": "Até os pescadores mais experientes | estavam apavorados. | O barco começava a encher de água."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O lago da Galileia fica entre montanhas. | O vento desce de repente pelos vales | e transforma a água calma | em ondas enormes | em poucos minutos."
         }
       ]
     },
@@ -155,6 +159,43 @@
           "texto": "A tempestade pode ser grande. | Mas quem está no seu barco | é maior."
         }
       ]
+    },
+    {
+      "cenario": "mar_tempestade_200",
+      "efeito": [
+        "luz"
+      ],
+      "objetos": [
+        {
+          "arte": "barco_100",
+          "x": 0.5,
+          "y": 0.8,
+          "altura": 0.3,
+          "anim": "flutua"
+        }
+      ],
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.44,
+          "chao": 0.66
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Os discípulos conheciam aquele lago. | Mas naquela noite, | a experiência deles não foi suficiente. | Às vezes, | Deus permite uma tempestade | para nos mostrar quem Ele é."
+        },
+        {
+          "quem": "narrador",
+          "texto": "E repare: | Jesus estava no barco o tempo todo. | Dormindo, | mas presente. | O silêncio de Deus | não é ausência de Deus."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Guarde esta promessa: | Isaías quarenta e três, dois. | Quando você passar pelas águas, | eu estarei com você. | Seja qual for a sua tempestade hoje, | Ele está no barco."
+        }
+      ]
     }
   ],
   "descricao": "Uma tempestade violenta no meio do lago. Os discípulos em pânico. E Jesus, com uma palavra, acalmou o vento e o mar. ⛈️\n\n📖 Marcos 4:35-41",
@@ -168,5 +209,7 @@
     "#medo"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true
 }

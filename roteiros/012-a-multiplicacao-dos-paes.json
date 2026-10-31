@@ -80,6 +80,10 @@
         {
           "quem": "pedro",
           "texto": "Mas o que é isso | para tanta gente?"
+        },
+        {
+          "quem": "narrador",
+          "texto": "Os discípulos já tinham feito as contas. | A solução deles era simples: | mandar todo mundo embora. | Mas Jesus tinha outra ideia. | Ele queria que eles vissem | o que Deus faz com o pouco."
         }
       ]
     },
@@ -113,6 +117,37 @@
           "texto": "O que você tem pode parecer pouco. | Mas nas mãos de Jesus, | o pouco vira muito."
         }
       ]
+    },
+    {
+      "cenario": "colina_multidao_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "jesus",
+          "x": 0.5,
+          "altura": 0.55
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Jesus podia ter feito pão cair do céu. | Mas escolheu usar o lanche de um menino. | Ele gosta de multiplicar | aquilo que a gente entrega."
+        },
+        {
+          "quem": "narrador",
+          "texto": "E repare: | sobraram doze cestos. | Deus não dá na medida certa. | Ele dá com fartura. | E Jesus ainda mandou recolher tudo, | porque nada do que vem de Deus | é desperdício."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O menino não sabia o que ia acontecer. | Ele só confiou | e entregou o que tinha nas mãos."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Fica um desafio para hoje: | divida alguma coisa. | Uma refeição, | uma palavra, | o seu tempo. | Pode parecer pouco. | Mas entregue nas mãos de Jesus, | o seu pouco pode alimentar muita gente."
+        }
+      ]
     }
   ],
   "descricao": "Cinco pães, dois peixes e um menino disposto a dividir. Nas mãos de Jesus, isso alimentou mais de cinco mil pessoas. 🍞🐟\n\n📖 João 6:1-14",
@@ -126,5 +161,8 @@
     "#generosidade"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true,
+  "estendido_c": true
 }

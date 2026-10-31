@@ -62,6 +62,10 @@
         {
           "quem": "narrador",
           "texto": "Por anos, Noé trabalhou. | Madeira por madeira, | prego por prego. | E os animais vieram, | de dois em dois."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Enquanto Noé martelava, | a vida seguia normal para todo mundo. | Festas, | casamentos, | negócios. | Ninguém achava que precisava de uma arca. | Até que a primeira gota caiu."
         }
       ]
     },
@@ -120,6 +124,42 @@
           "texto": "E Deus colocou um arco-íris no céu, | como sinal da sua promessa. | Quando vier a tempestade, | lembre-se: | Deus cumpre o que promete."
         }
       ]
+    },
+    {
+      "cenario": "arco_iris_200",
+      "efeito": [
+        "luz"
+      ],
+      "objetos": [
+        {
+          "arte": "pomba_100",
+          "x": 0.5,
+          "y": 0.35,
+          "altura": 0.12,
+          "anim": "voa"
+        }
+      ],
+      "atores": [
+        {
+          "quem": "noe",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Noé passou anos construindo | sem ver uma gota de chuva. | Todo dia, | alguém dizia que ele estava louco. | E todo dia, | ele pegava a ferramenta | e continuava."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Depois do dilúvio, | Deus colocou o arco-íris no céu | como sinal de uma aliança | que nunca seria quebrada."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Guarde este versículo: | Gênesis nove, treze. | Ponho o meu arco nas nuvens, | e ele será o sinal da aliança. | Toda vez que você vir um arco-íris, | lembre: | Deus cumpre o que promete."
+        }
+      ]
     }
   ],
   "descricao": "Noé obedeceu a Deus quando ninguém mais acreditava. Construiu a arca, salvou sua família e os animais, e viu o arco-íris da promessa. 🌈\n\n📖 Gênesis 6 a 9",
@@ -133,5 +173,7 @@
     "#arcoiris"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true
 }

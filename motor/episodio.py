@@ -190,6 +190,8 @@ def desenhar_cena(c, cena, R, t, tl_cena, env_val, quem_fala, cam):
     if 'relampago' in ef and (t % 5.3) < .12: overlay(c, (255, 255, 255), 170)
 
 # ------------------------------------------------------------ principal
+DRY = '--duracao' in sys.argv
+
 def gerar(caminho, preview=False):
     R = normalizar(json.load(open(caminho, encoding='utf-8')))
     slug = os.path.splitext(os.path.basename(caminho))[0]
@@ -201,11 +203,18 @@ def gerar(caminho, preview=False):
         for f in cn['falas']: falas.append(f); cena_de.append(i)
     clips = tts(falas, vozes)
 
-    # duração mínima (o TikTok só paga vídeos com mais de 1 minuto): alonga pausas e o cartão final
-    MIN = R.get('duracao_minima', 62.5)
+    # REGRA DE MONETIZAÇÃO (todas as plataformas): 95s a 170s.
+    # TikTok paga só >1 min (regra do canal: 91s+ com margem); YouTube Shorts e Reels até 3 min.
+    MIN = max(95.0, R.get('duracao_minima', 95.0)); MAX = 170.0
     est = .4 + sum(len(cl) / SR + f.get('pausa', .5) for f, cl in zip(falas, clips)) \
         + sum(c.get('respiro', .5) for c in R['cenas'][1:]) + 2.6
-    falta = max(0.0, MIN - est); extra = min(.7, falta / max(1, len(falas))); falta -= extra * len(falas)
+    print(f'duração estimada pela fala: {est:.1f}s (mínimo {MIN:.0f}s)')
+    if est < MIN - 4:
+        raise SystemExit(f'ROTEIRO CURTO: {est:.1f}s de conteúdo; precisa de pelo menos {MIN-4:.0f}s (sem encher de silêncio)')
+    if est > MAX:
+        raise SystemExit(f'ROTEIRO LONGO: {est:.1f}s; máximo {MAX:.0f}s')
+    if DRY: return None, est
+    falta = max(0.0, MIN + 2.5 - est); extra = min(.7, falta / max(1, len(falas))); falta -= extra * len(falas)
     t = .4; tl = []; inicio = {}; fim = {}
     for f, cl, ci in zip(falas, clips, cena_de):
         if ci not in inicio:
@@ -231,7 +240,7 @@ def gerar(caminho, preview=False):
     amb = np.zeros_like(mus)
     for i, cn in enumerate(R['cenas']):
         if 'chuva' in cn.get('efeito', []):
-            a, b = int(lim[i] * SR), int(lim[i + 1] * SR); amb[a:b] += chuva_som((b - a) / SR)[:b - a]
+            a, b = int(lim[i] * SR), min(int(lim[i + 1] * SR), len(amb)); ch = chuva_som((b - a) / SR + .05)[:b - a]; amb[a:a + len(ch)] += ch
     mix = np.tanh((voice * .95 + mus + amb) * 1.1) / np.tanh(1.1)
     mix *= np.minimum(1, (len(mix) - np.arange(len(mix))) / (SR * 1.2))
     os.makedirs(f'{RAIZ}/videos', exist_ok=True)
@@ -289,8 +298,12 @@ def gerar(caminho, preview=False):
         if fr < 8: overlay(c, (0, 0, 0), 255 * (1 - fr / 8))
         ff.stdin.write(surf.makeImageSnapshot().tobytes())
     ff.stdin.close(); ff.wait()
-    print(f'pronto: {out} ({TOTAL:.1f}s)')
-    return out, TOTAL
+    real = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', out],
+                                capture_output=True, text=True).stdout)
+    if not (MIN <= real <= MAX + 3):
+        os.replace(out, out + '.INVALIDO'); raise SystemExit(f'VÍDEO FORA DA REGRA: {real:.1f}s')
+    print(f'pronto: {out} ({real:.1f}s, dentro da regra 95-170s)')
+    return out, real
 
 if __name__ == '__main__':
     gerar(sys.argv[1], '--preview' in sys.argv)

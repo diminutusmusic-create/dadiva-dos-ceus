@@ -63,6 +63,10 @@
         {
           "quem": "jonas",
           "texto": "A culpa é minha. | Joguem-me no mar, | e a tempestade vai parar."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Jonas pegou um navio para o lado oposto. | Mas no meio do mar, | veio uma tempestade tão forte | que os marinheiros acharam que iam morrer. | E Jonas sabia que a culpa era dele."
         }
       ]
     },
@@ -118,6 +122,33 @@
           "texto": "O peixe o colocou em terra firme. | Jonas foi a Nínive, | e a cidade inteira se arrependeu. | Deus sempre dá uma segunda chance. | Inclusive para você."
         }
       ]
+    },
+    {
+      "cenario": "nascer_sol_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "jonas",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "O mais incrível dessa história | não é o peixe. | É que Deus deu a Jonas | uma segunda chance. | E depois, | deu uma chance para Nínive também."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Jonas achava que algumas pessoas | não mereciam o perdão de Deus. | Mas Deus olhou para aquela cidade inteira | com compaixão."
+        },
+        {
+          "quem": "narrador",
+          "texto": "E você? | Está fugindo de alguma coisa | que Deus pediu? | Ore comigo: | Senhor, | eu paro de fugir. | Me dá coragem para obedecer, | e um coração como o teu. | Amém."
+        }
+      ]
     }
   ],
   "descricao": "Jonas tentou fugir de Deus, mas descobriu que não existe lugar longe demais para o amor do Senhor. 🐋\n\n📖 Jonas 1 a 3",
@@ -131,5 +162,7 @@
     "#evangelho"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true
 }

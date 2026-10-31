@@ -56,6 +56,10 @@
         {
           "quem": "narrador",
           "texto": "Alguns gritavam: | era melhor ter ficado no Egito! | Mas Moisés não recuou."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Deus guiava o povo de um jeito impressionante: | de dia, | uma coluna de nuvem. | De noite, | uma coluna de fogo. | E naquela noite, | a nuvem ficou entre o povo e o exército."
         }
       ]
     },
@@ -89,6 +93,33 @@
           "texto": "Quando parecer que não existe saída, | lembre-se: | Deus abre caminhos | onde não existe caminho."
         }
       ]
+    },
+    {
+      "cenario": "mar_vermelho_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "moises",
+          "x": 0.5,
+          "altura": 0.44
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Antes do mar se abrir, | o povo precisou ficar parado | diante do impossível. | Encurralado, | sem plano, | sem saída."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Foi ali que Moisés disse uma das frases | mais fortes da Bíblia. | O Senhor lutará por vocês. | Vocês só precisam ficar em paz."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Guarde este versículo: | Êxodo catorze, catorze. | O Senhor pelejará por vós, | e vós vos calareis. | Se hoje você está entre o mar e o exército, | respire. | Deus ainda abre caminhos."
+        }
+      ]
     }
   ],
   "descricao": "Encurralados entre o mar e o exército do faraó, o povo viu Deus abrir um caminho no meio das águas. 🌊\n\n📖 Êxodo 14",
@@ -102,5 +133,7 @@
     "#milagre"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true
 }

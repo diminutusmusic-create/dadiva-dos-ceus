@@ -52,6 +52,10 @@
         {
           "quem": "jose",
           "texto": "Não sou eu quem interpreta os sonhos. | É Deus quem dá a resposta."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Na prisão, | José ajudou dois homens do faraó | a entender seus sonhos. | Um deles prometeu se lembrar de José | quando saísse. | E esqueceu. | Por mais dois anos."
         }
       ]
     },
@@ -85,6 +89,37 @@
           "texto": "O poço não foi o fim da história de José. | E não será o fim da sua."
         }
       ]
+    },
+    {
+      "cenario": "egito_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "jose",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "José passou mais de dez anos | entre o poço e o palácio. | Escravo, | preso, | esquecido. | E em nenhum momento | deixou de ser fiel."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Quando finalmente teve poder, | podia ter se vingado dos irmãos. | Mas escolheu perdoar. | E salvou a própria família da fome."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Deus estava trabalhando | mesmo quando José não conseguia ver. | Até na prisão. | Até no esquecimento."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Guarde este versículo: | Romanos oito, vinte e oito. | Todas as coisas cooperam para o bem | daqueles que amam a Deus. | O que hoje parece um poço | pode ser o caminho para o seu palácio."
+        }
+      ]
     }
   ],
   "descricao": "Traído pelos irmãos, vendido como escravo, preso injustamente. E mesmo assim, Deus levou José do poço ao palácio. 🌈\n\n📖 Gênesis 37 a 45",
@@ -98,5 +133,8 @@
     "#proposito"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true,
+  "estendido_c": true
 }

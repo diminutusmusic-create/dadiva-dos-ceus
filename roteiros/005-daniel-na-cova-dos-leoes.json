@@ -65,6 +65,10 @@
         {
           "quem": "narrador",
           "texto": "O rei passou a noite sem dormir. | Ele gostava de Daniel, | mas não podia voltar atrás na própria lei."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Daniel já era idoso. | Tinha servido a vários reis | e nunca tinham encontrado nenhum erro nele. | Por isso, | a única forma de acusá-lo | era pela sua fé."
         }
       ]
     },
@@ -100,6 +104,35 @@
           "texto": "Daniel não tinha nenhum arranhão. | Quem é fiel a Deus | nunca enfrenta a cova sozinho."
         }
       ]
+    },
+    {
+      "cenario": "cova_leoes_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "daniel",
+          "x": 0.32,
+          "altura": 0.42,
+          "olha": "direita"
+        }
+      ],
+      "objetos": [],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Daniel poderia ter orado escondido. | Ou parado só por trinta dias. | Mas ele preferiu manter a janela aberta. | A fidelidade dele | não dependia das circunstâncias."
+        },
+        {
+          "quem": "narrador",
+          "texto": "E foi justamente essa fidelidade | que fez um rei pagão | reconhecer o Deus vivo. | A vida de Daniel pregou | sem ele dizer uma palavra."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Fica um desafio: | escolha um horário fixo para orar amanhã. | Pode ser cinco minutos. | Abra a sua janela, | como Daniel. | Quem conversa com Deus todos os dias | não enfrenta nada sozinho."
+        }
+      ]
     }
   ],
   "descricao": "Daniel preferiu ser jogado aos leões a deixar de orar. E Deus fechou a boca das feras. 🦁\n\n📖 Daniel 6",
@@ -113,5 +146,7 @@
     "#leoes"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true
 }

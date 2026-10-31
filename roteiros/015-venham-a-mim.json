@@ -52,6 +52,10 @@
         {
           "quem": "jesus",
           "texto": "O meu jugo é suave, | e o meu fardo é leve."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Jesus falava para pessoas | carregadas de regras, | cobranças | e culpa. | Gente que trabalhava muito | e mesmo assim sentia | que nunca era suficiente para Deus."
         }
       ]
     },
@@ -71,6 +75,34 @@
           "texto": "Se hoje você está cansado, | entregue a ele. | Escreva amém | se você recebe esse descanso."
         }
       ]
+    },
+    {
+      "cenario": "ceu_estrelado_200",
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Jesus não disse: | venham a mim os fortes. | Nem: | venham os que já estão bem. | Ele chamou os cansados. | Os sobrecarregados."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Ele mesmo disse: | o meu jugo é suave, | e o meu fardo é leve. | Com Jesus, | você não carrega a vida sozinho."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Então, agora, | faça uma pausa. | Respire fundo. | Solte os ombros. | E entregue o peso que você está carregando."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Não precisa ser perfeito para chegar perto. | Basta vir do jeito que você está."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Ore comigo: | Jesus, | eu estou cansado. | Eu entrego a ti | o que eu não consigo mais carregar. | Me dá o teu descanso. | Amém."
+        }
+      ],
+      "efeito": [
+        "luz"
+      ]
     }
   ],
   "descricao": "Para quem está cansado e sobrecarregado, Jesus deixou um convite: venham a mim. 🙏\n\n📖 Mateus 11:28-30",
@@ -84,5 +116,8 @@
     "#versiculododia"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true,
+  "estendido_c": true
 }

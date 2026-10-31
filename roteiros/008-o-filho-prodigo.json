@@ -65,6 +65,10 @@
         {
           "quem": "filho",
           "texto": "O que eu fiz da minha vida? | Perdi tudo."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Pedir a herança com o pai ainda vivo | era como dizer: | para mim, você já morreu. | Mesmo assim, | o pai dividiu tudo | e deixou o filho partir. | E todos os dias, | olhava para a estrada."
         }
       ]
     },
@@ -122,6 +126,45 @@
           "texto": "Não importa o quão longe você foi. | Os braços do Pai | continuam abertos."
         }
       ]
+    },
+    {
+      "cenario": "fazenda_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "pai",
+          "x": 0.38,
+          "altura": 0.5,
+          "olha": "direita"
+        },
+        {
+          "quem": "filho",
+          "x": 0.66,
+          "altura": 0.48,
+          "olha": "esquerda",
+          "entra": "direita"
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Repare numa coisa: | o pai não ficou esperando o filho chegar até a porta. | Ele correu. | Naquele tempo, | um homem respeitado não corria. | Mas o amor falou mais alto que o orgulho."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Talvez você esteja longe hoje. | Longe de casa, | longe de Deus, | longe de quem você era. | E acha que já foi longe demais para voltar."
+        },
+        {
+          "quem": "narrador",
+          "texto": "O pai não pediu explicações. | Não cobrou o dinheiro. | Só abraçou. | É assim que Deus recebe quem volta."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Então ore comigo: | Pai, | eu voltei. | Não mereço, | mas preciso do teu abraço. | Me recebe de novo. | Amém."
+        }
+      ]
     }
   ],
   "descricao": "Ele gastou tudo, perdeu tudo e voltou sem nada. Mas o pai correu para abraçá-lo. A parábola do filho pródigo. 🏠\n\n📖 Lucas 15:11-32",
@@ -135,5 +178,8 @@
     "#fe"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true,
+  "estendido_c": true
 }

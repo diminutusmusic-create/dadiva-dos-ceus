@@ -56,6 +56,10 @@
         {
           "quem": "narrador",
           "texto": "Era um trabalho duro, | sob o sol quente. | Mas Rute não reclamava."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Naquele tempo, | uma viúva sem filhos | não tinha quem a sustentasse. | Ficar com Noemi | significava escolher a pobreza | e uma terra estranha. | Rute escolheu mesmo assim."
         }
       ]
     },
@@ -85,6 +89,37 @@
           "texto": "Uma estrangeira, fiel e humilde, | entrou para a família de onde viria Jesus. | A lealdade nunca passa despercebida para Deus."
         }
       ]
+    },
+    {
+      "cenario": "campo_trigo_200",
+      "efeito": [
+        "luz"
+      ],
+      "atores": [
+        {
+          "quem": "rute",
+          "x": 0.5,
+          "altura": 0.5
+        }
+      ],
+      "falas": [
+        {
+          "quem": "narrador",
+          "texto": "Rute não tinha nada a ganhar | ficando com Noemi. | Era estrangeira, | viúva | e pobre. | Mesmo assim, | escolheu ser leal."
+        },
+        {
+          "quem": "narrador",
+          "texto": "E Deus honrou essa escolha | de um jeito que ninguém imaginaria. | Rute se tornou bisavó do rei Davi. | E entrou para a família de Jesus."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Às vezes a fidelidade parece pequena, | escondida num campo de trigo. | Mas Deus vê."
+        },
+        {
+          "quem": "narrador",
+          "texto": "Pense agora: | quem é a sua Noemi? | Quem precisa da sua lealdade hoje? | Como diz Provérbios: | o amigo ama em todo tempo. | Seja esse amigo para alguém."
+        }
+      ]
     }
   ],
   "descricao": "Rute poderia ter voltado para casa. Escolheu ficar ao lado de Noemi, e Deus escreveu uma história que chegou até Jesus. 🌾\n\n📖 Rute 1 a 4",
@@ -98,5 +133,8 @@
     "#mulheresdabiblia"
   ],
   "voz_narrador": "pm_alex",
-  "velocidade_narrador": 0.9
+  "velocidade_narrador": 0.9,
+  "estendido": true,
+  "estendido_b": true,
+  "estendido_c": true
 }
