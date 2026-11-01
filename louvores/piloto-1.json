@@ -1,0 +1,196 @@
+{
+ "titulo": "Louvores para Descansar em Deus",
+ "subtitulo": "1 hora de louvor com versículos",
+ "abertura": "Seja bem-vindo à Dádiva dos Céus. Separe este tempo para descansar na presença de Deus. Respire fundo, aquiete o coração, e deixe que cada louvor e cada palavra das Escrituras renovem a sua paz.",
+ "fechamento": "Que a paz de Deus, que excede todo entendimento, guarde o seu coração. Se este momento abençoou você, inscreva-se e compartilhe com alguém que precisa de descanso. Fique na paz do Senhor.",
+ "cenario_abertura": "ceu_aurora",
+ "cenario_fim": "casa_noite",
+ "faixas": [
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/O Meu Refúgio.flac",
+   "titulo": "O Meu Refúgio",
+   "ref": "Salmo 91:4",
+   "versiculo": "Com suas penas ele te cobrirá, e debaixo de suas asas estarás protegido.",
+   "cenario": "asas_aguia",
+   "efeito": [
+    "nevoa"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/O Senhor É Meu Pastor.flac",
+   "titulo": "O Senhor É Meu Pastor",
+   "ref": "Salmo 23:1",
+   "versiculo": "O SENHOR é meu pastor, nada me faltará.",
+   "cenario": "pastos_amanhecer",
+   "efeito": [
+    "poeira"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Espera no Senhor.ogg",
+   "titulo": "Espera no Senhor",
+   "ref": "Salmo 27:14",
+   "versiculo": "Espera no SENHOR, esforça-te, e ele fortalecerá o teu coração.",
+   "cenario": "luz_montanhas",
+   "efeito": [
+    "nevoa"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Uma Coisa Eu Peço.ogg",
+   "titulo": "Uma Coisa Eu Peço",
+   "ref": "Salmo 27:4",
+   "versiculo": "Pedi uma coisa ao SENHOR, e a ela buscarei: que eu possa morar na casa do SENHOR todos os dias de minha vida.",
+   "cenario": "jerusalem_aurora",
+   "efeito": [
+    "poeira"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Sonda-me.ogg",
+   "titulo": "Sonda-me",
+   "ref": "Salmo 139:23",
+   "versiculo": "Examina-me, Deus, e conhece meu coração; prova-me, e conhece meus pensamentos.",
+   "cenario": "vale_nascer",
+   "efeito": [
+    "nevoa"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Asas da Alvorada.mp3",
+   "titulo": "Asas da Alvorada",
+   "ref": "Salmo 139:9-10",
+   "versiculo": "Se eu tomasse as asas do amanhecer... até ali tua mão me guiaria.",
+   "cenario": "mar_amanhecer",
+   "efeito": [
+    "nevoa"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Na Casa do Senhor.flac",
+   "titulo": "Na Casa do Senhor",
+   "ref": "Salmo 23:6",
+   "versiculo": "Certamente o bem e a bondade me seguirão todos os dias de minha vida.",
+   "cenario": "casa_luz",
+   "efeito": [
+    "poeira"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Não Andeis Ansiosos.mp3",
+   "titulo": "Não Andeis Ansiosos",
+   "ref": "Mateus 6:34",
+   "versiculo": "Não andeis, pois, ansiosos pelo dia de amanhã, porque o amanhã cuidará de si mesmo.",
+   "cenario": "passaros_campo",
+   "efeito": [
+    "poeira"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/A Paz de Deus.ogg",
+   "titulo": "A Paz de Deus",
+   "ref": "Filipenses 4:7",
+   "versiculo": "E a paz de Deus, que excede todo entendimento, guardará os vossos corações.",
+   "cenario": "lago_nevoa",
+   "efeito": [
+    "nevoa"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/O Teu Jugo é Suave.flac",
+   "titulo": "O Teu Jugo é Suave",
+   "ref": "Mateus 11:30",
+   "versiculo": "Pois o meu jugo é suave, e minha carga é leve.",
+   "cenario": "trigo_dourado",
+   "efeito": [
+    "poeira"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Em Ti Eu Descanso.wav",
+   "titulo": "Em Ti Eu Descanso",
+   "ref": "Mateus 11:28",
+   "versiculo": "Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar.",
+   "cenario": "aguas_quietas",
+   "efeito": [
+    "nevoa"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Eu Sou o Caminho.flac",
+   "titulo": "Eu Sou o Caminho",
+   "ref": "João 14:6",
+   "versiculo": "Eu sou o caminho, e a verdade, e a vida.",
+   "cenario": "caminho_luz",
+   "efeito": [
+    "poeira"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/A Minha Paz Vos Dou.flac",
+   "titulo": "A Minha Paz Vos Dou",
+   "ref": "João 14:27",
+   "versiculo": "A paz vos deixo, minha paz vos dou. Não se perturbe vosso coração, nem se atemorize.",
+   "cenario": "oliveiras_pombas",
+   "efeito": [
+    "nevoa"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/A Minha Porção És Tu.flac",
+   "titulo": "A Minha Porção És Tu",
+   "ref": "Lamentações 3:22",
+   "versiculo": "É pelas bondades do SENHOR que não somos consumidos, porque suas misericórdias não têm fim.",
+   "cenario": "cedros_montanha",
+   "efeito": [
+    "nevoa"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Fiel, Tu És Fiel.flac",
+   "titulo": "Fiel, Tu És Fiel",
+   "ref": "Lamentações 3:23",
+   "versiculo": "Elas são novas a cada manhã; grande é a tua fidelidade.",
+   "cenario": "ceu_aurora",
+   "efeito": [
+    "poeira"
+   ]
+  },
+  {
+   "arquivo": "/home/claude/dadiva-dos-ceus/louvores/audio/piloto-1/Em Paz Me Deito.flac",
+   "titulo": "Em Paz Me Deito",
+   "ref": "Salmo 4:8",
+   "versiculo": "Eu deitarei, e dormirei em paz; porque só tu, SENHOR, me fazes descansar seguro.",
+   "cenario": "casa_noite",
+   "efeito": [
+    "estrelas"
+   ]
+  }
+ ],
+ "meta": {
+  "titulo": "1 Hora de Louvores para Descansar em Deus 🙏 Músicas Gospel com Versículos",
+  "l1": "Louvores",
+  "l2": "para descansar em Deus",
+  "l3": "1 HORA DE LOUVOR",
+  "l4": "16 músicas · versículos na tela",
+  "cenario": "asas_aguia",
+  "intro": "Uma hora de louvores com letras originais inspiradas nos Salmos e nas palavras de Jesus. Cada música vem acompanhada do versículo que a inspirou, para você adorar, meditar e descansar na paz do Senhor.",
+  "tags": [
+   "louvores",
+   "louvor",
+   "musica gospel",
+   "louvores para orar",
+   "louvores para dormir",
+   "1 hora de louvor",
+   "musicas evangelicas",
+   "louvor e adoração",
+   "salmo 91",
+   "salmo 23",
+   "musica para orar",
+   "gospel 2026",
+   "louvores com versiculos",
+   "musica crista",
+   "adoração"
+  ]
+ }
+}
