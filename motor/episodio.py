@@ -295,7 +295,7 @@ def gerar(caminho, preview=False):
             c.drawRect(skia.Rect(0, 0, W, H), skia.Paint(Color=skia.Color(40, 18, 6, int(150 * a))))
             text_center(c, R.get('referencia', '').upper(), H * .42, ftit, '#fff3cf', int(255 * a), outline='#4a2412')
             text_center(c, 'Siga o Dádiva dos Céus', H * .42 + 100, fsub, '#ffffff', int(255 * a), outline='#4a2412')
-        if fr < 8: overlay(c, (0, 0, 0), 255 * (1 - fr / 8))
+        # sem fade do preto: o 1º quadro vira a capa automática nas redes
         ff.stdin.write(surf.makeImageSnapshot().tobytes())
     ff.stdin.close(); ff.wait()
     real = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', out],
