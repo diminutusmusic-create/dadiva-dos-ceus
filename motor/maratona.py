@@ -58,7 +58,7 @@ def ponte_mp4(png, voz, saida, extra=1.2):
     run(['ffmpeg', '-y', '-loglevel', 'error', '-loop', '1', '-framerate', str(FPS), '-i', png, '-i', saida + '.wav',
          '-vf', f"zoompan=z='min(1.0+on/{FPS}*0.004,1.08)':d=1:s={W}x{H}:fps={FPS},fade=t=in:st=0:d=0.5,fade=t=out:st={d-.6:.2f}:d=0.6",
          '-t', f'{d:.2f}', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p',
-         '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', tmp]); os.replace(tmp, saida)
+         '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-ac', '2', tmp]); os.replace(tmp, saida)
 
 def short_mp4(video, saida):
     if os.path.exists(saida): return
@@ -67,7 +67,7 @@ def short_mp4(video, saida):
           f"[0:v]scale=-2:1000[fg];[bg][fg]overlay=(W-w)/2:40,fade=t=in:st=0:d=0.4,fade=t=out:st={t-.5:.2f}:d=0.5[v]")
     run(['ffmpeg', '-y', '-loglevel', 'error', '-i', video, '-t', f'{t:.2f}', '-filter_complex', fc, '-map', '[v]', '-map', '0:a',
          '-af', f'afade=t=out:st={t-.5:.2f}:d=0.5', '-r', str(FPS), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20',
-         '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', saida + '.tmp.mp4']); os.replace(saida + '.tmp.mp4', saida)
+         '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-ac', '2', saida + '.tmp.mp4']); os.replace(saida + '.tmp.mp4', saida)
 
 def gerar(caminho):
     slug = os.path.splitext(os.path.basename(caminho))[0]; os.makedirs(TMP, exist_ok=True)
@@ -103,8 +103,10 @@ def gerar(caminho):
     open(f'{TMP}/lista.txt', 'w').write(''.join(f"file '{x}'\n" for x in lista))
     final = f'{RAIZ}/videos-longos/{slug}.mp4'
     run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', f'{TMP}/lista.txt', '-c:v', 'libx264', '-preset', 'veryfast',
-         '-crf', '20', '-pix_fmt', 'yuv420p', '-r', str(FPS), '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-movflags', '+faststart', final])
+         '-crf', '20', '-pix_fmt', 'yuv420p', '-r', str(FPS), '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-ac', '2', '-movflags', '+faststart', final])
     print('ok', final)
+    # trava de segurança: nada sai sem passar na checagem (áudio mudo, tela preta)
+    run([sys.executable, f'{RAIZ}/motor/checar_video.py', final])
 
 if __name__ == '__main__':
     gerar(sys.argv[1])
